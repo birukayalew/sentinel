@@ -1,0 +1,4 @@
+aiohttp
+google-generativeai
+groq
+fastembed

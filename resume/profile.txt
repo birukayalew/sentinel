@@ -1,0 +1,2 @@
+Placeholder profile text. Replace this file with your resume/profile
+content (plain text) before the match-scoring stage is wired up.
