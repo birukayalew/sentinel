@@ -8,12 +8,13 @@ with it (drop during seeding, count as a failure during a real fetch run).
 """
 
 import asyncio
+import datetime
 
 import aiohttp
 
 FETCH_EXCEPTIONS = (aiohttp.ClientError, asyncio.TimeoutError, ValueError)
 
-GREENHOUSE_URL = "https://boards-api.greenhouse.io/v1/boards/{token}/jobs?questions=true"
+GREENHOUSE_URL = "https://boards-api.greenhouse.io/v1/boards/{token}/jobs?content=true&questions=true"
 LEVER_URL = "https://api.lever.co/v0/postings/{token}?mode=json"
 ASHBY_URL = "https://api.ashbyhq.com/posting-api/job-board/{token}"
 
@@ -67,3 +68,82 @@ async def fetch_raw(session: aiohttp.ClientSession, ats: str, token: str) -> lis
     if fetcher is None:
         return None
     return await fetcher(session, token)
+
+
+# --- Normalization -----------------------------------------------------
+# Each ATS shapes its job payload differently. These functions map the raw
+# payload onto one common record shape so everything downstream (gates,
+# judge, enrichment) can stay ATS-agnostic. Fields that an ATS doesn't
+# provide are left None rather than guessed.
+
+def normalize_greenhouse(company: dict, raw_job: dict) -> dict:
+    return {
+        "source": "greenhouse",
+        "company": company["name"],
+        "company_token": company["token"],
+        "external_id": str(raw_job.get("id")),
+        "title": raw_job.get("title") or "",
+        "location": (raw_job.get("location") or {}).get("name"),
+        "workplace_type": None,
+        "description_html": raw_job.get("content"),
+        "apply_url": raw_job.get("absolute_url"),
+        "posted_at": raw_job.get("first_published") or raw_job.get("updated_at"),
+        "deadline": raw_job.get("application_deadline"),
+        "questions": raw_job.get("questions"),
+    }
+
+
+def normalize_lever(company: dict, raw_job: dict) -> dict:
+    categories = raw_job.get("categories") or {}
+    return {
+        "source": "lever",
+        "company": company["name"],
+        "company_token": company["token"],
+        "external_id": str(raw_job.get("id")),
+        "title": raw_job.get("text") or "",
+        "location": categories.get("location"),
+        "workplace_type": raw_job.get("workplaceType"),
+        "description_html": raw_job.get("description") or raw_job.get("descriptionPlain"),
+        "apply_url": raw_job.get("applyUrl") or raw_job.get("hostedUrl"),
+        "posted_at": _epoch_ms_to_iso(raw_job.get("createdAt")),
+        "deadline": None,
+        "questions": None,
+    }
+
+
+def normalize_ashby(company: dict, raw_job: dict) -> dict:
+    return {
+        "source": "ashby",
+        "company": company["name"],
+        "company_token": company["token"],
+        "external_id": str(raw_job.get("id")),
+        "title": raw_job.get("title") or "",
+        "location": raw_job.get("location"),
+        "workplace_type": raw_job.get("workplaceType"),
+        "description_html": raw_job.get("descriptionHtml") or raw_job.get("descriptionPlain"),
+        "apply_url": raw_job.get("applyUrl") or raw_job.get("jobUrl"),
+        "posted_at": raw_job.get("publishedAt"),
+        "deadline": None,
+        "questions": None,
+    }
+
+
+NORMALIZERS = {
+    "greenhouse": normalize_greenhouse,
+    "lever": normalize_lever,
+    "ashby": normalize_ashby,
+}
+
+
+def _epoch_ms_to_iso(epoch_ms) -> str | None:
+    if not isinstance(epoch_ms, (int, float)):
+        return None
+    return datetime.datetime.fromtimestamp(epoch_ms / 1000, tz=datetime.timezone.utc).isoformat()
+
+
+async def fetch_and_normalize(session: aiohttp.ClientSession, company: dict) -> list[dict] | None:
+    raw_jobs = await fetch_raw(session, company["ats"], company["token"])
+    if raw_jobs is None:
+        return None
+    normalizer = NORMALIZERS[company["ats"]]
+    return [normalizer(company, job) for job in raw_jobs]
