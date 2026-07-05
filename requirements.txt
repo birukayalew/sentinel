@@ -1,4 +1,5 @@
 aiohttp
-google-generativeai
+google-genai
 groq
 fastembed
+python-dotenv
