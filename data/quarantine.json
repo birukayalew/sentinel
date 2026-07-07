@@ -1,4 +1,7 @@
 {
+  "greenhouse:divergent": {
+    "consecutive_failures": 1
+  },
   "lever:cgsfederal": {
     "consecutive_failures": 3
   }
