@@ -27,11 +27,14 @@ FETCH_TIME_BUDGET_SECONDS = 240
 QUARANTINE_THRESHOLD = 3  # consecutive failures before a board is skipped
 MAX_DESCRIPTION_CHARS = 6000  # stored description is stripped plain text, capped here
 
-# LLM judge
+# LLM judge -- budget is generous because Actions minutes are unlimited on
+# a public repo and runs are now only twice a day, so each run should make
+# a real dent in the ambiguous backlog rather than trickle a couple hundred
+# out of a much larger queue.
 LLM_PROVIDER_ORDER = ["gemini", "groq"]
-MAX_LLM_CALLS_PER_RUN = 200
-JUDGE_CONCURRENCY = 5
-JUDGE_TIME_BUDGET_SECONDS = 120
+MAX_LLM_CALLS_PER_RUN = 500
+JUDGE_CONCURRENCY = 10
+JUDGE_TIME_BUDGET_SECONDS = 480
 
 # Application-weight enrichment (per-job Greenhouse detail fetch)
 ENRICH_CONCURRENCY = 20
