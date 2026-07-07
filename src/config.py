@@ -25,7 +25,14 @@ EXPIRY_DAYS = 10          # jobs are dropped once older than this, or absent fro
 PER_HOST_CONCURRENCY = 20
 FETCH_TIME_BUDGET_SECONDS = 240
 QUARANTINE_THRESHOLD = 3  # consecutive failures before a board is skipped
+MAX_DESCRIPTION_CHARS = 6000  # stored description is stripped plain text, capped here
 
 # LLM judge
 LLM_PROVIDER_ORDER = ["gemini", "groq"]
 MAX_LLM_CALLS_PER_RUN = 200
+JUDGE_CONCURRENCY = 5
+JUDGE_TIME_BUDGET_SECONDS = 120
+
+# Application-weight enrichment (per-job Greenhouse detail fetch)
+ENRICH_CONCURRENCY = 20
+ENRICH_TIME_BUDGET_SECONDS = 120

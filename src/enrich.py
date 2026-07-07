@@ -7,12 +7,11 @@ would defeat the point of keeping LLM usage bounded by gate ambiguity.
 """
 
 import asyncio
+import re
 
 import aiohttp
 
-import re
-
-from src.textutil import strip_html
+from src import config
 
 DEADLINE_KEYWORD_PATTERN = re.compile(
     r"(application[s]?\s+(?:close|closes|closing|deadline|due)|apply\s+by|deadline\s+to\s+apply)",
@@ -116,7 +115,7 @@ def enrich_job(job: dict) -> dict:
     if job.get("enriched"):
         return job
 
-    text = strip_html(job.get("description_html"))
+    text = job.get("description") or ""
 
     job["deadline_badge"] = (
         job.get("deadline") or find_deadline_in_text(text) or job.get("llm_deadline")
@@ -175,7 +174,14 @@ async def _fetch_application_weight(session: aiohttp.ClientSession, job: dict) -
 
 async def enrich_application_weights(jobs: list[dict]) -> dict:
     """Greenhouse only -- Lever/Ashby don't expose an equivalent schema.
-    Only runs for jobs that survived every other stage, so volume is small."""
+
+    Normally this only affects jobs newly surviving every other stage in a
+    given run, which is a small number -- but on a cold/reset store every
+    surviving job needs it at once, so this still needs the same
+    concurrency-limit + time-budget treatment as the fetch and judge
+    stages. Anything not reached this run is simply retried next run,
+    same as everywhere else in the pipeline.
+    """
     candidates = [
         job for job in jobs
         if not job.get("gate_dropped")
@@ -186,12 +192,21 @@ async def enrich_application_weights(jobs: list[dict]) -> dict:
     if not candidates:
         return {"application_weight_fetched": 0}
 
-    async with aiohttp.ClientSession() as session:
-        results = await asyncio.gather(
-            *(_fetch_application_weight(session, job) for job in candidates)
-        )
+    semaphore = asyncio.Semaphore(config.ENRICH_CONCURRENCY)
 
-    for job, weight in zip(candidates, results):
+    async def fetch_one(session: aiohttp.ClientSession, job: dict) -> None:
+        async with semaphore:
+            weight = await _fetch_application_weight(session, job)
         job["application_weight"] = weight or "unknown"
 
-    return {"application_weight_fetched": len(candidates)}
+    async with aiohttp.ClientSession() as session:
+        tasks = [asyncio.ensure_future(fetch_one(session, job)) for job in candidates]
+        done, pending = await asyncio.wait(tasks, timeout=config.ENRICH_TIME_BUDGET_SECONDS)
+        for task in pending:
+            task.cancel()
+
+    for job in candidates:
+        if job.get("application_weight") is None:
+            job["application_weight"] = None  # left for retry next run
+
+    return {"application_weight_fetched": len(done)}

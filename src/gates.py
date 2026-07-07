@@ -12,8 +12,6 @@ verdicts stable over time.
 
 import re
 
-from src.textutil import strip_html
-
 INTERNSHIP_YES_PATTERN = re.compile(
     r"\b("
     r"intern|interns|internship|internships|"
@@ -105,14 +103,13 @@ def _find_year_in_title(title: str) -> int | None:
     return int(match.group(1)) if match else None
 
 
-def cycle_gate(title: str, description_html: str | None) -> tuple[str, int | None]:
+def cycle_gate(title: str, description: str | None) -> tuple[str, int | None]:
     """Returns (verdict, year) where verdict is 'keep', 'drop', or 'ambiguous'."""
     title_year = _find_year_in_title(title)
     if title_year is not None:
         return ("keep", title_year) if title_year == TARGET_CYCLE_YEAR else ("drop", title_year)
 
-    description_text = strip_html(description_html)
-    description_year = _find_cycle_year_in_text(description_text)
+    description_year = _find_cycle_year_in_text(description or "")
     if description_year is not None:
         return (
             ("keep", description_year)
@@ -128,7 +125,7 @@ def evaluate_gates(job: dict) -> dict:
         return job
 
     internship_verdict = internship_gate(job.get("title", ""))
-    cycle_verdict, cycle_year = cycle_gate(job.get("title", ""), job.get("description_html"))
+    cycle_verdict, cycle_year = cycle_gate(job.get("title", ""), job.get("description"))
 
     ambiguity_reasons = set(job.get("ambiguity_reasons") or [])
     dropped = False

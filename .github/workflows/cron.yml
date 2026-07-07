@@ -1,0 +1,51 @@
+name: pipeline
+
+"on":
+  schedule:
+    - cron: "0 */4 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pipeline
+  cancel-in-progress: false
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Cache embedding model
+        uses: actions/cache@v4
+        with:
+          path: .fastembed_cache
+          key: fastembed-bge-small-en-v1.5
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run pipeline
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          RESUME_TEXT: ${{ secrets.RESUME_TEXT }}
+        run: python -m src.pipeline
+
+      - name: Commit updated data if changed
+        run: |
+          git config user.name "sentinel-bot"
+          git config user.email "sentinel-bot@users.noreply.github.com"
+          git add data/jobs.json data/quarantine.json logs/run_history.jsonl
+          if ! git diff --cached --quiet; then
+            git commit -m "update job data [skip ci]"
+            git push
+          else
+            echo "no changes to commit"
+          fi

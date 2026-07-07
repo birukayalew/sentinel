@@ -10,7 +10,6 @@ import os
 import re
 
 from src import config
-from src.textutil import strip_html
 
 EMBEDDING_MODEL_NAME = "BAAI/bge-small-en-v1.5"
 WORD_PATTERN = re.compile(r"[a-zA-Z][a-zA-Z0-9+.#-]{1,}")
@@ -22,7 +21,10 @@ def _get_model():
     global _model
     if _model is None:
         from fastembed import TextEmbedding
-        _model = TextEmbedding(model_name=EMBEDDING_MODEL_NAME)
+        _model = TextEmbedding(
+            model_name=EMBEDDING_MODEL_NAME,
+            cache_dir=str(config.ROOT_DIR / ".fastembed_cache"),
+        )
     return _model
 
 
@@ -74,7 +76,7 @@ def score_batch(jobs: list[dict], resume_text: str | None = None) -> dict:
     resume_words = _word_set(resume_text)
 
     texts = [
-        strip_html(job.get("description_html")) or job.get("title", "")
+        job.get("description") or job.get("title", "")
         for job in candidates
     ]
     job_embeddings = model.embed(texts)

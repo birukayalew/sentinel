@@ -1,11 +1,5 @@
 {
-  "greenhouse:speechify": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:systemstechnologyresearch": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:typeface": {
-    "consecutive_failures": 1
+  "lever:cgsfederal": {
+    "consecutive_failures": 3
   }
 }

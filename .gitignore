@@ -5,3 +5,4 @@ venv/
 .env
 .DS_Store
 DEV_NOTES.md
+.fastembed_cache/

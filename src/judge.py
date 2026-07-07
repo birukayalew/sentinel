@@ -8,21 +8,40 @@ import asyncio
 import json
 import os
 import re
+import time
 
 from src import config
-from src.textutil import strip_html
 
 GEMINI_MODEL = "gemini-2.0-flash"
 GROQ_MODEL = "llama-3.3-70b-versatile"
 TARGET_CYCLE_YEAR = 2027
 
+# Conservative floor under each provider's free-tier per-minute rate limit,
+# enforced proactively so we don't burn the whole run's budget hitting 429s
+# and disabling a provider that would have recovered a minute later.
+PROVIDER_MIN_INTERVAL_SECONDS = {"gemini": 4.5, "groq": 2.5}
+
 _JSON_OBJECT_RE = re.compile(r"\{.*\}", re.DOTALL)
 
 _disabled_providers: set[str] = set()
+_provider_locks = {name: asyncio.Lock() for name in PROVIDER_MIN_INTERVAL_SECONDS}
+_provider_last_call = {name: 0.0 for name in PROVIDER_MIN_INTERVAL_SECONDS}
 
 
 def reset_provider_state() -> None:
     _disabled_providers.clear()
+    for name in _provider_last_call:
+        _provider_last_call[name] = 0.0
+
+
+async def _throttle(provider_name: str) -> None:
+    min_interval = PROVIDER_MIN_INTERVAL_SECONDS.get(provider_name, 2.0)
+    lock = _provider_locks.setdefault(provider_name, asyncio.Lock())
+    async with lock:
+        wait = _provider_last_call.get(provider_name, 0.0) + min_interval - time.monotonic()
+        if wait > 0:
+            await asyncio.sleep(wait)
+        _provider_last_call[provider_name] = time.monotonic()
 
 
 def _load_prompt_template() -> str:
@@ -31,7 +50,7 @@ def _load_prompt_template() -> str:
 
 def build_prompt(job: dict) -> str:
     template = _load_prompt_template()
-    description = strip_html(job.get("description_html"))[:4000]
+    description = (job.get("description") or "")[:4000]
     return template.format(
         company=job.get("company", ""),
         title=job.get("title", ""),
@@ -126,6 +145,7 @@ async def judge_job(job: dict) -> tuple[dict | None, str | None]:
         caller = _PROVIDER_CALLERS.get(provider_name)
         if caller is None:
             continue
+        await _throttle(provider_name)
         text = await caller(prompt)
         if text is None:
             continue
@@ -162,39 +182,44 @@ def apply_judge_result(job: dict, result: dict) -> None:
 async def judge_batch(jobs: list[dict]) -> dict:
     reset_provider_state()
 
-    calls_made = 0
+    eligible = [
+        job for job in jobs
+        if not job.get("gate_dropped") and job.get("ambiguity_reasons") and not job.get("judged")
+    ]
+    to_process = eligible[: config.MAX_LLM_CALLS_PER_RUN]
+    skipped_by_cap = eligible[config.MAX_LLM_CALLS_PER_RUN :]
+
     judged = 0
-    unjudged = 0
     provider_usage: dict[str, int] = {}
+    semaphore = asyncio.Semaphore(config.JUDGE_CONCURRENCY)
 
-    for job in jobs:
-        if job.get("gate_dropped") or not job.get("ambiguity_reasons"):
-            continue
-        if job.get("judged"):
-            continue
-
-        if calls_made >= config.MAX_LLM_CALLS_PER_RUN:
-            job["unjudged"] = True
-            unjudged += 1
-            continue
-
-        calls_made += 1
-        result, provider = await judge_job(job)
-
+    async def process(job: dict) -> None:
+        nonlocal judged
+        async with semaphore:
+            result, provider = await judge_job(job)
         if result is None:
-            job["unjudged"] = True
-            unjudged += 1
-            continue
-
+            return
         apply_judge_result(job, result)
         job["judged"] = True
-        job["unjudged"] = False
         judged += 1
         provider_usage[provider] = provider_usage.get(provider, 0) + 1
 
+    if to_process:
+        tasks = [asyncio.ensure_future(process(job)) for job in to_process]
+        done, pending = await asyncio.wait(tasks, timeout=config.JUDGE_TIME_BUDGET_SECONDS)
+        for task in pending:
+            task.cancel()
+
+    for job in to_process:
+        job["unjudged"] = not job.get("judged")
+    for job in skipped_by_cap:
+        job["unjudged"] = True
+
+    unjudged_count = sum(1 for job in eligible if job.get("unjudged"))
+
     return {
-        "llm_calls_made": calls_made,
+        "llm_jobs_queued": len(to_process),
         "llm_judged": judged,
-        "llm_unjudged": unjudged,
+        "llm_unjudged": unjudged_count,
         "llm_provider_usage": provider_usage,
     }

@@ -12,6 +12,9 @@ import datetime
 
 import aiohttp
 
+from src import config
+from src.textutil import strip_html
+
 FETCH_EXCEPTIONS = (aiohttp.ClientError, asyncio.TimeoutError, ValueError)
 
 GREENHOUSE_URL = "https://boards-api.greenhouse.io/v1/boards/{token}/jobs?content=true&questions=true"
@@ -75,6 +78,20 @@ async def fetch_raw(session: aiohttp.ClientSession, ats: str, token: str) -> lis
 # payload onto one common record shape so everything downstream (gates,
 # judge, enrichment) can stay ATS-agnostic. Fields that an ATS doesn't
 # provide are left None rather than guessed.
+#
+# Descriptions are stripped to plain text and truncated here, once, at the
+# source -- every downstream consumer (gates, judge, enrich, match) only
+# ever needs plain text, and every one of them only needs it once (each
+# caches its own "already processed" flag). Storing the raw HTML forever
+# was pure waste: a real run showed ~5KB/job of mostly inline-style markup
+# that nothing ever reads again after a job's one-time processing is done.
+
+def _clean_description(raw_html: str | None) -> str | None:
+    text = strip_html(raw_html)
+    if not text:
+        return None
+    return text[: config.MAX_DESCRIPTION_CHARS]
+
 
 def normalize_greenhouse(company: dict, raw_job: dict) -> dict:
     return {
@@ -85,7 +102,7 @@ def normalize_greenhouse(company: dict, raw_job: dict) -> dict:
         "title": raw_job.get("title") or "",
         "location": (raw_job.get("location") or {}).get("name"),
         "workplace_type": None,
-        "description_html": raw_job.get("content"),
+        "description": _clean_description(raw_job.get("content")),
         "apply_url": raw_job.get("absolute_url"),
         "posted_at": raw_job.get("first_published") or raw_job.get("updated_at"),
         "deadline": raw_job.get("application_deadline"),
@@ -103,7 +120,9 @@ def normalize_lever(company: dict, raw_job: dict) -> dict:
         "title": raw_job.get("text") or "",
         "location": categories.get("location"),
         "workplace_type": raw_job.get("workplaceType"),
-        "description_html": raw_job.get("description") or raw_job.get("descriptionPlain"),
+        "description": _clean_description(
+            raw_job.get("description") or raw_job.get("descriptionPlain")
+        ),
         "apply_url": raw_job.get("applyUrl") or raw_job.get("hostedUrl"),
         "posted_at": _epoch_ms_to_iso(raw_job.get("createdAt")),
         "deadline": None,
@@ -120,7 +139,9 @@ def normalize_ashby(company: dict, raw_job: dict) -> dict:
         "title": raw_job.get("title") or "",
         "location": raw_job.get("location"),
         "workplace_type": raw_job.get("workplaceType"),
-        "description_html": raw_job.get("descriptionHtml") or raw_job.get("descriptionPlain"),
+        "description": _clean_description(
+            raw_job.get("descriptionHtml") or raw_job.get("descriptionPlain")
+        ),
         "apply_url": raw_job.get("applyUrl") or raw_job.get("jobUrl"),
         "posted_at": raw_job.get("publishedAt"),
         "deadline": None,

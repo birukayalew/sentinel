@@ -46,11 +46,15 @@ async def _fetch_one(session, company, semaphores) -> tuple[dict, list[dict] | N
         return company, jobs
 
 
-async def fetch_all(companies: list[dict]) -> tuple[list[dict], dict]:
+async def fetch_all(companies: list[dict]) -> tuple[list[dict], set[str], dict]:
     """Fetch every non-quarantined company within the time budget.
 
-    Returns (normalized_jobs, run_stats). Quarantine state is updated and
-    persisted as part of this call.
+    Returns (normalized_jobs, fetched_company_keys, run_stats).
+    `fetched_company_keys` is the set of `ats:token` boards that were
+    actually, successfully fetched this run -- callers need this to tell
+    "this job is genuinely gone" apart from "we didn't check this company
+    this run." Quarantine state is updated and persisted as part of this
+    call.
     """
     quarantine = load_quarantine()
 
@@ -69,6 +73,7 @@ async def fetch_all(companies: list[dict]) -> tuple[list[dict], dict]:
     }
 
     all_jobs: list[dict] = []
+    fetched_company_keys: set[str] = set()
     fetched, failed, skipped_budget = 0, 0, 0
     start = time.monotonic()
 
@@ -95,6 +100,7 @@ async def fetch_all(companies: list[dict]) -> tuple[list[dict], dict]:
                 fetched += 1
                 quarantine.pop(key, None)
                 all_jobs.extend(jobs)
+                fetched_company_keys.add(key)
 
     save_quarantine(quarantine)
 
@@ -107,13 +113,13 @@ async def fetch_all(companies: list[dict]) -> tuple[list[dict], dict]:
         "jobs_fetched": len(all_jobs),
         "elapsed_seconds": round(time.monotonic() - start, 1),
     }
-    return all_jobs, stats
+    return all_jobs, fetched_company_keys, stats
 
 
 if __name__ == "__main__":
     async def _main():
         companies = load_companies()
-        jobs, stats = await fetch_all(companies)
+        jobs, fetched_company_keys, stats = await fetch_all(companies)
         print(json.dumps(stats, indent=2))
 
     asyncio.run(_main())

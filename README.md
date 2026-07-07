@@ -27,12 +27,32 @@ Everything runs on a GitHub Actions cron schedule and writes to
 pip install -r requirements.txt
 ```
 
-Drop your resume/profile text into `resume/profile.txt`.
+For local runs, put `GEMINI_API_KEY`, `GROQ_API_KEY`, and `RESUME_TEXT` in
+a `.env` file at the repo root (already git-ignored). Run the full
+pipeline with:
 
-LLM judging needs `GEMINI_API_KEY` and `GROQ_API_KEY` as environment
-variables (or repo secrets when running in Actions). Both are optional in
-the sense that a job is never dropped for lack of a verdict — it's kept and
-flagged for a retry on the next run instead.
+```
+python -m src.pipeline
+```
+
+## GitHub Actions setup
+
+`.github/workflows/cron.yml` runs the pipeline on a schedule and commits
+`data/jobs.json`, `data/quarantine.json`, and `logs/run_history.jsonl`
+when they change. It needs three repository secrets (Settings → Secrets
+and variables → Actions → New repository secret):
+
+- `GEMINI_API_KEY`
+- `GROQ_API_KEY`
+- `RESUME_TEXT` — your resume/profile as plain text (never commit this to
+  a file in the repo; it's only ever read from this secret or a local,
+  git-ignored `.env`, since the repo needs to be public for free Pages
+  hosting)
+
+All three are optional in the sense that the pipeline degrades gracefully
+without them — a job is never dropped for lack of an LLM verdict, it's
+kept and flagged for a retry on the next run, and match scoring is simply
+skipped without a resume.
 
 ## Repository layout
 

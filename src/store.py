@@ -18,7 +18,7 @@ RAW_FIELDS = [
     "title",
     "location",
     "workplace_type",
-    "description_html",
+    "description",
     "apply_url",
     "posted_at",
     "deadline",
