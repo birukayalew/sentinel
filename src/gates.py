@@ -121,7 +121,13 @@ def cycle_gate(title: str, description: str | None) -> tuple[str, int | None]:
 
 
 def evaluate_gates(job: dict) -> dict:
-    if job.get("gate_evaluated"):
+    # Cached on title, not just a bare flag -- a company can (and does)
+    # edit a posting's title after we first see it (e.g. adding a cycle
+    # year that wasn't there yet). RAW_FIELDS gets refreshed on every
+    # fetch regardless, so without this the gate verdict could go stale
+    # and silently keep showing a wrong cycle_ambiguous verdict forever
+    # even though the current title obviously resolves it.
+    if job.get("gate_evaluated") and job.get("gate_evaluated_title") == job.get("title"):
         return job
 
     internship_verdict = internship_gate(job.get("title", ""))
@@ -144,6 +150,7 @@ def evaluate_gates(job: dict) -> dict:
             ambiguity_reasons.add("cycle_ambiguous")
 
     job["gate_evaluated"] = True
+    job["gate_evaluated_title"] = job.get("title", "")
     job["gate_dropped"] = dropped
     job["gate_drop_reason"] = drop_reason
     job["cycle_year"] = cycle_year if cycle_verdict == "keep" else None

@@ -30,6 +30,8 @@ _provider_last_call = {name: 0.0 for name in PROVIDER_MIN_INTERVAL_SECONDS}
 
 def reset_provider_state() -> None:
     _disabled_providers.clear()
+    _last_errors.clear()
+    _error_counts.clear()
     for name in _provider_last_call:
         _provider_last_call[name] = 0.0
 
@@ -69,20 +71,32 @@ def _error_summary(exc: Exception) -> str:
     return f"{type(exc).__name__}:{status}"
 
 
+_last_errors: dict[str, str] = {}
+_error_counts: dict[str, int] = {}
+
+
+def _record_error(provider_name: str, exc: Exception) -> None:
+    summary = _error_summary(exc)
+    _last_errors[provider_name] = summary
+    _error_counts[summary] = _error_counts.get(summary, 0) + 1
+
+
 async def _call_gemini(prompt: str) -> str | None:
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
+        _record_error("gemini", RuntimeError("missing_api_key"))
         return None
-    from google import genai
-
-    def _sync_call():
-        client = genai.Client(api_key=api_key)
-        response = client.models.generate_content(model=GEMINI_MODEL, contents=prompt)
-        return response.text
-
     try:
+        from google import genai
+
+        def _sync_call():
+            client = genai.Client(api_key=api_key)
+            response = client.models.generate_content(model=GEMINI_MODEL, contents=prompt)
+            return response.text
+
         return await asyncio.wait_for(asyncio.to_thread(_sync_call), timeout=30)
     except Exception as exc:
+        _record_error("gemini", exc)
         if _is_rate_limit(exc):
             _disabled_providers.add("gemini")
         return None
@@ -91,20 +105,22 @@ async def _call_gemini(prompt: str) -> str | None:
 async def _call_groq(prompt: str) -> str | None:
     api_key = os.environ.get("GROQ_API_KEY")
     if not api_key:
+        _record_error("groq", RuntimeError("missing_api_key"))
         return None
-    from groq import Groq
-
-    def _sync_call():
-        client = Groq(api_key=api_key)
-        completion = client.chat.completions.create(
-            model=GROQ_MODEL,
-            messages=[{"role": "user", "content": prompt}],
-        )
-        return completion.choices[0].message.content
-
     try:
+        from groq import Groq
+
+        def _sync_call():
+            client = Groq(api_key=api_key)
+            completion = client.chat.completions.create(
+                model=GROQ_MODEL,
+                messages=[{"role": "user", "content": prompt}],
+            )
+            return completion.choices[0].message.content
+
         return await asyncio.wait_for(asyncio.to_thread(_sync_call), timeout=30)
     except Exception as exc:
+        _record_error("groq", exc)
         if _is_rate_limit(exc):
             _disabled_providers.add("groq")
         return None
@@ -193,10 +209,17 @@ async def judge_batch(jobs: list[dict]) -> dict:
     provider_usage: dict[str, int] = {}
     semaphore = asyncio.Semaphore(config.JUDGE_CONCURRENCY)
 
+    unexpected_errors = 0
+
     async def process(job: dict) -> None:
-        nonlocal judged
-        async with semaphore:
-            result, provider = await judge_job(job)
+        nonlocal judged, unexpected_errors
+        try:
+            async with semaphore:
+                result, provider = await judge_job(job)
+        except Exception as exc:
+            unexpected_errors += 1
+            print(f"judge: unexpected error on job {job.get('id')}: {type(exc).__name__}")
+            return
         if result is None:
             return
         apply_judge_result(job, result)
@@ -209,6 +232,15 @@ async def judge_batch(jobs: list[dict]) -> dict:
         done, pending = await asyncio.wait(tasks, timeout=config.JUDGE_TIME_BUDGET_SECONDS)
         for task in pending:
             task.cancel()
+        # Any exception inside a completed task would otherwise be silently
+        # discarded by asyncio -- surfacing it here is what caught the
+        # missing try/except around the provider SDK imports in the first
+        # place, when every job was going unjudged with zero visible cause.
+        for task in done:
+            exc = task.exception()
+            if exc is not None:
+                unexpected_errors += 1
+                print(f"judge: task raised {type(exc).__name__}: {exc}")
 
     for job in to_process:
         job["unjudged"] = not job.get("judged")
@@ -217,9 +249,14 @@ async def judge_batch(jobs: list[dict]) -> dict:
 
     unjudged_count = sum(1 for job in eligible if job.get("unjudged"))
 
+    if _error_counts:
+        print(f"judge: provider error breakdown this run: {_error_counts}")
+
     return {
         "llm_jobs_queued": len(to_process),
         "llm_judged": judged,
         "llm_unjudged": unjudged_count,
+        "llm_unexpected_errors": unexpected_errors,
         "llm_provider_usage": provider_usage,
+        "llm_provider_errors": dict(_error_counts),
     }
