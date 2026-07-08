@@ -81,25 +81,53 @@ def _record_error(provider_name: str, exc: Exception) -> None:
     _error_counts[summary] = _error_counts.get(summary, 0) + 1
 
 
+def _is_connection_error(exc: Exception) -> bool:
+    return type(exc).__name__ in {"APIConnectionError", "ConnectionError", "ConnectTimeout"}
+
+
+_gemini_client = None
+_groq_client = None
+
+
+def _get_gemini_client(api_key: str):
+    global _gemini_client
+    if _gemini_client is None:
+        from google import genai
+        _gemini_client = genai.Client(api_key=api_key)
+    return _gemini_client
+
+
+def _get_groq_client(api_key: str):
+    global _groq_client
+    if _groq_client is None:
+        from groq import Groq
+        _groq_client = Groq(api_key=api_key)
+    return _groq_client
+
+
 async def _call_gemini(prompt: str) -> str | None:
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         _record_error("gemini", RuntimeError("missing_api_key"))
         return None
-    try:
-        from google import genai
 
-        def _sync_call():
-            client = genai.Client(api_key=api_key)
-            response = client.models.generate_content(model=GEMINI_MODEL, contents=prompt)
-            return response.text
+    def _sync_call():
+        client = _get_gemini_client(api_key)
+        response = client.models.generate_content(model=GEMINI_MODEL, contents=prompt)
+        return response.text
 
-        return await asyncio.wait_for(asyncio.to_thread(_sync_call), timeout=30)
-    except Exception as exc:
-        _record_error("gemini", exc)
-        if _is_rate_limit(exc):
-            _disabled_providers.add("gemini")
-        return None
+    for attempt in range(2):
+        try:
+            return await asyncio.wait_for(asyncio.to_thread(_sync_call), timeout=30)
+        except Exception as exc:
+            _record_error("gemini", exc)
+            if _is_rate_limit(exc):
+                _disabled_providers.add("gemini")
+                return None
+            if _is_connection_error(exc) and attempt == 0:
+                await asyncio.sleep(1)
+                continue
+            return None
 
 
 async def _call_groq(prompt: str) -> str | None:
@@ -107,23 +135,27 @@ async def _call_groq(prompt: str) -> str | None:
     if not api_key:
         _record_error("groq", RuntimeError("missing_api_key"))
         return None
-    try:
-        from groq import Groq
 
-        def _sync_call():
-            client = Groq(api_key=api_key)
-            completion = client.chat.completions.create(
-                model=GROQ_MODEL,
-                messages=[{"role": "user", "content": prompt}],
-            )
-            return completion.choices[0].message.content
+    def _sync_call():
+        client = _get_groq_client(api_key)
+        completion = client.chat.completions.create(
+            model=GROQ_MODEL,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        return completion.choices[0].message.content
 
-        return await asyncio.wait_for(asyncio.to_thread(_sync_call), timeout=30)
-    except Exception as exc:
-        _record_error("groq", exc)
-        if _is_rate_limit(exc):
-            _disabled_providers.add("groq")
-        return None
+    for attempt in range(2):
+        try:
+            return await asyncio.wait_for(asyncio.to_thread(_sync_call), timeout=30)
+        except Exception as exc:
+            _record_error("groq", exc)
+            if _is_rate_limit(exc):
+                _disabled_providers.add("groq")
+                return None
+            if _is_connection_error(exc) and attempt == 0:
+                await asyncio.sleep(1)
+                continue
+            return None
 
 
 _PROVIDER_CALLERS = {
