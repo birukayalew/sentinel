@@ -1,23 +1,8 @@
 {
-  "greenhouse:andurilindustries": {
-    "consecutive_failures": 2
-  },
-  "greenhouse:constellationsoftwareinc": {
+  "greenhouse:axle": {
     "consecutive_failures": 1
   },
-  "greenhouse:doubleverify": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:dropbox": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:harbingermotors": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:newsbreak": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:pagerduty": {
+  "greenhouse:notexternal": {
     "consecutive_failures": 1
   },
   "lever:cgsfederal": {
