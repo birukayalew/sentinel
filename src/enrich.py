@@ -13,6 +13,16 @@ import aiohttp
 
 from src import config
 
+# Bump whenever badge-computation logic changes meaningfully -- same
+# reasoning as GATE_LOGIC_VERSION in gates.py: a bare `enriched` flag
+# would leave every already-enriched job showing a stale badge forever,
+# since nothing about the job's own data changes when we fix a regex.
+# 2: BS_PATTERN/MS_PATTERN now match bare "BS"/"MS" (previously required
+#    periods, "b.s."/"m.s.", missing the extremely common "BS/MS/PhD"
+#    shorthand); multi-level matches now render as "BS/MS/PhD" or
+#    "All levels" instead of collapsing to no badge at all.
+ENRICH_LOGIC_VERSION = 2
+
 DEADLINE_KEYWORD_PATTERN = re.compile(
     r"(application[s]?\s+(?:close|closes|closing|deadline|due)|apply\s+by|deadline\s+to\s+apply)",
     re.IGNORECASE,
@@ -24,8 +34,12 @@ DATE_PATTERN = re.compile(
 )
 
 PHD_PATTERN = re.compile(r"\b(ph\.?d\.?|doctoral|doctorate)\b", re.IGNORECASE)
-MS_PATTERN = re.compile(r"\b(master'?s degree|master'?s|m\.s\.|graduate student)\b", re.IGNORECASE)
-BS_PATTERN = re.compile(r"\b(bachelor'?s degree|bachelor'?s|undergraduate|b\.s\.)\b", re.IGNORECASE)
+MS_PATTERN = re.compile(
+    r"\b(master'?s degree|master'?s|m\.s\.|\bms\b|graduate student)\b", re.IGNORECASE
+)
+BS_PATTERN = re.compile(
+    r"\b(bachelor'?s degree|bachelor'?s|undergraduate|b\.s\.|\bbs\b)\b", re.IGNORECASE
+)
 
 NO_SPONSOR_PATTERN = re.compile(
     r"(does not (?:offer|provide) (?:visa )?sponsorship|"
@@ -90,6 +104,9 @@ def classify_workplace(job: dict) -> str | None:
     return None
 
 
+LEVEL_ORDER = ["BS", "MS", "PhD"]
+
+
 def classify_level(text: str) -> str | None:
     levels = set()
     if PHD_PATTERN.search(text):
@@ -98,7 +115,11 @@ def classify_level(text: str) -> str | None:
         levels.add("MS")
     if BS_PATTERN.search(text):
         levels.add("BS")
-    return levels.pop() if len(levels) == 1 else None
+    if not levels:
+        return None
+    if len(levels) == len(LEVEL_ORDER):
+        return "All levels"
+    return "/".join(level for level in LEVEL_ORDER if level in levels)
 
 
 def classify_visa(text: str) -> str | None:
@@ -112,7 +133,7 @@ def classify_visa(text: str) -> str | None:
 
 
 def enrich_job(job: dict) -> dict:
-    if job.get("enriched"):
+    if job.get("enriched") and job.get("enriched_version") == ENRICH_LOGIC_VERSION:
         return job
 
     text = job.get("description") or ""
@@ -125,6 +146,7 @@ def enrich_job(job: dict) -> dict:
     job["visa_badge"] = classify_visa(text) or job.get("llm_visa_sponsorship") or "unknown"
     job["application_weight"] = None
     job["enriched"] = True
+    job["enriched_version"] = ENRICH_LOGIC_VERSION
     return job
 
 
@@ -133,7 +155,7 @@ def enrich_batch(jobs: list[dict]) -> dict:
     for job in jobs:
         if job.get("gate_dropped"):
             continue
-        if not job.get("enriched"):
+        if not (job.get("enriched") and job.get("enriched_version") == ENRICH_LOGIC_VERSION):
             enrich_job(job)
             computed += 1
     return {"enrichment_computed": computed}
