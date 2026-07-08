@@ -76,10 +76,6 @@ function buildBadges(job) {
     badges.push({ text: `${job.match_score}% match` });
   }
 
-  if (job.unjudged) {
-    badges.push({ text: "⚠ unjudged", warn: true });
-  }
-
   return badges;
 }
 

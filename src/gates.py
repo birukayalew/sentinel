@@ -15,13 +15,15 @@ internship silently dropped) -- but unlike the old design, that tradeoff
 is now made once, transparently, in a list you can read, not implicitly
 by whichever jobs a flaky API happened to reach this run.
 
-Only the cycle gate keeps a genuine ambiguous tier with an LLM fallback,
-because "what year is this posting for" often really is unstated or only
-inferable from context in a way a keyword list can't resolve, and the
-spec explicitly wants an unresolved cycle to keep the job (❓ badge)
-rather than drop it -- false negatives there are costlier than for the
-other two gates, since cycle information genuinely is sometimes just
-missing rather than determinable.
+Only the cycle gate keeps a genuine ambiguous tier, because "what year is
+this posting for" often really is unstated or only inferable from
+context in a way a keyword list can't resolve. Unlike the other two
+gates, an unresolved cycle keeps the job visible with a ❓ badge instead
+of dropping it -- false negatives there are costlier than for the other
+two gates, since cycle information genuinely is sometimes just missing
+rather than determinable. There is no LLM anywhere in this pipeline;
+"ambiguous" here just means "shown with a ❓ forever," not "resolved
+later by an API call."
 
 Gate results are cached on the job record, keyed on both the title text
 used to compute them (`gate_evaluated_title`) and a `GATE_LOGIC_VERSION`

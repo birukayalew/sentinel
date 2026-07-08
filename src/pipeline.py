@@ -1,13 +1,13 @@
-"""Orchestrates one full run: fetch -> store merge -> gates -> judge ->
-enrich -> match -> write. Appends one summary line to run_history.jsonl
-regardless of outcome, so every run leaves an audit trail.
+"""Orchestrates one full run: fetch -> store merge -> gates -> enrich ->
+match -> write. Appends one summary line to run_history.jsonl regardless
+of outcome, so every run leaves an audit trail.
 """
 
 import asyncio
 import datetime
 import json
 
-from src import config, enrich, gates, judge, match, store
+from src import config, enrich, gates, match, store
 from src import fetch as fetchmod
 
 
@@ -28,9 +28,6 @@ async def run() -> dict:
 
     live_jobs, gate_stats = gates.filter_and_tag(merged_jobs)
 
-    judge_stats = await judge.judge_batch(live_jobs)
-    live_jobs = [job for job in live_jobs if not job.get("gate_dropped")]
-
     enrich_stats = enrich.enrich_batch(live_jobs)
     weight_stats = await enrich.enrich_application_weights(live_jobs)
 
@@ -47,7 +44,6 @@ async def run() -> dict:
         **fetch_stats,
         **merge_stats,
         **gate_stats,
-        **judge_stats,
         **enrich_stats,
         **weight_stats,
         **match_stats,

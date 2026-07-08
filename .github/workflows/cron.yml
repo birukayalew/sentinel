@@ -33,8 +33,6 @@ jobs:
 
       - name: Run pipeline
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           RESUME_TEXT: ${{ secrets.RESUME_TEXT }}
         run: python -m src.pipeline
 

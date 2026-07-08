@@ -1,9 +1,7 @@
 """Rule-based enrichment badges, computed once per job and cached forever
-(`enriched` flag). Regex is the primary source for every badge; the LLM
-judge's salvage fields (populated only for jobs that already needed a
-judge call for gate reasons) are used as a fallback where regex found
-nothing, never as a reason to make an extra call by themselves -- that
-would defeat the point of keeping LLM usage bounded by gate ambiguity.
+(`enriched` flag). Purely regex-based -- no LLM involved anywhere in this
+pipeline; a badge that regex can't resolve is left blank/unknown rather
+than guessed.
 """
 
 import asyncio
@@ -138,12 +136,10 @@ def enrich_job(job: dict) -> dict:
 
     text = job.get("description") or ""
 
-    job["deadline_badge"] = (
-        job.get("deadline") or find_deadline_in_text(text) or job.get("llm_deadline")
-    )
+    job["deadline_badge"] = job.get("deadline") or find_deadline_in_text(text)
     job["workplace_badge"] = classify_workplace(job)
-    job["level_badge"] = classify_level(text) or job.get("llm_level_fit")
-    job["visa_badge"] = classify_visa(text) or job.get("llm_visa_sponsorship") or "unknown"
+    job["level_badge"] = classify_level(text)
+    job["visa_badge"] = classify_visa(text) or "unknown"
     job["application_weight"] = None
     job["enriched"] = True
     job["enriched_version"] = ENRICH_LOGIC_VERSION
