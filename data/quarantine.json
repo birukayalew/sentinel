@@ -1,8 +1,11 @@
 {
-  "greenhouse:axle": {
+  "greenhouse:andurilindustries": {
     "consecutive_failures": 1
   },
-  "greenhouse:notexternal": {
+  "greenhouse:cribl": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:loop": {
     "consecutive_failures": 1
   },
   "lever:cgsfederal": {
