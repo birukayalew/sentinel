@@ -1,29 +1,23 @@
 {
-  "greenhouse:chicagotrading": {
+  "greenhouse:greenhouse": {
     "consecutive_failures": 1
   },
-  "greenhouse:cloudflare": {
+  "greenhouse:gumgum": {
     "consecutive_failures": 1
   },
-  "greenhouse:elementbiosciences": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:embrace": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:fashionnova": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:fireblocks": {
+  "greenhouse:hivefinancialsystems": {
     "consecutive_failures": 1
   },
   "greenhouse:loop": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
-  "greenhouse:mavensecuritiesholdingltd": {
+  "greenhouse:merge": {
     "consecutive_failures": 1
   },
-  "greenhouse:taketwo": {
+  "greenhouse:renaissancelearning-nam": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:sezzle": {
     "consecutive_failures": 1
   },
   "lever:cgsfederal": {
