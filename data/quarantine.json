@@ -1,11 +1,29 @@
 {
-  "greenhouse:andurilindustries": {
+  "greenhouse:chicagotrading": {
     "consecutive_failures": 1
   },
-  "greenhouse:cribl": {
+  "greenhouse:cloudflare": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:elementbiosciences": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:embrace": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:fashionnova": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:fireblocks": {
     "consecutive_failures": 1
   },
   "greenhouse:loop": {
+    "consecutive_failures": 2
+  },
+  "greenhouse:mavensecuritiesholdingltd": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:taketwo": {
     "consecutive_failures": 1
   },
   "lever:cgsfederal": {

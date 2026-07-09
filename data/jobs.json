@@ -547,7 +547,7 @@
     "ambiguity_reasons": [
       "cycle_ambiguous"
     ],
-    "application_weight": null,
+    "application_weight": "quick_apply",
     "apply_url": "https://job-boards.greenhouse.io/ada18/jobs/5180710007",
     "company": "Ada",
     "company_token": "ada18",
@@ -581,7 +581,7 @@
     "ambiguity_reasons": [
       "cycle_ambiguous"
     ],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.greenhouse.io/botauto/jobs/5289440008",
     "company": "Bot Auto",
     "company_token": "botauto",
@@ -615,7 +615,7 @@
     "ambiguity_reasons": [
       "cycle_ambiguous"
     ],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.greenhouse.io/celonis/jobs/7767090003?gh_jid=7767090003",
     "company": "Celonis",
     "company_token": "celonis",
@@ -649,7 +649,7 @@
     "ambiguity_reasons": [
       "cycle_ambiguous"
     ],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.greenhouse.io/celonis/jobs/7777600003?gh_jid=7777600003",
     "company": "Celonis",
     "company_token": "celonis",
@@ -683,7 +683,7 @@
     "ambiguity_reasons": [
       "cycle_ambiguous"
     ],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.greenhouse.io/celonis/jobs/7794551003?gh_jid=7794551003",
     "company": "Celonis",
     "company_token": "celonis",
@@ -717,7 +717,7 @@
     "ambiguity_reasons": [
       "cycle_ambiguous"
     ],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://coreweave.com/careers/job?4694103006&board=coreweave&gh_jid=4694103006",
     "company": "CoreWeave",
     "company_token": "coreweave",
@@ -751,7 +751,7 @@
     "ambiguity_reasons": [
       "cycle_ambiguous"
     ],
-    "application_weight": null,
+    "application_weight": "quick_apply",
     "apply_url": "https://job-boards.greenhouse.io/didi/jobs/8042470",
     "company": "DiDi Global",
     "company_token": "didi",
@@ -785,7 +785,7 @@
     "ambiguity_reasons": [
       "cycle_ambiguous"
     ],
-    "application_weight": null,
+    "application_weight": "quick_apply",
     "apply_url": "https://job-boards.greenhouse.io/genscript/jobs/5181777007",
     "company": "GenScript",
     "company_token": "genscript",
@@ -819,7 +819,7 @@
     "ambiguity_reasons": [
       "cycle_ambiguous"
     ],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.greenhouse.io/horizonindustrieslimited/jobs/5301639008",
     "company": "Horizon Industries",
     "company_token": "horizonindustrieslimited",
@@ -851,7 +851,7 @@
   },
   {
     "ambiguity_reasons": [],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4823923101",
     "company": "IMC Trading",
     "company_token": "imc",
@@ -883,7 +883,7 @@
   },
   {
     "ambiguity_reasons": [],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4823924101",
     "company": "IMC Trading",
     "company_token": "imc",
@@ -915,7 +915,7 @@
   },
   {
     "ambiguity_reasons": [],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4823945101",
     "company": "IMC Trading",
     "company_token": "imc",
@@ -947,7 +947,7 @@
   },
   {
     "ambiguity_reasons": [],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4860277101",
     "company": "IMC Trading",
     "company_token": "imc",
@@ -979,7 +979,7 @@
   },
   {
     "ambiguity_reasons": [],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4860306101",
     "company": "IMC Trading",
     "company_token": "imc",
@@ -1011,7 +1011,7 @@
   },
   {
     "ambiguity_reasons": [],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4860319101",
     "company": "IMC Trading",
     "company_token": "imc",
@@ -1043,7 +1043,7 @@
   },
   {
     "ambiguity_reasons": [],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4907399101",
     "company": "IMC Trading",
     "company_token": "imc",
@@ -1075,7 +1075,7 @@
   },
   {
     "ambiguity_reasons": [],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4907400101",
     "company": "IMC Trading",
     "company_token": "imc",
@@ -1107,7 +1107,7 @@
   },
   {
     "ambiguity_reasons": [],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4907430101",
     "company": "IMC Trading",
     "company_token": "imc",
@@ -1139,7 +1139,7 @@
   },
   {
     "ambiguity_reasons": [],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4912874101",
     "company": "IMC Trading",
     "company_token": "imc",
@@ -1171,7 +1171,7 @@
   },
   {
     "ambiguity_reasons": [],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4917439101",
     "company": "IMC Trading",
     "company_token": "imc",
@@ -1203,7 +1203,7 @@
   },
   {
     "ambiguity_reasons": [],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4917441101",
     "company": "IMC Trading",
     "company_token": "imc",
@@ -1235,7 +1235,7 @@
   },
   {
     "ambiguity_reasons": [],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4917442101",
     "company": "IMC Trading",
     "company_token": "imc",
@@ -1267,7 +1267,7 @@
   },
   {
     "ambiguity_reasons": [],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4917535101",
     "company": "IMC Trading",
     "company_token": "imc",
@@ -1299,7 +1299,7 @@
   },
   {
     "ambiguity_reasons": [],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4917542101",
     "company": "IMC Trading",
     "company_token": "imc",
@@ -1331,7 +1331,7 @@
   },
   {
     "ambiguity_reasons": [],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4917545101",
     "company": "IMC Trading",
     "company_token": "imc",
@@ -1363,7 +1363,7 @@
   },
   {
     "ambiguity_reasons": [],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4917547101",
     "company": "IMC Trading",
     "company_token": "imc",
@@ -1395,7 +1395,7 @@
   },
   {
     "ambiguity_reasons": [],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4917548101",
     "company": "IMC Trading",
     "company_token": "imc",
@@ -1427,7 +1427,7 @@
   },
   {
     "ambiguity_reasons": [],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4917549101",
     "company": "IMC Trading",
     "company_token": "imc",
@@ -1459,7 +1459,7 @@
   },
   {
     "ambiguity_reasons": [],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4918252101",
     "company": "IMC Trading",
     "company_token": "imc",
@@ -1493,7 +1493,7 @@
     "ambiguity_reasons": [
       "cycle_ambiguous"
     ],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.greenhouse.io/impact/jobs/8613459002",
     "company": "impact.com",
     "company_token": "impact",
@@ -1527,7 +1527,7 @@
     "ambiguity_reasons": [
       "cycle_ambiguous"
     ],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.greenhouse.io/janestreet/jobs/8384490002",
     "company": "Jane Street",
     "company_token": "janestreet",
@@ -1561,7 +1561,7 @@
     "ambiguity_reasons": [
       "cycle_ambiguous"
     ],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.greenhouse.io/janestreet/jobs/8498547002",
     "company": "Jane Street",
     "company_token": "janestreet",
@@ -1595,7 +1595,7 @@
     "ambiguity_reasons": [
       "cycle_ambiguous"
     ],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.greenhouse.io/janestreet/jobs/8620793002",
     "company": "Jane Street",
     "company_token": "janestreet",
@@ -1629,7 +1629,7 @@
     "ambiguity_reasons": [
       "cycle_ambiguous"
     ],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.greenhouse.io/janestreet/jobs/8621450002",
     "company": "Jane Street",
     "company_token": "janestreet",
@@ -1663,7 +1663,379 @@
     "ambiguity_reasons": [
       "cycle_ambiguous"
     ],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
+    "apply_url": "https://www.jumptrading.com/hr/job?gh_jid=7848371",
+    "company": "Jump Trading",
+    "company_token": "jumptrading",
+    "cycle_year": null,
+    "deadline": null,
+    "deadline_badge": null,
+    "description": "<p>Jump Trading Group is committed to world class research. We empower exceptional talents in Mathematics, Physics, and Computer Science to seek scientific boundaries, push through them, and apply cutting edge research to global financial markets. Our culture is unique. Constant innovation requires fearlessness, creativity, intellectual honesty, and a relentless competitive streak. We believe in winning together and unlocking unique individual talent by incenting collaboration and mutual respect. At Jump, research outcomes drive more than superior risk adjusted returns. We design, develop, and deploy technologies that change our world, fund start-ups across industries, and partner with leading global research organizations and universities to solve problems.</p> <p data-renderer-start-pos=\"2993\">Our trading teams are each comprised of a dynamic group of traders, quantitative researchers, and engineers who work together to examine the global markets, seeking to understand the complexities of various traded products and exchanges. They leverage their impeccable statistical analysis and data mining skills, using the results of their research to make forecasts and develop profitable predictive trading models.</p> <p><strong>About the Role:&nbsp;</strong></p> <p>The quant trading internship is an intensive 10-week program focused on enhancing your trading aptitude and understanding of financial markets, as well as helping you experience what it\u2019s like to be a full-time quant trader at Jump.</p> <p>At Jump, our people contribute to trading teams in the following roles, or a blend of all three: quant trader, quant researcher, and quant developer. During our internship you will get training in all of these areas, with a focus in trading and financial markets. Topics include trading strategies and intuition, market mechanics, statistics, and our research process for signal generation.</p> <p>You will have the opportunity to work with our trading teams on meaningful projects with real impact while receiving daily 1:1 mentorship from experienced quant traders, researchers, and developers. You will also participate in mock trading sessions, poker training, and other modules designed to improve probabilistic thinking, risk-taking, and trader mindset.&nbsp;</p> <p>Other duties as assigned or needed.</p> <p><strong>Who Should Apply?</strong></p> <p>We are seeking the sharpest analytical minds from top undergraduate and graduate programs.&nbsp;</p> <p>Ideal candidates will have:</p> <ul> <li>Outstanding skills in probabilistic thinking and mathematical reasoning</li> <li>Competitive spirit and uncommon drive to learn and improve</li> <li>Programming experience&nbsp;</li> <li>Appetite for risk-taking</li> <li>Demonstrated interest in financial markets&nbsp;</li> </ul> <p>Reliable and predictable availability required.</p> <p>INTERNATIONAL STUDENTS are encouraged to apply. We accept students eligible for CPT/OPT and we sponsor work visas for full-time positions.</p> <p>The estimated base salary for this role is $300,000 per year.</p>",
+    "enriched": true,
+    "enriched_version": 2,
+    "external_id": "7848371",
+    "first_seen": "2026-07-09",
+    "gate_drop_reason": null,
+    "gate_dropped": false,
+    "gate_evaluated": true,
+    "gate_evaluated_title": "Campus Quantitative Trader (Intern)",
+    "gate_evaluated_version": 4,
+    "id": "greenhouse:jumptrading:7848371",
+    "level_badge": "BS",
+    "location": "Chicago; New York",
+    "match_score": 47,
+    "match_scored": true,
+    "posted_at": "2026-07-08T17:35:47-04:00",
+    "questions": null,
+    "source": "greenhouse",
+    "title": "Campus Quantitative Trader (Intern)",
+    "visa_badge": "unknown",
+    "workplace_badge": null,
+    "workplace_type": null
+  },
+  {
+    "ambiguity_reasons": [
+      "cycle_ambiguous"
+    ],
+    "application_weight": "essay_heavy",
+    "apply_url": "https://www.jumptrading.com/hr/job?gh_jid=7982648",
+    "company": "Jump Trading",
+    "company_token": "jumptrading",
+    "cycle_year": null,
+    "deadline": null,
+    "deadline_badge": null,
+    "description": "<p>Jump Trading Group is committed to world class research. We empower exceptional talents in Mathematics, Physics, and Computer Science to seek scientific boundaries, push through them, and apply cutting edge research to global financial markets. Our culture is unique. Constant innovation requires fearlessness, creativity, intellectual honesty, and a relentless competitive streak. We believe in winning together and unlocking unique individual talent by incenting collaboration and mutual respect. At Jump, research outcomes drive more than superior risk adjusted returns. We design, develop, and deploy technologies that change our world, fund start-ups across industries, and partner with leading global research organizations and universities to solve problems.</p> <p>Our trading teams are each comprised of a dynamic group of traders, quantitative researchers, and engineers who work together to examine the global markets, seeking to understand the complexities of various traded products and exchanges. They leverage their impeccable statistical analysis and data mining skills, using the results of their research to make forecasts and develop profitable predictive trading models.</p> <p><strong>What You\u2019ll Do:&nbsp;</strong></p> <p>The quant research internship is an intensive 10-week program focused on enhancing your quantitative and programming skills, as well as helping you experience what it\u2019s like to be a full-time quant researcher at Jump.</p> <p>At Jump, our people contribute to trading teams in the following roles, or a blend of all three: quant researcher, quant trader, and quant developer. During our internship you will get training in all of these areas, with a focus on our research process for signal generation, machine learning, trading / market mechanics, C++, Python, and statistics.&nbsp;</p> <p>You will work with fellow interns to develop your own predictive models and automated trading strategies for live trading. Then you will have the opportunity to work with our trading teams on meaningful projects with real impact while receiving daily 1:1 mentorship from experienced quant researchers, traders, and developers.&nbsp;</p> <p>Other duties as assigned or needed.</p> <p><strong>Skills You\u2019ll Need:</strong></p> <p>We are seeking the sharpest analytical minds from top undergraduate and graduate programs.&nbsp;</p> <p>Ideal candidates will have:</p> <ul> <li>Outstanding skills in computer science, machine learning, statistics, and mathematics&nbsp;</li> <li>Competitive spirit and uncommon drive to learn and improve</li> <li>Programming experience&nbsp;</li> <li>Appetite for risk-taking</li> <li>Demonstrated interest in financial markets&nbsp;</li> </ul> <p>Reliable and predictable availability required.</p> <p>INTERNATIONAL STUDENTS are encouraged to apply. We accept students eligible for CPT/OPT and we sponsor work visas for full-time positions.</p> <p>The estimated base salary for this role is $300,000 per year.</p>",
+    "enriched": true,
+    "enriched_version": 2,
+    "external_id": "7982648",
+    "first_seen": "2026-07-09",
+    "gate_drop_reason": null,
+    "gate_dropped": false,
+    "gate_evaluated": true,
+    "gate_evaluated_title": "Campus Quantitative Researcher, UG/MS (Intern)",
+    "gate_evaluated_version": 4,
+    "id": "greenhouse:jumptrading:7982648",
+    "level_badge": "BS",
+    "location": "Chicago; New York",
+    "match_score": 48,
+    "match_scored": true,
+    "posted_at": "2026-07-08T17:35:58-04:00",
+    "questions": null,
+    "source": "greenhouse",
+    "title": "Campus Quantitative Researcher, UG/MS (Intern)",
+    "visa_badge": "unknown",
+    "workplace_badge": null,
+    "workplace_type": null
+  },
+  {
+    "ambiguity_reasons": [
+      "cycle_ambiguous"
+    ],
+    "application_weight": "essay_heavy",
+    "apply_url": "https://www.jumptrading.com/hr/job?gh_jid=8002989",
+    "company": "Jump Trading",
+    "company_token": "jumptrading",
+    "cycle_year": null,
+    "deadline": null,
+    "deadline_badge": null,
+    "description": "<p data-renderer-start-pos=\"1448\">Jump Trading Group is committed to world class research. We empower exceptional talents in Mathematics, Physics, and Computer Science to seek scientific boundaries, push through them, and apply cutting edge research to global financial markets. Our culture is unique. Constant innovation requires fearlessness, creativity, intellectual honesty, and a relentless competitive streak. We believe in winning together and unlocking unique individual talent by incenting collaboration and mutual respect. At Jump, research outcomes drive more than superior risk adjusted returns. We design, develop, and deploy technologies that change our world, fund start-ups across industries, and partner with leading global research organizations and universities to solve problems.</p> <p data-renderer-start-pos=\"1448\">Core Development is a global team of technologists who architect, build and maintain our world-class trading platform. From optimizing our core trading engine to building custom hardware, we leverage software &amp; hardware engineering, data science and research, to deliver the infrastructure and tools that drive our trading and business needs.</p> <p><strong>What You\u2019ll Do:</strong></p> <p>Our software engineering internship is an intensive 10-week experience with our technology team that designs, codes, tests, and maintains our distributed trading system and one of the world\u2019s largest supercomputers.</p> <p>You will be working side by side with our experienced software engineers and will receive ongoing coaching from a dedicated mentor throughout the summer. Our internship program is the primary way we identify top young software engineers for our core development team, and it\u2019s a proven path for earning full-time opportunities at Jump.&nbsp;</p> <p>Over the course of the summer, you will take on projects working on production code and gain experience with our full-cycle process for development, testing, and release using Agile methodologies. You will apply your programming and analysis skills to contribute to our real-time large-scale, high-performance trading platform and related infrastructure.&nbsp;</p> <p>Other duties as assigned or needed</p> <p><strong>Skills You\u2019ll Need:</strong></p> <ul> <li>Hands-on experience and a high level of proficiency in one or more of the following:</li> <ul> <li>C++ development on Linux platform</li> <li>Python development on Linux platform</li> </ul> <li>Strong understanding of data structures and threading models</li> <li>Ability to work with a team in a fast-paced environment, deploying new software daily</li> <li>Passion for solving complex problems and learning to build optimal solutions from scratch, instead of simply assembling things from existing libraries</li> <li>Interest in using knowledge from several areas -- such as hardware, networking, OS design -- to produce extremely high-performance software&nbsp;</li> <li>Reliable and predictable availability&nbsp;</li> </ul> <p><strong>Also Helpful, but Not Required:</strong></p> <ul> <li>Past internship or job experience in a software development role is a plus</li> <li>Advanced coursework in algorithms, network programming, operating systems, compilers&nbsp;</li> <li>Experience with AI tools like Claude Code in a real work environment</li> </ul> <p><em>* No finance or economics study or work experience required</em>&nbsp;&nbsp;</p> <p>INTERNATIONAL STUDENTS are encouraged to apply. We accept students eligible for CPT/OPT and we sponsor work visas for full-time positions</p> <p>The estimated base salary for this role is $250,000 per year.</p>",
+    "enriched": true,
+    "enriched_version": 2,
+    "external_id": "8002989",
+    "first_seen": "2026-07-09",
+    "gate_drop_reason": null,
+    "gate_dropped": false,
+    "gate_evaluated": true,
+    "gate_evaluated_title": "Campus Software Engineer (Intern)",
+    "gate_evaluated_version": 4,
+    "id": "greenhouse:jumptrading:8002989",
+    "level_badge": null,
+    "location": "Chicago",
+    "match_score": 54,
+    "match_scored": true,
+    "posted_at": "2026-07-08T17:35:32-04:00",
+    "questions": null,
+    "source": "greenhouse",
+    "title": "Campus Software Engineer (Intern)",
+    "visa_badge": "unknown",
+    "workplace_badge": null,
+    "workplace_type": null
+  },
+  {
+    "ambiguity_reasons": [
+      "cycle_ambiguous"
+    ],
+    "application_weight": "essay_heavy",
+    "apply_url": "https://www.jumptrading.com/hr/job?gh_jid=8002998",
+    "company": "Jump Trading",
+    "company_token": "jumptrading",
+    "cycle_year": null,
+    "deadline": null,
+    "deadline_badge": null,
+    "description": "<p data-renderer-start-pos=\"1448\">Jump Trading Group is committed to world class research. We empower exceptional talents in Mathematics, Physics, and Computer Science to seek scientific boundaries, push through them, and apply cutting edge research to global financial markets. Our culture is unique. Constant innovation requires fearlessness, creativity, intellectual honesty, and a relentless competitive streak. We believe in winning together and unlocking unique individual talent by incenting collaboration and mutual respect. At Jump, research outcomes drive more than superior risk adjusted returns. We design, develop, and deploy technologies that change our world, fund start-ups across industries, and partner with leading global research organizations and universities to solve problems.</p> <p data-renderer-start-pos=\"1448\">Core Development is a global team of technologists who architect, build and maintain our world-class trading platform. From optimizing our core trading engine to building custom hardware, we leverage software &amp; hardware engineering, data science and research, to deliver the infrastructure and tools that drive our trading and business needs.</p> <p>Our data engineering internship is an intensive 10-week experience with our team who is responsible for developing and maintaining the infrastructure and pipelines to support data for firm wide use.</p> <p><strong>What You\u2019ll Do:</strong></p> <p>Our data engineering internship is an intensive 10-week experience with our team who is responsible for developing and maintaining the infrastructure and pipelines to support data for firm wide use. You will be working side by side with our experienced data engineers and you\u2019ll receive ongoing feedback and coaching from a dedicated mentor throughout the summer. Our internship program is the primary way we identify top engineers and it\u2019s a proven path for earning full-time opportunities at Jump.&nbsp;</p> <p>You will take on projects working on production code and gain experience with our full-cycle process for development, testing, and release using Agile methodologies. You will apply your programming and analysis skills to maintain and develop our firm wide data solutions. Other duties as assigned or needed.&nbsp;</p> <p><strong>Skills You\u2019ll Need:</strong></p> <p>Hands-on experience and a high level of proficiency in one or more of the following:&nbsp;</p> <ul> <li>Python development on Linux platform&nbsp;</li> <li>Strong understanding of data structures and threading models&nbsp;</li> <li>Ability to work with a team in a fast-paced environment, deploying new software daily&nbsp;</li> <li>Passion for solving complex problems and learning to build optimal solutions from scratch, instead of simply assembling things from existing libraries&nbsp;</li> <li>Interest in using knowledge from several areas -- such as data pipelining and database management -- to ensure firm wide data integrity&nbsp;</li> <li>Comfortability with Claude Code&nbsp;</li> <li>Reliable and predictable availability&nbsp;</li> </ul> <p>* No finance or economics study or work experience required&nbsp;</p> <p><strong>Also helpful, but not required:&nbsp;</strong></p> <ul> <li>Past internship or job experience in a data engineering role is a plus&nbsp;</li> <li>Advanced coursework in algorithms &amp; data structures&nbsp;</li> <li>Exposure to data analytics tools such as Pandas&nbsp;</li> </ul> <p>INTERNATIONAL STUDENTS are encouraged to apply. We accept students eligible for CPT/OPT and we sponsor work visas for full-time positions.&nbsp;</p> <p>The estimated base salary range for this role is $200,000 - $250,000 per year.</p>",
+    "enriched": true,
+    "enriched_version": 2,
+    "external_id": "8002998",
+    "first_seen": "2026-07-09",
+    "gate_drop_reason": null,
+    "gate_dropped": false,
+    "gate_evaluated": true,
+    "gate_evaluated_title": "Campus Data Engineer (Intern)",
+    "gate_evaluated_version": 4,
+    "id": "greenhouse:jumptrading:8002998",
+    "level_badge": null,
+    "location": "Chicago",
+    "match_score": 54,
+    "match_scored": true,
+    "posted_at": "2026-07-08T17:36:21-04:00",
+    "questions": null,
+    "source": "greenhouse",
+    "title": "Campus Data Engineer (Intern)",
+    "visa_badge": "unknown",
+    "workplace_badge": null,
+    "workplace_type": null
+  },
+  {
+    "ambiguity_reasons": [
+      "cycle_ambiguous"
+    ],
+    "application_weight": "essay_heavy",
+    "apply_url": "https://www.jumptrading.com/hr/job?gh_jid=8003013",
+    "company": "Jump Trading",
+    "company_token": "jumptrading",
+    "cycle_year": null,
+    "deadline": null,
+    "deadline_badge": null,
+    "description": "<p data-renderer-start-pos=\"1448\">Jump Trading Group is committed to world class research. We empower exceptional talents in Mathematics, Physics, and Computer Science to seek scientific boundaries, push through them, and apply cutting edge research to global financial markets. Our culture is unique. Constant innovation requires fearlessness, creativity, intellectual honesty, and a relentless competitive streak. We believe in winning together and unlocking unique individual talent by incenting collaboration and mutual respect. At Jump, research outcomes drive more than superior risk adjusted returns. We design, develop, and deploy technologies that change our world, fund start-ups across industries, and partner with leading global research organizations and universities to solve problems.</p> <p data-renderer-start-pos=\"1448\">Core Development is a global team of technologists who architect, build and maintain our world-class trading platform. From optimizing our core trading engine to building custom hardware, we leverage software &amp; hardware engineering, data science and research, to deliver the infrastructure and tools that drive our trading and business needs.<br><br></p> <p><strong>What You'll Do:</strong></p> <p>We\u2019re looking for engineers to join our FPGA team that is building next-generation, ultra-low-latency systems to power trading with machine learning and other algorithms on a global scale.&nbsp;</p> <p>This is an opportunity to work on complex problems around networking, high performance computing, and real-time acceleration where we can't just use off-the-shelf hardware.</p> <p>You\u2019ll work alongside a small team of experienced engineers who came to Jump from leading companies in FPGAs, semiconductors, networking cards, and more\u2026 as well as PhDs from top FPGA research labs around the world.&nbsp;</p> <p>Other duties as assigned or needed</p> <p><strong>Skills You\u2019ll Need:</strong></p> <ul> <li>Undergraduate or Graduate concentration in Electrical Engineering, Computer Science, or related areas&nbsp;</li> <li>Experience with FPGA or other hardware/systems design and development</li> <li>Experience with RTL (SystemVerilog/Verilog/VHDL)&nbsp;</li> <li>Previous internship experience in hardware or low-level software engineering</li> <li>Experience with C, C++, or Python</li> <li>Passion for solving complex problems and ability to draw upon knowledge and experience from a variety of technical areas to produce extremely high-performance solutions</li> <li>Reliable and predictable availability</li> </ul> <p><strong>Also Helpful, but Not Required:</strong></p> <ul> <li>lowRISC or RISC-V</li> <li>CocoTB, Chisel, Opencore, or Bluespec</li> <li>HLS or OpenCL&nbsp;</li> <li>Any programming close to the metal with CPU, GPU, microprocessors, etc.</li> <li>Linux kernel and driver programming</li> <li>Robotics, Telecommunications, or High Speed Networking&nbsp;</li> <li>Raspberry Pi or Arduino&nbsp;</li> <li>Excellent marks in courses such as computer architecture, digital design, design verification</li> </ul> <p>* No finance or economics study or work experience required</p> <p>INTERNATIONAL STUDENTS are encouraged to apply. We accept students eligible for CPT/OPT and we sponsor work visas for full-time positions.</p> <p>The estimated base salary for this role is $250,000 per year.</p>",
+    "enriched": true,
+    "enriched_version": 2,
+    "external_id": "8003013",
+    "first_seen": "2026-07-09",
+    "gate_drop_reason": null,
+    "gate_dropped": false,
+    "gate_evaluated": true,
+    "gate_evaluated_title": "Campus FPGA Engineer (Intern)",
+    "gate_evaluated_version": 4,
+    "id": "greenhouse:jumptrading:8003013",
+    "level_badge": "BS",
+    "location": "Chicago",
+    "match_score": 52,
+    "match_scored": true,
+    "posted_at": "2026-07-08T17:36:13-04:00",
+    "questions": null,
+    "source": "greenhouse",
+    "title": "Campus FPGA Engineer (Intern)",
+    "visa_badge": "unknown",
+    "workplace_badge": null,
+    "workplace_type": null
+  },
+  {
+    "ambiguity_reasons": [
+      "cycle_ambiguous"
+    ],
+    "application_weight": "essay_heavy",
+    "apply_url": "https://www.jumptrading.com/hr/job?gh_jid=8003019",
+    "company": "Jump Trading",
+    "company_token": "jumptrading",
+    "cycle_year": null,
+    "deadline": null,
+    "deadline_badge": null,
+    "description": "<p data-renderer-start-pos=\"1448\">Jump Trading Group is committed to world class research. We empower exceptional talents in Mathematics, Physics, and Computer Science to seek scientific boundaries, push through them, and apply cutting edge research to global financial markets. Our culture is unique. Constant innovation requires fearlessness, creativity, intellectual honesty, and a relentless competitive streak. We believe in winning together and unlocking unique individual talent by incenting collaboration and mutual respect. At Jump, research outcomes drive more than superior risk adjusted returns. We design, develop, and deploy technologies that change our world, fund start-ups across industries, and partner with leading global research organizations and universities to solve problems.</p> <p data-renderer-start-pos=\"1448\">Core Development is a global team of technologists who architect, build and maintain our world-class trading platform. From optimizing our core trading engine to building custom hardware, we leverage software &amp; hardware engineering, data science and research, to deliver the infrastructure and tools that drive our trading and business needs.</p> <p><strong>What You\u2019ll Do:</strong></p> <p>Our Web Dev / UI software engineering internship is an intensive 10-week experience at Jump Trading.&nbsp;&nbsp;</p> <p>During your internship, you will use advanced Typescript, Python, and modern Web frameworks to build Web-based applications that interact with several components of our real-time trading platform.&nbsp;&nbsp;</p> <p>Our internship program is the primary way we identify top young software engineers for our core development team, and it\u2019s a proven path for earning full-time or return internship opportunities at Jump Trading in Chicago.</p> <p>You will take on projects working on production code and gain experience with our full-cycle process for development, testing, and release using Agile methodologies.&nbsp;</p> <p>Other duties as assigned or needed</p> <p><strong>Skills You\u2019ll Need:</strong></p> <ul> <li>Hands-on experience and a high level of proficiency in one or more of the following:&nbsp;&nbsp;</li> <li>Web development using Python and Typescript&nbsp;&nbsp;&nbsp;</li> <li>Python development on Linux platform&nbsp;&nbsp;&nbsp;</li> <li>Strong understanding of data structures, algorithms, and threading models&nbsp;&nbsp;&nbsp;</li> <li>Ability to work with a team in a fast-paced environment, deploying new software daily&nbsp;&nbsp;&nbsp;</li> <li>Passion for solving complex problems and learning to build optimal solutions from scratch, instead of simply assembling things from existing libraries Interest in using knowledge from several areas -- such as hardware, networking, OS design -- to produce extremely high-performance software &nbsp;&nbsp;</li> <li>Reliable and predictable availability&nbsp;&nbsp;</li> </ul> <p>* No finance or economics study or work experience required&nbsp;&nbsp;&nbsp;</p> <p><strong>Also helpful, but not required:&nbsp;&nbsp;&nbsp;</strong></p> <ul> <li>Comfort in React&nbsp;</li> <li>Claude code in a real work environment&nbsp;</li> <li>Past internship or job experience in a software development role is a plus&nbsp;&nbsp;</li> </ul> <p>* No finance or economics study or work experience required</p> <p>INTERNATIONAL STUDENTS are encouraged to apply. We accept students eligible for CPT/OPT and we sponsor work visas for full-time positions.</p> <p>The estimated base salary for this role is $250,000 per year.</p>",
+    "enriched": true,
+    "enriched_version": 2,
+    "external_id": "8003019",
+    "first_seen": "2026-07-09",
+    "gate_drop_reason": null,
+    "gate_dropped": false,
+    "gate_evaluated": true,
+    "gate_evaluated_title": "Campus UI Software Engineer (Intern)",
+    "gate_evaluated_version": 4,
+    "id": "greenhouse:jumptrading:8003019",
+    "level_badge": null,
+    "location": "Chicago",
+    "match_score": 52,
+    "match_scored": true,
+    "posted_at": "2026-07-08T17:35:13-04:00",
+    "questions": null,
+    "source": "greenhouse",
+    "title": "Campus UI Software Engineer (Intern)",
+    "visa_badge": "unknown",
+    "workplace_badge": null,
+    "workplace_type": null
+  },
+  {
+    "ambiguity_reasons": [
+      "cycle_ambiguous"
+    ],
+    "application_weight": "essay_heavy",
+    "apply_url": "https://www.jumptrading.com/hr/job?gh_jid=8007788",
+    "company": "Jump Trading",
+    "company_token": "jumptrading",
+    "cycle_year": null,
+    "deadline": null,
+    "deadline_badge": null,
+    "description": "<p data-renderer-start-pos=\"1448\">Jump Trading Group is committed to world class research. We empower exceptional talents in Mathematics, Physics, and Computer Science to seek scientific boundaries, push through them, and apply cutting edge research to global financial markets. Our culture is unique. Constant innovation requires fearlessness, creativity, intellectual honesty, and a relentless competitive streak. We believe in winning together and unlocking unique individual talent by incenting collaboration and mutual respect. At Jump, research outcomes drive more than superior risk adjusted returns. We design, develop, and deploy technologies that change our world, fund start-ups across industries, and partner with leading global research organizations and universities to solve problems.</p> <p data-renderer-start-pos=\"1448\">Trading Infrastructure is a global organization of Engineers who architect, build and maintain our world-class infrastructure. From colo design/implementation, to optimizing our exchange connectivity, to building world class low latent Wide Area Networks, we leverage research and automation to consistently adapt and innovate our infrastructure to scale and drive our trading and evolving business.</p> <p><strong>About the Role</strong></p> <p>Our technology operations internship is an intensive 10-week experience with our frontline technology teams that are responsible for managing, monitoring, and improving the real-time trading environment at Jump Trading.</p> <p>You will be working directly with our experienced systems and network engineers, gaining broad technical and operational knowledge across all aspects of the trading platform and technology stack. Our internship program is the primary way we identify top young system engineers for our Technology Operations teams, paving the path toward earning full-time opportunities at Jump.</p> <p>We are looking for bright and highly motivated individuals that want to grow their knowledge of systems and networking, understanding of modern trading at scale, and practical DevOps-based software engineering skills.&nbsp;</p> <p><strong>What You'll Do:</strong></p> <ul> <li>Systems Engineer interns will work with traders, operations, exchanges, and developers to optimize the trading environment and investigate and solve system issues.<br><br></li> <ul> <li>Proactively monitor the overall health and performance of the trading platform</li> <li>Work closely with our world-class technology organization to:</li> <ul> <li>Analyze and troubleshoot complex system, software, and networking infrastructure issues</li> <li>Design, implement and optimize network infrastructure for proprietary low latency trading applications at various data centers throughout the world</li> </ul> <li>Build automation to manage and improve the production trading environment</li> <li>Work closely with risk management and trading teams to coordinate changes and manage incidents</li> <li>Manage and assess operational risk of change control into the production environment</li> <li>Define and document process and procedure</li> <li>Other duties as assigned or needed</li> </ul> </ul> <ul> <li><strong>Skills You'll Need</strong></li> <ul> <li>Major in Computer Science/Engineering, Information Systems, or related technical field</li> <li>Experience working with Linux/UNIX OS including advanced commands and shell scripts</li> <li>Practical working knowledge of python</li> <li>Understanding of networking concepts such as routing, multicast, ethernet</li> <li>A rigorous, detail-oriented approach to operations</li> <li>Ability to operate and communicate clearly under pressure</li> <li>Desire to work in a collaborative, team environment with a positive can do attitude</li> <li>Reliable and predictable availability&nbsp;</li> </ul> </ul> <p><strong><em>* No finance or economics study or work experience required</em></strong></p> <p>&nbsp;</p>",
+    "enriched": true,
+    "enriched_version": 2,
+    "external_id": "8007788",
+    "first_seen": "2026-07-09",
+    "gate_drop_reason": null,
+    "gate_dropped": false,
+    "gate_evaluated": true,
+    "gate_evaluated_title": "Campus Systems Engineer (Intern)",
+    "gate_evaluated_version": 4,
+    "id": "greenhouse:jumptrading:8007788",
+    "level_badge": null,
+    "location": "Chicago",
+    "match_score": 50,
+    "match_scored": true,
+    "posted_at": "2026-07-08T17:39:29-04:00",
+    "questions": null,
+    "source": "greenhouse",
+    "title": "Campus Systems Engineer (Intern)",
+    "visa_badge": "unknown",
+    "workplace_badge": null,
+    "workplace_type": null
+  },
+  {
+    "ambiguity_reasons": [],
+    "application_weight": "essay_heavy",
+    "apply_url": "https://www.jumptrading.com/hr/job?gh_jid=8049938",
+    "company": "Jump Trading",
+    "company_token": "jumptrading",
+    "cycle_year": 2027,
+    "deadline": null,
+    "deadline_badge": null,
+    "description": "<p>Jump Trading Group is committed to world class research. We empower exceptional talents in Mathematics, Physics, and Computer Science to seek scientific boundaries, push through them, and apply cutting edge research to global financial markets. Our culture is unique. Constant innovation requires fearlessness, creativity, intellectual honesty, and a relentless competitive streak. We believe in winning together and unlocking unique individual talent by incenting collaboration and mutual respect. At Jump, research outcomes drive more than superior risk adjusted returns. We design, develop, and deploy technologies that change our world, fund start-ups across industries, and partner with leading global research organizations and universities to solve problems.</p> <p>Our trading teams are each comprised of a dynamic group of traders, quantitative researchers, and engineers who work together to examine the global markets, seeking to understand the complexities of various traded products and exchanges. They leverage their impeccable statistical analysis and data mining skills, using the results of their research to make forecasts and develop profitable predictive trading models.</p> <h2><strong>About the Role</strong></h2> <p>The PhD quant research internship is an intensive 10-week program designed to show you what it's like to do research at Jump: real problems, real data, real markets. The program runs in person during Summer 2027 in our Chicago and New York offices. The first two weeks are focused training covering our research process, machine learning, statistics, trading and market mechanics, Python, and the infrastructure you'll use all summer. From there, you'll be matched with a trading team based on your background and interests, and spend the remaining weeks working 1:1 with experienced researchers on a real-world project tied to live business needs. You'll learn the craft working alongside people who have spent years practicing it.</p> <p>Research at Jump spans every asset class and a full range of time horizons, from high frequency to strategies that hold for days and weeks. Teams work across the spectrum of methods, from hand-crafted signals and rigorous classical statistics to deep learning models in production. Your project will reflect your team's needs, but the craft is the same everywhere: form well-educated hypotheses, construct rigorous tests, interpret results in a statistically sound way, and when an idea fails, understand why before moving on. One excellent, fully understood result is worth more here than a dozen shallow ideas. And every result is tested where it counts: against the live market itself.</p> <p>The program is open to currently enrolled PhD students. The internship is one of the main pathways to a full-time offer at Jump Trading.&nbsp;</p> <h2><strong>What You'll Do</strong></h2> <ul> <li>Match with a trading team and own a research project end to end, in areas such as predictive modeling, alpha research on new datasets, and improving the models and systems behind live trading</li> <li>Collect, clean, and explore large datasets (some clean, some noisy, some very noisy) and engineer features that turn raw data into predictive signal</li> <li>Build, fit, and evaluate models on our supercomputing grid, and present your results to your team throughout the summer, culminating in a final presentation</li> <li>Receive daily 1:1 mentorship from experienced quant researchers, with growing autonomy and compute as the summer progresses</li> <li>Other duties as assigned or needed.</li> </ul> <h2><strong>Skills You'll Need</strong></h2> <ul> <li>Currently pursuing a PhD in Statistics, Mathematics, Computer Science, Physics, or any highly quantitative field; recent researchers have come from fields as varied as Electrical Engineering, Operations Research, and Economics</li> <li>Systematic research thinking: the ability to form well-educated hypotheses, design rigorous tests, and draw statistically sound, generalizable conclusions. No matter your area, these are the fundamental aspects of a good researcher, and it is no different at Jump Trading.</li> <li>Ownership of your research: the ability to explain the choices you made, the alternatives you considered and rejected, and why your approach won. Every idea demands a premise, and every rejection deserves a reason</li> <li>Experience conducting an in-depth research project with real-world data</li> <li>Programming experience in Python, with the ability to read, understand, and debug code, including code you didn't write</li> <li>Communicative and collaborative working style, sharing results early and often and treating mentors' time as a resource to use, not conserve</li> <li>Creativity and initiative to explore ideas beyond those suggested to you, with the judgment to bring your team along as you do</li> <li>Perseverance: successful research is the result of lots of failure and intellectual risk-taking, and a PhD is often proof that you can stay with a hard problem for years without quitting</li> </ul> <p><strong>Nice to have:</strong></p> <ul> <li>Proficiency in C++ (either works, and both is better)</li> <li>Familiarity with financial markets. No prior knowledge of finance or trading is necessary; we will give you the training that you need</li> <li>Reliable and predictable availability required.</li> </ul> <p>INTERNATIONAL STUDENTS are encouraged to apply. We accept students eligible for CPT/OPT and we sponsor work visas for full-time positions.</p> <p>The estimated base salary for this role is $300,000 per year.</p>",
+    "enriched": true,
+    "enriched_version": 2,
+    "external_id": "8049938",
+    "first_seen": "2026-07-09",
+    "gate_drop_reason": null,
+    "gate_dropped": false,
+    "gate_evaluated": true,
+    "gate_evaluated_title": "Campus Quantitative Researcher, PhD (Intern)",
+    "gate_evaluated_version": 4,
+    "id": "greenhouse:jumptrading:8049938",
+    "level_badge": "PhD",
+    "location": "Chicago; New York",
+    "match_score": 48,
+    "match_scored": true,
+    "posted_at": "2026-07-08T17:36:25-04:00",
+    "questions": null,
+    "source": "greenhouse",
+    "title": "Campus Quantitative Researcher, PhD (Intern)",
+    "visa_badge": "unknown",
+    "workplace_badge": null,
+    "workplace_type": null
+  },
+  {
+    "ambiguity_reasons": [
+      "cycle_ambiguous"
+    ],
+    "application_weight": "essay_heavy",
+    "apply_url": "https://www.jumptrading.com/hr/job?gh_jid=8052281",
+    "company": "Jump Trading",
+    "company_token": "jumptrading",
+    "cycle_year": null,
+    "deadline": null,
+    "deadline_badge": null,
+    "description": "<p>Jump Trading Group is committed to world class research. We empower exceptional talents in Mathematics, Physics, and Computer Science to seek scientific boundaries, push through them, and apply cutting edge research to global financial markets. Our culture is unique. Constant innovation requires fearlessness, creativity, intellectual honesty, and a relentless competitive streak. We believe in winning together and unlocking unique individual talent by incenting collaboration and mutual respect. At Jump, research outcomes drive more than superior risk adjusted returns. We design, develop, and deploy technologies that change our world, fund start-ups across industries, and partner with leading global research organizations and universities to solve problems.</p> <p data-renderer-start-pos=\"2993\">Our trading teams are each comprised of a dynamic group of traders, quantitative researchers, and engineers who work together to examine the global markets, seeking to understand the complexities of various traded products and exchanges. They leverage their impeccable statistical analysis and data mining skills, using the results of their research to make forecasts and develop profitable predictive trading models.</p> <p><span data-contrast=\"none\">We are seeking world-class engineers to collaborate with our research,&nbsp;trading,&nbsp;and&nbsp;engineering teams to build&nbsp;state-of-the-art&nbsp;ML systems that solve some of the most complex problems in quantitative finance. Whether&nbsp;optimizing&nbsp;training pipelines on high-performance computing clusters, developing low-latency inference systems, or pushing the boundaries of AI research from concept to production,&nbsp;you'll&nbsp;have the opportunity to work on impactful projects in a fast-paced, collaborative environment. If you are driven by technical challenges, eager to work with large-scale systems, and passionate about advancing&nbsp;AI/ML capabilities, we want to meet you.</span><span data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:0,&quot;335559739&quot;:0}\">&nbsp;</span></p> <p><strong><span data-contrast=\"none\">What&nbsp;You'll&nbsp;Do:</span></strong><span data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:0,&quot;335559739&quot;:0}\">&nbsp;</span></p> <ul> <li data-leveltext=\"\uf0b7\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;\uf0b7&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" data-aria-posinset=\"1\" data-aria-level=\"1\"><span data-contrast=\"none\">Apply&nbsp;state-of-the-art&nbsp;techniques to complex and challenging domains.</span><span data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:0,&quot;335559739&quot;:0}\">&nbsp;</span></li> </ul> <ul> <li data-leveltext=\"\uf0b7\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;\uf0b7&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" data-aria-posinset=\"2\" data-aria-level=\"1\"><span data-contrast=\"none\">Work closely with researchers and quants to build flexible and reusable frameworks for financial&nbsp;AI/ML.</span><span data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:0,&quot;335559739&quot;:0}\">&nbsp;</span></li> </ul> <ul> <li data-leveltext=\"\uf0b7\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;\uf0b7&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" data-aria-posinset=\"3\" data-aria-level=\"1\"><span data-contrast=\"none\">Optimize&nbsp;training pipelines to make the best use of our HPC resources.</span><span data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:0,&quot;335559739&quot;:0}\">&nbsp;</span></li> </ul> <ul> <li data-leveltext=\"\uf0b7\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;\uf0b7&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" data-aria-posinset=\"4\" data-aria-level=\"1\"><span data-contrast=\"none\">Integrate&nbsp;AI/ML models into production systems where latency matters.</span><span data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:0,&quot;335559739&quot;:0}\">&nbsp;</span></li> </ul> <ul> <li data-leveltext=\"\uf0b7\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;\uf0b7&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" data-aria-posinset=\"5\" data-aria-level=\"1\"><span data-contrast=\"none\">Work across a mix of programming languages: C / C++ / Python / CUDA and other low-level GPU languages.</span><span data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:0,&quot;335559739&quot;:0}\">&nbsp;</span></li> </ul> <ul> <li data-leveltext=\"\uf0b7\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left",
+    "enriched": true,
+    "enriched_version": 2,
+    "external_id": "8052281",
+    "first_seen": "2026-07-09",
+    "gate_drop_reason": null,
+    "gate_dropped": false,
+    "gate_evaluated": true,
+    "gate_evaluated_title": "Campus AI Research Engineer (Intern)",
+    "gate_evaluated_version": 4,
+    "id": "greenhouse:jumptrading:8052281",
+    "level_badge": null,
+    "location": "Chicago; New York",
+    "match_score": 47,
+    "match_scored": true,
+    "posted_at": "2026-07-08T17:36:47-04:00",
+    "questions": null,
+    "source": "greenhouse",
+    "title": "Campus AI Research Engineer (Intern)",
+    "visa_badge": "unknown",
+    "workplace_badge": null,
+    "workplace_type": null
+  },
+  {
+    "ambiguity_reasons": [
+      "cycle_ambiguous"
+    ],
+    "application_weight": "essay_heavy",
+    "apply_url": "https://www.jumptrading.com/hr/job?gh_jid=8052338",
+    "company": "Jump Trading",
+    "company_token": "jumptrading",
+    "cycle_year": null,
+    "deadline": null,
+    "deadline_badge": null,
+    "description": "<p>Jump Trading Group is committed to world class research. We empower exceptional talents in Mathematics, Physics, and Computer Science to seek scientific boundaries, push through them, and apply cutting edge research to global financial markets. Our culture is unique. Constant innovation requires fearlessness, creativity, intellectual honesty, and a relentless competitive streak. We believe in winning together and unlocking unique individual talent by incenting collaboration and mutual respect. At Jump, research outcomes drive more than superior risk adjusted returns. We design, develop, and deploy technologies that change our world, fund start-ups across industries, and partner with leading global research organizations and universities to solve problems.</p> <p data-renderer-start-pos=\"2993\">Our trading teams are each comprised of a dynamic group of traders, quantitative researchers, and engineers who work together to examine the global markets, seeking to understand the complexities of various traded products and exchanges. They leverage their impeccable statistical analysis and data mining skills, using the results of their research to make forecasts and develop profitable predictive trading models.</p> <p><span data-contrast=\"none\">We are seeking research scientists with a demonstrated ability to apply machine learning to achieve&nbsp;state-of-the-art&nbsp;capabilities in complex and challenging domains. The ideal person for this role will be capable of implementing an open-ended research project from concept to production and continuously improving model design, tools, and infrastructure. Potential projects may target any area of the quantitative research and monetization process. We believe that successful research efforts require a fluid mix of skills including&nbsp;AI/ML&nbsp;expertise, engineering pragmatism,&nbsp;statistics, and market&nbsp;intuition.</span><span data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:0,&quot;335559739&quot;:0}\">&nbsp;</span></p> <p><strong><span data-contrast=\"none\">What You'll Do:</span></strong><span data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:0,&quot;335559739&quot;:0}\">&nbsp;</span></p> <ul> <li data-leveltext=\"\uf0b7\" data-font=\"Symbol\" data-listid=\"8\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;\uf0b7&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" data-aria-posinset=\"1\" data-aria-level=\"1\"><span data-contrast=\"none\">Apply&nbsp;state-of-the-art&nbsp;techniques to complex and challenging domains.</span><span data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:0,&quot;335559739&quot;:0}\">&nbsp;</span></li> </ul> <ul> <li data-leveltext=\"\uf0b7\" data-font=\"Symbol\" data-listid=\"8\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;\uf0b7&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" data-aria-posinset=\"2\" data-aria-level=\"1\"><span data-contrast=\"none\">Work closely with researchers and quants to build flexible and reusable frameworks for financial ML.</span><span data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:0,&quot;335559739&quot;:0}\">&nbsp;</span></li> </ul> <ul> <li data-leveltext=\"\uf0b7\" data-font=\"Symbol\" data-listid=\"8\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;\uf0b7&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" data-aria-posinset=\"3\" data-aria-level=\"1\"><span data-contrast=\"none\">Optimize&nbsp;training pipelines to make the best use of our HPC resources.</span><span data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:0,&quot;335559739&quot;:0}\">&nbsp;</span></li> </ul> <ul> <li data-leveltext=\"\uf0b7\" data-font=\"Symbol\" data-listid=\"8\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;\uf0b7&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" data-aria-posinset=\"4\" data-aria-level=\"1\"><span data-contrast=\"none\">Integrate ML models into production systems where latency matters.</span><span data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:0,&quot;335559739&quot;:0}\">&nbsp;</span></li> </ul> <ul> <li data-leveltext=\"\uf0b7\" data-font=\"Symbol\" data-listid=\"8\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;\uf0b7&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" data-aria-posinset=\"5\" data-aria-level=\"1\"><span data-contrast=\"none\">Work across a mix of programming languages: C / C++ / Python / CUDA and other low-level GPU languages.</span><span data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:0,&quot;335559739&quot;:0}\">&nbsp;</span></li> </ul> <ul> <li data-leveltext=\"\uf0b7\" data-font=\"Symbol\" data-listid=\"8\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;\uf0b7&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;",
+    "enriched": true,
+    "enriched_version": 2,
+    "external_id": "8052338",
+    "first_seen": "2026-07-09",
+    "gate_drop_reason": null,
+    "gate_dropped": false,
+    "gate_evaluated": true,
+    "gate_evaluated_title": "Campus AI Research Engineer - Deep Learning (Intern)",
+    "gate_evaluated_version": 4,
+    "id": "greenhouse:jumptrading:8052338",
+    "level_badge": null,
+    "location": "Chicago; New York",
+    "match_score": 48,
+    "match_scored": true,
+    "posted_at": "2026-07-08T17:37:20-04:00",
+    "questions": null,
+    "source": "greenhouse",
+    "title": "Campus AI Research Engineer - Deep Learning (Intern)",
+    "visa_badge": "unknown",
+    "workplace_badge": null,
+    "workplace_type": null
+  },
+  {
+    "ambiguity_reasons": [
+      "cycle_ambiguous"
+    ],
+    "application_weight": "essay_heavy",
+    "apply_url": "https://www.jumptrading.com/hr/job?gh_jid=8052351",
+    "company": "Jump Trading",
+    "company_token": "jumptrading",
+    "cycle_year": null,
+    "deadline": null,
+    "deadline_badge": null,
+    "description": "<p>Jump Trading Group is committed to world class research. We empower exceptional talents in Mathematics, Physics, and Computer Science to seek scientific boundaries, push through them, and apply cutting edge research to global financial markets. Our culture is unique. Constant innovation requires fearlessness, creativity, intellectual honesty, and a relentless competitive streak. We believe in winning together and unlocking unique individual talent by incenting collaboration and mutual respect. At Jump, research outcomes drive more than superior risk adjusted returns. We design, develop, and deploy technologies that change our world, fund start-ups across industries, and partner with leading global research organizations and universities to solve problems.</p> <p data-renderer-start-pos=\"2993\">Our trading teams are each comprised of a dynamic group of traders, quantitative researchers, and engineers who work together to examine the global markets, seeking to understand the complexities of various traded products and exchanges. They leverage their impeccable statistical analysis and data mining skills, using the results of their research to make forecasts and develop profitable predictive trading models.</p> <p><span data-contrast=\"none\">We are seeking research scientists with a demonstrated ability to apply machine learning to achieve&nbsp;state-of-the-art&nbsp;capabilities in complex and challenging domains. The ideal person for this role will be capable of implementing an open-ended research project from concept to production and continuously improving model design, tools, and infrastructure. Potential projects may target any area of the quantitative research and monetization process. We believe that successful research efforts require a fluid mix of skills including&nbsp;AI/ML&nbsp;expertise, engineering pragmatism,&nbsp;statistics, and market&nbsp;intuition.</span> <span data-ccp-props=\"{}\">&nbsp;</span></p> <p><strong><span data-contrast=\"none\">What You'll Do:</span></strong><span data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:0,&quot;335559739&quot;:0}\">&nbsp;</span></p> <ul> <li data-leveltext=\"\uf0b7\" data-font=\"Symbol\" data-listid=\"8\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;\uf0b7&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" data-aria-posinset=\"8\" data-aria-level=\"1\"><span data-contrast=\"none\">Apply&nbsp;state-of-the-art&nbsp;techniques to complex and challenging domains.</span><span data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:0,&quot;335559739&quot;:0}\">&nbsp;</span></li> </ul> <ul> <li data-leveltext=\"\uf0b7\" data-font=\"Symbol\" data-listid=\"8\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;\uf0b7&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" data-aria-posinset=\"9\" data-aria-level=\"1\"><span data-contrast=\"none\">Work closely with researchers and quants to build flexible and reusable frameworks for financial ML.</span><span data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:0,&quot;335559739&quot;:0}\">&nbsp;</span></li> </ul> <ul> <li data-leveltext=\"\uf0b7\" data-font=\"Symbol\" data-listid=\"8\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;\uf0b7&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" data-aria-posinset=\"10\" data-aria-level=\"1\"><span data-contrast=\"none\">Optimize&nbsp;training pipelines to make the best use of our HPC resources.</span><span data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:0,&quot;335559739&quot;:0}\">&nbsp;</span></li> </ul> <ul> <li data-leveltext=\"\uf0b7\" data-font=\"Symbol\" data-listid=\"8\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;\uf0b7&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" data-aria-posinset=\"11\" data-aria-level=\"1\"><span data-contrast=\"none\">Integrate ML models into production systems where latency matters.</span><span data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:0,&quot;335559739&quot;:0}\">&nbsp;</span></li> </ul> <ul> <li data-leveltext=\"\uf0b7\" data-font=\"Symbol\" data-listid=\"8\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;\uf0b7&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" data-aria-posinset=\"12\" data-aria-level=\"1\"><span data-contrast=\"none\">Work across a mix of programming languages: C / C++ / Python / CUDA and other low-level GPU languages.</span><span data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:0,&quot;335559739&quot;:0}\">&nbsp;</span></li> </ul> <ul> <li data-leveltext=\"\uf0b7\" data-font=\"Symbol\" data-listid=\"8\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;\uf0b7&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" data-aria-posinset=\"13\" data-aria-level=\"1\"><span data-contrast=\"none\">Build&nbsp;large-scale&nb",
+    "enriched": true,
+    "enriched_version": 2,
+    "external_id": "8052351",
+    "first_seen": "2026-07-09",
+    "gate_drop_reason": null,
+    "gate_dropped": false,
+    "gate_evaluated": true,
+    "gate_evaluated_title": "Campus AI Research Engineer \u2013 Research Automation (Intern)",
+    "gate_evaluated_version": 4,
+    "id": "greenhouse:jumptrading:8052351",
+    "level_badge": null,
+    "location": "Chicago; New York",
+    "match_score": 48,
+    "match_scored": true,
+    "posted_at": "2026-07-08T17:37:50-04:00",
+    "questions": null,
+    "source": "greenhouse",
+    "title": "Campus AI Research Engineer \u2013 Research Automation (Intern)",
+    "visa_badge": "unknown",
+    "workplace_badge": null,
+    "workplace_type": null
+  },
+  {
+    "ambiguity_reasons": [
+      "cycle_ambiguous"
+    ],
+    "application_weight": "quick_apply",
     "apply_url": "https://job-boards.greenhouse.io/labelbox/jobs/5177341007",
     "company": "Labelbox",
     "company_token": "labelbox",
@@ -1697,7 +2069,7 @@
     "ambiguity_reasons": [
       "cycle_ambiguous"
     ],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.greenhouse.io/lilasciences/jobs/4300246009",
     "company": "Lila Sciences",
     "company_token": "lilasciences",
@@ -1731,7 +2103,7 @@
     "ambiguity_reasons": [
       "cycle_ambiguous"
     ],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.greenhouse.io/locusrobotics/jobs/5177060007",
     "company": "Locus Robotics",
     "company_token": "locusrobotics",
@@ -1765,7 +2137,7 @@
     "ambiguity_reasons": [
       "cycle_ambiguous"
     ],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.greenhouse.io/moloco/jobs/7793407003",
     "company": "Moloco",
     "company_token": "moloco",
@@ -1797,7 +2169,7 @@
   },
   {
     "ambiguity_reasons": [],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.greenhouse.io/mwinternshipprogram/jobs/8598324002",
     "company": "Marshall Wace",
     "company_token": "mwinternshipprogram",
@@ -1829,7 +2201,7 @@
   },
   {
     "ambiguity_reasons": [],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.greenhouse.io/mwinternshipprogram/jobs/8606238002",
     "company": "Marshall Wace",
     "company_token": "mwinternshipprogram",
@@ -1861,7 +2233,7 @@
   },
   {
     "ambiguity_reasons": [],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.greenhouse.io/mwinternshipprogram/jobs/8608327002",
     "company": "Marshall Wace",
     "company_token": "mwinternshipprogram",
@@ -1893,7 +2265,7 @@
   },
   {
     "ambiguity_reasons": [],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.greenhouse.io/mwinternshipprogram/jobs/8608328002",
     "company": "Marshall Wace",
     "company_token": "mwinternshipprogram",
@@ -1927,7 +2299,7 @@
     "ambiguity_reasons": [
       "cycle_ambiguous"
     ],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.greenhouse.io/plscareers/jobs/5287786008",
     "company": "PLS",
     "company_token": "plscareers",
@@ -1959,7 +2331,7 @@
   },
   {
     "ambiguity_reasons": [],
-    "application_weight": null,
+    "application_weight": "quick_apply",
     "apply_url": "https://boards.greenhouse.io/point72/jobs/8617339002?gh_jid=8617339002",
     "company": "Point72",
     "company_token": "point72",
@@ -1991,7 +2363,7 @@
   },
   {
     "ambiguity_reasons": [],
-    "application_weight": null,
+    "application_weight": "quick_apply",
     "apply_url": "https://boards.greenhouse.io/point72/jobs/8617340002?gh_jid=8617340002",
     "company": "Point72",
     "company_token": "point72",
@@ -2023,7 +2395,7 @@
   },
   {
     "ambiguity_reasons": [],
-    "application_weight": null,
+    "application_weight": "quick_apply",
     "apply_url": "https://boards.greenhouse.io/point72/jobs/8617343002?gh_jid=8617343002",
     "company": "Point72",
     "company_token": "point72",
@@ -2057,7 +2429,7 @@
     "ambiguity_reasons": [
       "cycle_ambiguous"
     ],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.greenhouse.io/queracomputinginc/jobs/5290403008",
     "company": "QuEra Computing",
     "company_token": "queracomputinginc",
@@ -2091,7 +2463,7 @@
     "ambiguity_reasons": [
       "cycle_ambiguous"
     ],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4687523006",
     "company": "SharkNinja",
     "company_token": "sharkninjaoperatingllc",
@@ -2125,7 +2497,7 @@
     "ambiguity_reasons": [
       "cycle_ambiguous"
     ],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.greenhouse.io/shifttechnology/jobs/7794260003",
     "company": "Shift",
     "company_token": "shifttechnology",
@@ -2159,7 +2531,7 @@
     "ambiguity_reasons": [
       "cycle_ambiguous"
     ],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4302631009",
     "company": "SK Hynix Memory Solution",
     "company_token": "skhynixmemorysolutionsamericainc",
@@ -2193,7 +2565,7 @@
     "ambiguity_reasons": [
       "cycle_ambiguous"
     ],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4304277009",
     "company": "SK Hynix Memory Solution",
     "company_token": "skhynixmemorysolutionsamericainc",
@@ -2227,7 +2599,7 @@
     "ambiguity_reasons": [
       "cycle_ambiguous"
     ],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4693331006",
     "company": "STR",
     "company_token": "systemstechnologyresearch",
@@ -2259,7 +2631,7 @@
   },
   {
     "ambiguity_reasons": [],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://www.tower-research.com/open-positions/?gh_jid=8024128",
     "company": "Tower Research Capital",
     "company_token": "towerresearchcapital",
@@ -2293,7 +2665,7 @@
     "ambiguity_reasons": [
       "cycle_ambiguous"
     ],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://www.tower-research.com/open-positions/?gh_jid=8024138",
     "company": "Tower Research Capital",
     "company_token": "towerresearchcapital",
@@ -2327,7 +2699,7 @@
     "ambiguity_reasons": [
       "cycle_ambiguous"
     ],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://www.tower-research.com/open-positions/?gh_jid=8041512",
     "company": "Tower Research Capital",
     "company_token": "towerresearchcapital",
@@ -2359,7 +2731,7 @@
   },
   {
     "ambiguity_reasons": [],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://www.tower-research.com/open-positions/?gh_jid=8044334",
     "company": "Tower Research Capital",
     "company_token": "towerresearchcapital",
@@ -2393,7 +2765,7 @@
     "ambiguity_reasons": [
       "cycle_ambiguous"
     ],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.greenhouse.io/tripadvisor/jobs/8043141",
     "company": "TripAdvisor",
     "company_token": "tripadvisor",
@@ -2427,7 +2799,7 @@
     "ambiguity_reasons": [
       "cycle_ambiguous"
     ],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.greenhouse.io/twosixtechnologies/jobs/6105290004",
     "company": "Two Six Technologies",
     "company_token": "twosixtechnologies",
@@ -2459,7 +2831,7 @@
   },
   {
     "ambiguity_reasons": [],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.greenhouse.io/virtu/jobs/8547254002",
     "company": "Virtu Financial",
     "company_token": "virtu",
@@ -2493,7 +2865,7 @@
     "ambiguity_reasons": [
       "cycle_ambiguous"
     ],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.greenhouse.io/wppmedia/jobs/5276372008",
     "company": "WPP Media",
     "company_token": "wppmedia",
@@ -2527,7 +2899,7 @@
     "ambiguity_reasons": [
       "cycle_ambiguous"
     ],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.greenhouse.io/wppmedia/jobs/5285441008",
     "company": "WPP Media",
     "company_token": "wppmedia",
@@ -2561,7 +2933,7 @@
     "ambiguity_reasons": [
       "cycle_ambiguous"
     ],
-    "application_weight": null,
+    "application_weight": "essay_heavy",
     "apply_url": "https://job-boards.greenhouse.io/wppmedia/jobs/5287167008",
     "company": "WPP Media",
     "company_token": "wppmedia",
