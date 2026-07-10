@@ -1,26 +1,11 @@
 {
-  "greenhouse:greenhouse": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:gumgum": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:hivefinancialsystems": {
-    "consecutive_failures": 1
-  },
   "greenhouse:loop": {
     "consecutive_failures": 3
   },
-  "greenhouse:merge": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:renaissancelearning-nam": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:sezzle": {
-    "consecutive_failures": 1
-  },
   "lever:cgsfederal": {
     "consecutive_failures": 3
+  },
+  "lever:sprucesystems": {
+    "consecutive_failures": 1
   }
 }
