@@ -1,17 +1,17 @@
 {
-  "greenhouse:andurilindustries": {
+  "greenhouse:campusopportunities": {
     "consecutive_failures": 1
   },
   "greenhouse:loop": {
     "consecutive_failures": 3
   },
+  "greenhouse:withumsmithbrown": {
+    "consecutive_failures": 1
+  },
   "lever:cgsfederal": {
     "consecutive_failures": 3
   },
   "lever:sprucesystems": {
-    "consecutive_failures": 2
-  },
-  "lever:tsmg": {
-    "consecutive_failures": 1
+    "consecutive_failures": 3
   }
 }
