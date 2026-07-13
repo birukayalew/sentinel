@@ -1,68 +1,20 @@
 {
-  "greenhouse:alphataraxia": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:amaehealth": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:anaplan": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:andurilindustries": {
-    "consecutive_failures": 2
-  },
-  "greenhouse:applovin": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:artefactus": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:awetomaton": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:aypapower": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:billiontoone": {
-    "consecutive_failures": 1
-  },
   "greenhouse:campusopportunities": {
     "consecutive_failures": 3
-  },
-  "greenhouse:clear": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:css": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:elwoodtechnologies": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:gemini": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:hightouch": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:internshiplist2000": {
-    "consecutive_failures": 1
   },
   "greenhouse:loop": {
     "consecutive_failures": 3
   },
-  "greenhouse:wayve": {
-    "consecutive_failures": 1
-  },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
-  },
-  "greenhouse:xometry": {
-    "consecutive_failures": 1
   },
   "lever:cgsfederal": {
     "consecutive_failures": 3
   },
   "lever:sprucesystems": {
     "consecutive_failures": 3
+  },
+  "lever:tsmg": {
+    "consecutive_failures": 1
   }
 }
