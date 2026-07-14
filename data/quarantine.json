@@ -1,9 +1,27 @@
 {
+  "greenhouse:amarok": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:appian": {
+    "consecutive_failures": 1
+  },
   "greenhouse:campusopportunities": {
     "consecutive_failures": 3
   },
+  "greenhouse:checkr": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:elastic": {
+    "consecutive_failures": 1
+  },
   "greenhouse:loop": {
     "consecutive_failures": 3
+  },
+  "greenhouse:obsidiansecurity": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:philliesbaseballoperations": {
+    "consecutive_failures": 1
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
