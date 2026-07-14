@@ -1,26 +1,44 @@
 {
-  "greenhouse:amarok": {
+  "greenhouse:axios": {
     "consecutive_failures": 1
   },
-  "greenhouse:appian": {
+  "greenhouse:block": {
     "consecutive_failures": 1
   },
   "greenhouse:campusopportunities": {
     "consecutive_failures": 3
   },
-  "greenhouse:checkr": {
+  "greenhouse:chime": {
     "consecutive_failures": 1
   },
-  "greenhouse:elastic": {
+  "greenhouse:dillards": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:gram": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 1
   },
   "greenhouse:loop": {
     "consecutive_failures": 3
   },
-  "greenhouse:obsidiansecurity": {
+  "greenhouse:maymobility": {
     "consecutive_failures": 1
   },
-  "greenhouse:philliesbaseballoperations": {
+  "greenhouse:momentus": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:outsetmedical": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:pinwheelapi": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:rdccareers": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:rexfordindustrial": {
     "consecutive_failures": 1
   },
   "greenhouse:withumsmithbrown": {
