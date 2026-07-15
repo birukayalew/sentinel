@@ -2,14 +2,11 @@
   "greenhouse:campusopportunities": {
     "consecutive_failures": 3
   },
-  "greenhouse:connectder": {
-    "consecutive_failures": 1
-  },
   "greenhouse:gram": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "greenhouse:johnsonlawgroup": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "greenhouse:loop": {
     "consecutive_failures": 3
