@@ -1,12 +1,15 @@
 {
+  "greenhouse:andurilindustries": {
+    "consecutive_failures": 1
+  },
   "greenhouse:campusopportunities": {
     "consecutive_failures": 3
   },
   "greenhouse:capitalrx": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:galileofinancialtechnologies": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:gram": {
     "consecutive_failures": 3
@@ -16,6 +19,12 @@
   },
   "greenhouse:loop": {
     "consecutive_failures": 3
+  },
+  "greenhouse:stackav": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:visiersolutionsinc": {
+    "consecutive_failures": 1
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
