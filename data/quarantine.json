@@ -2,6 +2,12 @@
   "greenhouse:campusopportunities": {
     "consecutive_failures": 3
   },
+  "greenhouse:capitalrx": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:galileofinancialtechnologies": {
+    "consecutive_failures": 1
+  },
   "greenhouse:gram": {
     "consecutive_failures": 3
   },
