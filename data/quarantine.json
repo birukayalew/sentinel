@@ -1,18 +1,24 @@
 {
-  "greenhouse:andurilindustries": {
+  "greenhouse:authenticbrandsgroup": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:baselayer": {
     "consecutive_failures": 1
   },
   "greenhouse:campusopportunities": {
     "consecutive_failures": 3
   },
   "greenhouse:capitalrx": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "greenhouse:galileofinancialtechnologies": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "greenhouse:gram": {
     "consecutive_failures": 3
+  },
+  "greenhouse:ivxhealth": {
+    "consecutive_failures": 1
   },
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
@@ -20,14 +26,17 @@
   "greenhouse:loop": {
     "consecutive_failures": 3
   },
-  "greenhouse:stackav": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:visiersolutionsinc": {
+  "greenhouse:otrcapital1": {
     "consecutive_failures": 1
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
+  },
+  "greenhouse:xairatherapeutics": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:yugabyte": {
+    "consecutive_failures": 1
   },
   "lever:cgsfederal": {
     "consecutive_failures": 3
