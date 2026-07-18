@@ -1,5 +1,8 @@
 {
   "ashby:atomicsemi": {
+    "consecutive_failures": 2
+  },
+  "greenhouse:authenticbrandsgroup": {
     "consecutive_failures": 1
   },
   "greenhouse:campusopportunities": {
@@ -7,6 +10,12 @@
   },
   "greenhouse:capitalrx": {
     "consecutive_failures": 3
+  },
+  "greenhouse:datadog": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:faralloncapitalmanagementllc": {
+    "consecutive_failures": 1
   },
   "greenhouse:galileofinancialtechnologies": {
     "consecutive_failures": 3
@@ -27,10 +36,7 @@
     "consecutive_failures": 3
   },
   "lever:color": {
-    "consecutive_failures": 2
-  },
-  "lever:gopuff": {
-    "consecutive_failures": 1
+    "consecutive_failures": 3
   },
   "lever:sprucesystems": {
     "consecutive_failures": 3
