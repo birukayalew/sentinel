@@ -1,8 +1,14 @@
 {
   "ashby:atomicsemi": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
-  "greenhouse:authenticbrandsgroup": {
+  "greenhouse:andurilindustries": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:archer56": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:asana": {
     "consecutive_failures": 1
   },
   "greenhouse:campusopportunities": {
@@ -10,12 +16,6 @@
   },
   "greenhouse:capitalrx": {
     "consecutive_failures": 3
-  },
-  "greenhouse:datadog": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:faralloncapitalmanagementllc": {
-    "consecutive_failures": 1
   },
   "greenhouse:galileofinancialtechnologies": {
     "consecutive_failures": 3
