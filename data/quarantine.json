@@ -3,19 +3,16 @@
     "consecutive_failures": 3
   },
   "greenhouse:andurilindustries": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:archer56": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:asana": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:campusopportunities": {
     "consecutive_failures": 3
   },
   "greenhouse:capitalrx": {
     "consecutive_failures": 3
+  },
+  "greenhouse:gafg": {
+    "consecutive_failures": 1
   },
   "greenhouse:galileofinancialtechnologies": {
     "consecutive_failures": 3
@@ -40,5 +37,8 @@
   },
   "lever:sprucesystems": {
     "consecutive_failures": 3
+  },
+  "lever:tsmg": {
+    "consecutive_failures": 1
   }
 }
