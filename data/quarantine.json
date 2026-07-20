@@ -5,9 +5,6 @@
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
   },
-  "greenhouse:bloomreach": {
-    "consecutive_failures": 1
-  },
   "greenhouse:campusopportunities": {
     "consecutive_failures": 3
   },
@@ -15,7 +12,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:gafg": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "greenhouse:galileofinancialtechnologies": {
     "consecutive_failures": 3
@@ -28,6 +25,9 @@
   },
   "greenhouse:loop": {
     "consecutive_failures": 3
+  },
+  "greenhouse:sigmacomputing": {
+    "consecutive_failures": 1
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
