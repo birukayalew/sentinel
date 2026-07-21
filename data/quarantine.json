@@ -5,11 +5,23 @@
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
   },
+  "greenhouse:arine": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:blacksky": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:bloomreach": {
+    "consecutive_failures": 1
+  },
   "greenhouse:campusopportunities": {
     "consecutive_failures": 3
   },
   "greenhouse:capitalrx": {
     "consecutive_failures": 3
+  },
+  "greenhouse:descript": {
+    "consecutive_failures": 1
   },
   "greenhouse:gafg": {
     "consecutive_failures": 3
@@ -25,9 +37,6 @@
   },
   "greenhouse:loop": {
     "consecutive_failures": 3
-  },
-  "greenhouse:sigmacomputing": {
-    "consecutive_failures": 1
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
