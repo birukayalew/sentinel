@@ -6,12 +6,9 @@
     "consecutive_failures": 3
   },
   "greenhouse:arine": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
-  "greenhouse:blacksky": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:bloomreach": {
+  "greenhouse:bugcrowd": {
     "consecutive_failures": 1
   },
   "greenhouse:campusopportunities": {
@@ -20,7 +17,10 @@
   "greenhouse:capitalrx": {
     "consecutive_failures": 3
   },
-  "greenhouse:descript": {
+  "greenhouse:creatorsworkhere": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:dialpad": {
     "consecutive_failures": 1
   },
   "greenhouse:gafg": {
@@ -32,14 +32,53 @@
   "greenhouse:gram": {
     "consecutive_failures": 3
   },
+  "greenhouse:ivalua": {
+    "consecutive_failures": 1
+  },
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
+  },
+  "greenhouse:jumpcrypto": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:landscapeforms": {
+    "consecutive_failures": 1
   },
   "greenhouse:loop": {
     "consecutive_failures": 3
   },
+  "greenhouse:memic": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:mizzenandmain": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:ottoaviation": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:pendo": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:reach": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:rockstargames": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:silananotechnologies": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:sofi": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:vacasa": {
+    "consecutive_failures": 1
+  },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
+  },
+  "greenhouse:yext": {
+    "consecutive_failures": 1
   },
   "lever:cgsfederal": {
     "consecutive_failures": 3
