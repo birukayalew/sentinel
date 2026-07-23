@@ -2,9 +2,6 @@
   "ashby:atomicsemi": {
     "consecutive_failures": 3
   },
-  "greenhouse:anaplan": {
-    "consecutive_failures": 1
-  },
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
   },
@@ -17,10 +14,7 @@
   "greenhouse:capitalrx": {
     "consecutive_failures": 3
   },
-  "greenhouse:expertnetwork": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:fourhands": {
+  "greenhouse:clearwayjobs": {
     "consecutive_failures": 1
   },
   "greenhouse:gafg": {
@@ -38,26 +32,8 @@
   "greenhouse:loop": {
     "consecutive_failures": 3
   },
-  "greenhouse:pantheonpublic": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:transmarketgroup": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:trumid": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:twitch": {
-    "consecutive_failures": 1
-  },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
-  },
-  "greenhouse:yesenergy": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:zscaler": {
-    "consecutive_failures": 1
   },
   "lever:cgsfederal": {
     "consecutive_failures": 3
@@ -65,13 +41,7 @@
   "lever:color": {
     "consecutive_failures": 3
   },
-  "lever:octoenergy": {
-    "consecutive_failures": 1
-  },
   "lever:sprucesystems": {
     "consecutive_failures": 3
-  },
-  "lever:wintermute-trading": {
-    "consecutive_failures": 1
   }
 }
