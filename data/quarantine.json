@@ -14,9 +14,6 @@
   "greenhouse:capitalrx": {
     "consecutive_failures": 3
   },
-  "greenhouse:clearwayjobs": {
-    "consecutive_failures": 1
-  },
   "greenhouse:gafg": {
     "consecutive_failures": 3
   },
@@ -31,6 +28,9 @@
   },
   "greenhouse:loop": {
     "consecutive_failures": 3
+  },
+  "greenhouse:personalisinc": {
+    "consecutive_failures": 1
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
