@@ -37,22 +37,6 @@ For local runs, put `RESUME_TEXT` in a `.env` file at the repo root
 python -m src.pipeline
 ```
 
-## GitHub Actions setup
-
-`.github/workflows/cron.yml` runs the pipeline on a schedule and commits
-`data/jobs.json`, `data/quarantine.json`, and `logs/run_history.jsonl`
-when they change. It needs one repository secret (Settings → Secrets
-and variables → Actions → New repository secret):
-
-- `RESUME_TEXT` — your resume/profile as plain text (never commit this to
-  a file in the repo; it's only ever read from this secret or a local,
-  git-ignored `.env`, since the repo needs to be public for free Pages
-  hosting)
-
-This is optional in the sense that the pipeline degrades gracefully
-without it — match scoring is simply skipped without a resume, nothing
-else depends on it.
-
 ## Repository layout
 
 - `src/` — pipeline modules (fetch, store, gates, enrich, match).
