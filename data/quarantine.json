@@ -29,9 +29,6 @@
   "greenhouse:loop": {
     "consecutive_failures": 3
   },
-  "greenhouse:personalisinc": {
-    "consecutive_failures": 1
-  },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
   },
