@@ -2,6 +2,9 @@
   "ashby:atomicsemi": {
     "consecutive_failures": 3
   },
+  "ashby:iacollaborative": {
+    "consecutive_failures": 1
+  },
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
   },
@@ -28,6 +31,9 @@
   },
   "greenhouse:loop": {
     "consecutive_failures": 3
+  },
+  "greenhouse:mizzenandmain": {
+    "consecutive_failures": 1
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
