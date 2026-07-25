@@ -3,7 +3,7 @@
     "consecutive_failures": 3
   },
   "ashby:iacollaborative": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
@@ -16,6 +16,9 @@
   },
   "greenhouse:capitalrx": {
     "consecutive_failures": 3
+  },
+  "greenhouse:cti": {
+    "consecutive_failures": 1
   },
   "greenhouse:gafg": {
     "consecutive_failures": 3
