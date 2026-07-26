@@ -5,6 +5,9 @@
   "ashby:iacollaborative": {
     "consecutive_failures": 3
   },
+  "greenhouse:10beauty": {
+    "consecutive_failures": 1
+  },
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
   },
@@ -18,7 +21,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:cti": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "greenhouse:gafg": {
     "consecutive_failures": 3
@@ -34,12 +37,6 @@
   },
   "greenhouse:loop": {
     "consecutive_failures": 3
-  },
-  "greenhouse:salientmotion": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:vast": {
-    "consecutive_failures": 1
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
