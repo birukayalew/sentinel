@@ -18,7 +18,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:cti": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:gafg": {
     "consecutive_failures": 3
@@ -34,6 +34,12 @@
   },
   "greenhouse:loop": {
     "consecutive_failures": 3
+  },
+  "greenhouse:salientmotion": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:vast": {
+    "consecutive_failures": 1
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
