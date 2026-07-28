@@ -17,8 +17,17 @@
   "greenhouse:capitalrx": {
     "consecutive_failures": 3
   },
+  "greenhouse:cellsignalingtechnology79": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:cooksys": {
+    "consecutive_failures": 1
+  },
   "greenhouse:cti": {
     "consecutive_failures": 3
+  },
+  "greenhouse:embrace": {
+    "consecutive_failures": 1
   },
   "greenhouse:gafg": {
     "consecutive_failures": 3
