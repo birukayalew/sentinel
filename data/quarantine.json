@@ -11,23 +11,23 @@
   "greenhouse:arine": {
     "consecutive_failures": 3
   },
+  "greenhouse:bloombergdotorg": {
+    "consecutive_failures": 1
+  },
   "greenhouse:campusopportunities": {
     "consecutive_failures": 3
   },
   "greenhouse:capitalrx": {
     "consecutive_failures": 3
   },
-  "greenhouse:cellsignalingtechnology79": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:cooksys": {
+  "greenhouse:charlesriverassociates": {
     "consecutive_failures": 1
   },
   "greenhouse:cti": {
     "consecutive_failures": 3
   },
   "greenhouse:embrace": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:gafg": {
     "consecutive_failures": 3
@@ -43,6 +43,21 @@
   },
   "greenhouse:loop": {
     "consecutive_failures": 3
+  },
+  "greenhouse:practisinglawinstitute": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:praxent": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:tegnainc": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:toshibaglobalcommercesolutions": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:tpcengineeringholdingsllc": {
+    "consecutive_failures": 1
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
