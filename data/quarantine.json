@@ -3,7 +3,7 @@
     "consecutive_failures": 3
   },
   "ashby:fractional-ai": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "ashby:iacollaborative": {
     "consecutive_failures": 3
@@ -12,7 +12,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:arcellx": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "greenhouse:arine": {
     "consecutive_failures": 3
@@ -26,9 +26,6 @@
   "greenhouse:cti": {
     "consecutive_failures": 3
   },
-  "greenhouse:efficientcomputer": {
-    "consecutive_failures": 1
-  },
   "greenhouse:embrace": {
     "consecutive_failures": 3
   },
@@ -41,23 +38,11 @@
   "greenhouse:gram": {
     "consecutive_failures": 3
   },
-  "greenhouse:industrialelectricmanufacturing": {
-    "consecutive_failures": 1
-  },
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
   },
-  "greenhouse:kensingtontours": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:later": {
-    "consecutive_failures": 1
-  },
   "greenhouse:loop": {
     "consecutive_failures": 3
-  },
-  "greenhouse:nex": {
-    "consecutive_failures": 1
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
@@ -70,5 +55,8 @@
   },
   "lever:sprucesystems": {
     "consecutive_failures": 3
+  },
+  "lever:tsmg": {
+    "consecutive_failures": 1
   }
 }
