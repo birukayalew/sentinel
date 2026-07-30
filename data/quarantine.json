@@ -3,25 +3,16 @@
     "consecutive_failures": 3
   },
   "ashby:fractional-ai": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "ashby:iacollaborative": {
     "consecutive_failures": 3
-  },
-  "greenhouse:10beauty": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:adelphirealworld": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:adswerveinc": {
-    "consecutive_failures": 1
   },
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
   },
   "greenhouse:arcellx": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:arine": {
     "consecutive_failures": 3
@@ -32,11 +23,11 @@
   "greenhouse:capitalrx": {
     "consecutive_failures": 3
   },
-  "greenhouse:ctccampusboard": {
-    "consecutive_failures": 1
-  },
   "greenhouse:cti": {
     "consecutive_failures": 3
+  },
+  "greenhouse:efficientcomputer": {
+    "consecutive_failures": 1
   },
   "greenhouse:embrace": {
     "consecutive_failures": 3
@@ -47,28 +38,25 @@
   "greenhouse:galileofinancialtechnologies": {
     "consecutive_failures": 3
   },
-  "greenhouse:gelbergroup": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:geotab": {
-    "consecutive_failures": 1
-  },
   "greenhouse:gram": {
     "consecutive_failures": 3
+  },
+  "greenhouse:industrialelectricmanufacturing": {
+    "consecutive_failures": 1
   },
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
   },
+  "greenhouse:kensingtontours": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:later": {
+    "consecutive_failures": 1
+  },
   "greenhouse:loop": {
     "consecutive_failures": 3
   },
-  "greenhouse:omadahealth": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:rapp": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:spacex": {
+  "greenhouse:nex": {
     "consecutive_failures": 1
   },
   "greenhouse:withumsmithbrown": {
