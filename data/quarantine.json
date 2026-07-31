@@ -23,6 +23,9 @@
   "greenhouse:capitalrx": {
     "consecutive_failures": 3
   },
+  "greenhouse:climateai": {
+    "consecutive_failures": 1
+  },
   "greenhouse:cti": {
     "consecutive_failures": 3
   },
@@ -38,11 +41,32 @@
   "greenhouse:gram": {
     "consecutive_failures": 3
   },
+  "greenhouse:grvty": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:guidepoint": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:hankooktireamericacorp": {
+    "consecutive_failures": 1
+  },
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
   },
+  "greenhouse:kikoff": {
+    "consecutive_failures": 1
+  },
   "greenhouse:loop": {
     "consecutive_failures": 3
+  },
+  "greenhouse:spacex": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:stratolaunch": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:tradingacademy2025": {
+    "consecutive_failures": 1
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
