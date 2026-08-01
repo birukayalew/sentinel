@@ -201,7 +201,41 @@
     "title": "Analytics Intern",
     "visa_badge": "unknown",
     "workplace_badge": "hybrid",
-    "workplace_type": "Hybrid"
+    "workplace_type": "OnSite"
+  },
+  {
+    "ambiguity_reasons": [
+      "cycle_ambiguous"
+    ],
+    "application_weight": null,
+    "apply_url": "https://jobs.ashbyhq.com/clera/5372e670-2ab8-4be4-91ba-15930cd00257/application",
+    "company": "Clera",
+    "company_token": "clera",
+    "cycle_year": null,
+    "deadline": null,
+    "deadline_badge": null,
+    "description": "About the Role An early-stage B2B SaaS company in the procurement AI space is looking for a driven Founder's Associate Intern / Working Student to join the founding team in Berlin. You'll work directly with the CEO to build and execute the enterprise sales playbook from the ground up \u2014 running high-volume outbound outreach to procurement leaders at industrial manufacturers and helping develop the go-to-market engine. This is a hands-on, high-ownership role for someone early in their career who wants to learn enterprise sales from first principles at a fast-moving startup. You will be expected to be based in Berlin and work primarily from the office (hybrid possible). What You'll Do Run outbound outreach at scale across email and LinkedIn to fill the top of the pipeline with qualified enterprise conversations. Research target accounts from the ICP list and identify the right contacts and trigger events for timely outreach. Write personalized cold emails and LinkedIn messages aimed at procurement leaders at industrial manufacturers \u2014 in both German and English . Manage and execute multi-touch sequences and follow-ups to maximize reply and conversion rates. Track open rates, reply rates, and conversion metrics; run A/B tests to improve performance weekly. Enrich, maintain, and keep target account data clean and actionable in the CRM. Prepare meeting materials including competitive research, company briefings, and tailored one-pagers. Design and iterate on messaging experiments to inform the company's GTM playbook. Sit in on strategy discussions, product demos, and investor conversations to gain full context. Take on ad-hoc startup tasks such as event prep, partnership research, market analysis, or investor deck updates as needed. What We're Looking For Must-haves: Based in Berlin and available to work from the Kreuzberg office (hybrid allowed). Proven experience with outbound outreach at scale for enterprise customers \u2014 researching target accounts, crafting personalized messages, and managing multi-touch sequences (email + LinkedIn). Strong professional writing in both German and English \u2014 able to write a cold email in German to a Head of Procurement and an investor update summary in English. Current student or recent graduate in business, engineering, or a similarly rigorous field. Familiarity with CRM systems (e.g., HubSpot, Salesforce) for data enrichment, outreach tracking, and pipeline hygiene. Comfortable taking on repetitive, high-standard work independently and iterating on outreach performance. Entrepreneurial mindset \u2014 evidence of building, organizing, or starting something (club, side project, startup, etc.). Willingness to learn fast and take on whatever the company needs in a startup environment. Nice to have: Some exposure to procurement processes or procurement domain knowledge. Experience or interest in B2B enterprise sales or AI software. Location Berlin, Germany (Kreuzberg) \u2014 on-site, hybrid possible. Candidates must be based in Berlin and available to work from the office regularly. Visa sponsorship is not available for this role. Compensation & Details Internship / Working Student position. Compensation details to be discussed during the interview process. High exposure to all areas of an early-stage startup \u2014 sales, strategy, product, and fundraising.",
+    "enriched": true,
+    "enriched_version": 2,
+    "external_id": "5372e670-2ab8-4be4-91ba-15930cd00257",
+    "first_seen": "2026-08-01",
+    "gate_drop_reason": null,
+    "gate_dropped": false,
+    "gate_evaluated": true,
+    "gate_evaluated_title": "Founder's Associate Intern / Working Student \u2013 Enterprise Sales & Outbound",
+    "gate_evaluated_version": 4,
+    "id": "ashby:clera:5372e670-2ab8-4be4-91ba-15930cd00257",
+    "level_badge": null,
+    "location": "Berlin",
+    "match_score": 51,
+    "match_scored": true,
+    "posted_at": "2026-08-01T02:09:00.667+00:00",
+    "questions": null,
+    "source": "ashby",
+    "title": "Founder's Associate Intern / Working Student \u2013 Enterprise Sales & Outbound",
+    "visa_badge": "unknown",
+    "workplace_badge": "onsite",
+    "workplace_type": "OnSite"
   },
   {
     "ambiguity_reasons": [
@@ -779,7 +813,7 @@
     "title": "Analytics Intern",
     "visa_badge": "unknown",
     "workplace_badge": "hybrid",
-    "workplace_type": "Hybrid"
+    "workplace_type": "OnSite"
   },
   {
     "ambiguity_reasons": [
