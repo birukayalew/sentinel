@@ -8,6 +8,9 @@
   "ashby:iacollaborative": {
     "consecutive_failures": 3
   },
+  "greenhouse:alloy": {
+    "consecutive_failures": 1
+  },
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
   },
@@ -24,6 +27,9 @@
     "consecutive_failures": 3
   },
   "greenhouse:climateai": {
+    "consecutive_failures": 2
+  },
+  "greenhouse:coursera": {
     "consecutive_failures": 1
   },
   "greenhouse:cti": {
@@ -31,6 +37,9 @@
   },
   "greenhouse:embrace": {
     "consecutive_failures": 3
+  },
+  "greenhouse:fireworksai": {
+    "consecutive_failures": 1
   },
   "greenhouse:gafg": {
     "consecutive_failures": 3
@@ -41,31 +50,16 @@
   "greenhouse:gram": {
     "consecutive_failures": 3
   },
-  "greenhouse:grvty": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:guidepoint": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:hankooktireamericacorp": {
-    "consecutive_failures": 1
-  },
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
-  },
-  "greenhouse:kikoff": {
-    "consecutive_failures": 1
   },
   "greenhouse:loop": {
     "consecutive_failures": 3
   },
-  "greenhouse:spacex": {
+  "greenhouse:rapp": {
     "consecutive_failures": 1
   },
-  "greenhouse:stratolaunch": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:tradingacademy2025": {
+  "greenhouse:solidpower": {
     "consecutive_failures": 1
   },
   "greenhouse:withumsmithbrown": {
