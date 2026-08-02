@@ -27,7 +27,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:coursera": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "greenhouse:cti": {
     "consecutive_failures": 3
@@ -36,7 +36,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:fireworksai": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "greenhouse:gafg": {
     "consecutive_failures": 3
@@ -54,7 +54,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:reach": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
