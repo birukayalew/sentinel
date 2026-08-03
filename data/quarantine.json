@@ -53,11 +53,20 @@
   "greenhouse:loop": {
     "consecutive_failures": 3
   },
+  "greenhouse:mejuri": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:point72": {
+    "consecutive_failures": 1
+  },
   "greenhouse:reach": {
     "consecutive_failures": 3
   },
   "greenhouse:shyftsolutionsllc": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
+  },
+  "greenhouse:virturecruitinghidden": {
+    "consecutive_failures": 1
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
@@ -67,6 +76,9 @@
   },
   "lever:color": {
     "consecutive_failures": 3
+  },
+  "lever:lyrahealth": {
+    "consecutive_failures": 1
   },
   "lever:sprucesystems": {
     "consecutive_failures": 3
