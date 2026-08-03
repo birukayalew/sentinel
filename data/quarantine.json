@@ -17,12 +17,6 @@
   "greenhouse:arine": {
     "consecutive_failures": 3
   },
-  "greenhouse:arizeai": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:axuall": {
-    "consecutive_failures": 1
-  },
   "greenhouse:campusopportunities": {
     "consecutive_failures": 3
   },
@@ -37,9 +31,6 @@
   },
   "greenhouse:cti": {
     "consecutive_failures": 3
-  },
-  "greenhouse:diligentrobotics": {
-    "consecutive_failures": 1
   },
   "greenhouse:embrace": {
     "consecutive_failures": 3
@@ -62,20 +53,11 @@
   "greenhouse:loop": {
     "consecutive_failures": 3
   },
-  "greenhouse:mizzenandmain": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:peregrinetechnologies": {
-    "consecutive_failures": 1
-  },
   "greenhouse:reach": {
     "consecutive_failures": 3
   },
   "greenhouse:shyftsolutionsllc": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:warp": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
