@@ -11,6 +11,9 @@
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
   },
+  "greenhouse:aperiatechnologies": {
+    "consecutive_failures": 1
+  },
   "greenhouse:arcellx": {
     "consecutive_failures": 3
   },
@@ -53,19 +56,13 @@
   "greenhouse:loop": {
     "consecutive_failures": 3
   },
-  "greenhouse:mejuri": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:point72": {
-    "consecutive_failures": 1
-  },
   "greenhouse:reach": {
     "consecutive_failures": 3
   },
   "greenhouse:shyftsolutionsllc": {
     "consecutive_failures": 3
   },
-  "greenhouse:virturecruitinghidden": {
+  "greenhouse:tekion": {
     "consecutive_failures": 1
   },
   "greenhouse:withumsmithbrown": {
@@ -76,9 +73,6 @@
   },
   "lever:color": {
     "consecutive_failures": 3
-  },
-  "lever:lyrahealth": {
-    "consecutive_failures": 1
   },
   "lever:sprucesystems": {
     "consecutive_failures": 3
