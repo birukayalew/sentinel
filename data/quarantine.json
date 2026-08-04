@@ -11,9 +11,6 @@
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
   },
-  "greenhouse:aperiatechnologies": {
-    "consecutive_failures": 1
-  },
   "greenhouse:arcellx": {
     "consecutive_failures": 3
   },
@@ -26,8 +23,20 @@
   "greenhouse:capitalrx": {
     "consecutive_failures": 3
   },
+  "greenhouse:charlesriverassociates": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:chime": {
+    "consecutive_failures": 1
+  },
   "greenhouse:climateai": {
     "consecutive_failures": 3
+  },
+  "greenhouse:coactive": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:commvault": {
+    "consecutive_failures": 1
   },
   "greenhouse:coursera": {
     "consecutive_failures": 3
@@ -50,11 +59,17 @@
   "greenhouse:gram": {
     "consecutive_failures": 3
   },
+  "greenhouse:graphcore": {
+    "consecutive_failures": 1
+  },
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
   },
   "greenhouse:loop": {
     "consecutive_failures": 3
+  },
+  "greenhouse:radar": {
+    "consecutive_failures": 1
   },
   "greenhouse:reach": {
     "consecutive_failures": 3
@@ -62,8 +77,11 @@
   "greenhouse:shyftsolutionsllc": {
     "consecutive_failures": 3
   },
-  "greenhouse:tekion": {
+  "greenhouse:spacex": {
     "consecutive_failures": 1
+  },
+  "greenhouse:tekion": {
+    "consecutive_failures": 2
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
