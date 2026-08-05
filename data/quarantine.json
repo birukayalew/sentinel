@@ -32,11 +32,14 @@
   "greenhouse:cti": {
     "consecutive_failures": 3
   },
+  "greenhouse:cultureamp": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:darkwolfsolutions": {
+    "consecutive_failures": 1
+  },
   "greenhouse:embrace": {
     "consecutive_failures": 3
-  },
-  "greenhouse:ensco": {
-    "consecutive_failures": 1
   },
   "greenhouse:fireworksai": {
     "consecutive_failures": 3
@@ -47,6 +50,9 @@
   "greenhouse:galileofinancialtechnologies": {
     "consecutive_failures": 3
   },
+  "greenhouse:goodwaygroup": {
+    "consecutive_failures": 1
+  },
   "greenhouse:gram": {
     "consecutive_failures": 3
   },
@@ -55,6 +61,12 @@
   },
   "greenhouse:loop": {
     "consecutive_failures": 3
+  },
+  "greenhouse:mwinternshipprogram": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:neuralink": {
+    "consecutive_failures": 1
   },
   "greenhouse:reach": {
     "consecutive_failures": 3
