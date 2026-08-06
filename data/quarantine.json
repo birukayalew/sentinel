@@ -8,9 +8,6 @@
   "ashby:iacollaborative": {
     "consecutive_failures": 3
   },
-  "ashby:openai": {
-    "consecutive_failures": 1
-  },
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
   },
@@ -50,23 +47,20 @@
   "greenhouse:gram": {
     "consecutive_failures": 3
   },
+  "greenhouse:iherb": {
+    "consecutive_failures": 1
+  },
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
   },
   "greenhouse:loop": {
     "consecutive_failures": 3
   },
-  "greenhouse:oura": {
-    "consecutive_failures": 1
-  },
   "greenhouse:radiantsecurity": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:reach": {
     "consecutive_failures": 3
-  },
-  "greenhouse:shipbobinc": {
-    "consecutive_failures": 1
   },
   "greenhouse:shyftsolutionsllc": {
     "consecutive_failures": 3
@@ -77,11 +71,8 @@
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
   },
-  "greenhouse:wonderschool": {
-    "consecutive_failures": 1
-  },
   "lever:AntiCapital": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "lever:cgsfederal": {
     "consecutive_failures": 3
