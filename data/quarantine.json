@@ -8,6 +8,9 @@
   "ashby:iacollaborative": {
     "consecutive_failures": 3
   },
+  "ashby:openai": {
+    "consecutive_failures": 1
+  },
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
   },
@@ -32,12 +35,6 @@
   "greenhouse:cti": {
     "consecutive_failures": 3
   },
-  "greenhouse:cultureamp": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:darkwolfsolutions": {
-    "consecutive_failures": 1
-  },
   "greenhouse:embrace": {
     "consecutive_failures": 3
   },
@@ -50,9 +47,6 @@
   "greenhouse:galileofinancialtechnologies": {
     "consecutive_failures": 3
   },
-  "greenhouse:goodwaygroup": {
-    "consecutive_failures": 1
-  },
   "greenhouse:gram": {
     "consecutive_failures": 3
   },
@@ -62,14 +56,17 @@
   "greenhouse:loop": {
     "consecutive_failures": 3
   },
-  "greenhouse:mwinternshipprogram": {
+  "greenhouse:oura": {
     "consecutive_failures": 1
   },
-  "greenhouse:neuralink": {
+  "greenhouse:radiantsecurity": {
     "consecutive_failures": 1
   },
   "greenhouse:reach": {
     "consecutive_failures": 3
+  },
+  "greenhouse:shipbobinc": {
+    "consecutive_failures": 1
   },
   "greenhouse:shyftsolutionsllc": {
     "consecutive_failures": 3
@@ -79,6 +76,12 @@
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
+  },
+  "greenhouse:wonderschool": {
+    "consecutive_failures": 1
+  },
+  "lever:AntiCapital": {
+    "consecutive_failures": 1
   },
   "lever:cgsfederal": {
     "consecutive_failures": 3
