@@ -8,6 +8,9 @@
   "ashby:iacollaborative": {
     "consecutive_failures": 3
   },
+  "ashby:tracer": {
+    "consecutive_failures": 1
+  },
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
   },
@@ -16,6 +19,9 @@
   },
   "greenhouse:arine": {
     "consecutive_failures": 3
+  },
+  "greenhouse:bluestaq": {
+    "consecutive_failures": 1
   },
   "greenhouse:campusopportunities": {
     "consecutive_failures": 3
@@ -26,11 +32,20 @@
   "greenhouse:climateai": {
     "consecutive_failures": 3
   },
+  "greenhouse:constellationsoftwareinc": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:constructionresources": {
+    "consecutive_failures": 1
+  },
   "greenhouse:coursera": {
     "consecutive_failures": 3
   },
   "greenhouse:cti": {
     "consecutive_failures": 3
+  },
+  "greenhouse:darkwolfsolutions": {
+    "consecutive_failures": 1
   },
   "greenhouse:embrace": {
     "consecutive_failures": 3
@@ -48,7 +63,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:iherb": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
@@ -56,29 +71,44 @@
   "greenhouse:loop": {
     "consecutive_failures": 3
   },
+  "greenhouse:rackner": {
+    "consecutive_failures": 1
+  },
   "greenhouse:radiantsecurity": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "greenhouse:reach": {
     "consecutive_failures": 3
   },
+  "greenhouse:sandstonecare": {
+    "consecutive_failures": 1
+  },
   "greenhouse:shyftsolutionsllc": {
     "consecutive_failures": 3
   },
+  "greenhouse:spacekinetic": {
+    "consecutive_failures": 1
+  },
   "greenhouse:tekion": {
     "consecutive_failures": 3
+  },
+  "greenhouse:tubitv": {
+    "consecutive_failures": 1
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
   },
   "lever:AntiCapital": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "lever:cgsfederal": {
     "consecutive_failures": 3
   },
   "lever:color": {
     "consecutive_failures": 3
+  },
+  "lever:sensortower": {
+    "consecutive_failures": 1
   },
   "lever:sprucesystems": {
     "consecutive_failures": 3
