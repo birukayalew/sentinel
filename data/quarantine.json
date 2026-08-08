@@ -9,7 +9,7 @@
     "consecutive_failures": 3
   },
   "ashby:newfront": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "ashby:tracer": {
     "consecutive_failures": 3
@@ -23,11 +23,8 @@
   "greenhouse:arine": {
     "consecutive_failures": 3
   },
-  "greenhouse:axle": {
-    "consecutive_failures": 1
-  },
   "greenhouse:brooklinen": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "greenhouse:campusopportunities": {
     "consecutive_failures": 3
@@ -43,9 +40,6 @@
   },
   "greenhouse:cti": {
     "consecutive_failures": 3
-  },
-  "greenhouse:doubleverify": {
-    "consecutive_failures": 1
   },
   "greenhouse:embrace": {
     "consecutive_failures": 3
@@ -70,9 +64,6 @@
   },
   "greenhouse:loop": {
     "consecutive_failures": 3
-  },
-  "greenhouse:oceanx": {
-    "consecutive_failures": 1
   },
   "greenhouse:radiantsecurity": {
     "consecutive_failures": 3
@@ -103,5 +94,8 @@
   },
   "lever:sprucesystems": {
     "consecutive_failures": 3
+  },
+  "lever:thinkahead": {
+    "consecutive_failures": 1
   }
 }
