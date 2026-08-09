@@ -44,9 +44,6 @@
   "greenhouse:embrace": {
     "consecutive_failures": 3
   },
-  "greenhouse:fireblocks": {
-    "consecutive_failures": 1
-  },
   "greenhouse:fireworksai": {
     "consecutive_failures": 3
   },
@@ -68,26 +65,8 @@
   "greenhouse:loop": {
     "consecutive_failures": 3
   },
-  "greenhouse:mcmastercarr": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:mercury": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:moloco": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:newsbreak": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:otrcapital1": {
-    "consecutive_failures": 1
-  },
   "greenhouse:ottoaviation": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:plscareers": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:radiantsecurity": {
     "consecutive_failures": 3
