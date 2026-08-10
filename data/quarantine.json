@@ -66,7 +66,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:ottoaviation": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "greenhouse:radiantsecurity": {
     "consecutive_failures": 3
@@ -97,5 +97,8 @@
   },
   "lever:sprucesystems": {
     "consecutive_failures": 3
+  },
+  "lever:thinkahead": {
+    "consecutive_failures": 1
   }
 }
