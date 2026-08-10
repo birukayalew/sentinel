@@ -97,8 +97,5 @@
   },
   "lever:sprucesystems": {
     "consecutive_failures": 3
-  },
-  "lever:thinkahead": {
-    "consecutive_failures": 1
   }
 }
