@@ -65,6 +65,9 @@
   "greenhouse:loop": {
     "consecutive_failures": 3
   },
+  "greenhouse:mejuri": {
+    "consecutive_failures": 1
+  },
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
   },
@@ -79,6 +82,9 @@
   },
   "greenhouse:tekion": {
     "consecutive_failures": 3
+  },
+  "greenhouse:vercel": {
+    "consecutive_failures": 1
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
