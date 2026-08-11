@@ -44,6 +44,9 @@
   "greenhouse:embrace": {
     "consecutive_failures": 3
   },
+  "greenhouse:emergingtalent": {
+    "consecutive_failures": 1
+  },
   "greenhouse:fireworksai": {
     "consecutive_failures": 3
   },
@@ -65,11 +68,14 @@
   "greenhouse:loop": {
     "consecutive_failures": 3
   },
-  "greenhouse:mejuri": {
+  "greenhouse:neuralink": {
     "consecutive_failures": 1
   },
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
+  },
+  "greenhouse:pitchbookdata": {
+    "consecutive_failures": 1
   },
   "greenhouse:radiantsecurity": {
     "consecutive_failures": 3
@@ -77,14 +83,14 @@
   "greenhouse:reach": {
     "consecutive_failures": 3
   },
+  "greenhouse:samsara": {
+    "consecutive_failures": 1
+  },
   "greenhouse:shyftsolutionsllc": {
     "consecutive_failures": 3
   },
   "greenhouse:tekion": {
     "consecutive_failures": 3
-  },
-  "greenhouse:vercel": {
-    "consecutive_failures": 1
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
