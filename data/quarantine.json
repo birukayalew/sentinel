@@ -14,9 +14,6 @@
   "ashby:tracer": {
     "consecutive_failures": 3
   },
-  "greenhouse:adelphirealworld": {
-    "consecutive_failures": 1
-  },
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
   },
@@ -38,29 +35,17 @@
   "greenhouse:climateai": {
     "consecutive_failures": 3
   },
-  "greenhouse:correlationone": {
-    "consecutive_failures": 1
-  },
   "greenhouse:coursera": {
     "consecutive_failures": 3
   },
   "greenhouse:cti": {
     "consecutive_failures": 3
   },
-  "greenhouse:elevationscreditunion": {
-    "consecutive_failures": 1
-  },
   "greenhouse:embrace": {
     "consecutive_failures": 3
   },
-  "greenhouse:figure": {
-    "consecutive_failures": 1
-  },
   "greenhouse:fireworksai": {
     "consecutive_failures": 3
-  },
-  "greenhouse:foleyhoag": {
-    "consecutive_failures": 1
   },
   "greenhouse:gafg": {
     "consecutive_failures": 3
@@ -71,38 +56,17 @@
   "greenhouse:gram": {
     "consecutive_failures": 3
   },
-  "greenhouse:hyannisportresearch": {
-    "consecutive_failures": 1
-  },
   "greenhouse:iherb": {
     "consecutive_failures": 3
-  },
-  "greenhouse:innodatainc": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:intrinsicrobotics": {
-    "consecutive_failures": 1
   },
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
   },
-  "greenhouse:launchdarkly": {
-    "consecutive_failures": 1
-  },
   "greenhouse:loop": {
     "consecutive_failures": 3
   },
-  "greenhouse:mrbeastyoutube": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:onboardmeetings": {
-    "consecutive_failures": 1
-  },
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
-  },
-  "greenhouse:palmettocleantech": {
-    "consecutive_failures": 1
   },
   "greenhouse:radiantsecurity": {
     "consecutive_failures": 3
@@ -112,9 +76,6 @@
   },
   "greenhouse:shyftsolutionsllc": {
     "consecutive_failures": 3
-  },
-  "greenhouse:spycloud": {
-    "consecutive_failures": 1
   },
   "greenhouse:tekion": {
     "consecutive_failures": 3
@@ -128,14 +89,8 @@
   "lever:cgsfederal": {
     "consecutive_failures": 3
   },
-  "lever:civitech": {
-    "consecutive_failures": 1
-  },
   "lever:color": {
     "consecutive_failures": 3
-  },
-  "lever:glsllc": {
-    "consecutive_failures": 1
   },
   "lever:sensortower": {
     "consecutive_failures": 3
