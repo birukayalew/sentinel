@@ -14,6 +14,9 @@
   "ashby:tracer": {
     "consecutive_failures": 3
   },
+  "greenhouse:10xgenomics": {
+    "consecutive_failures": 1
+  },
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
   },
@@ -97,5 +100,11 @@
   },
   "lever:sprucesystems": {
     "consecutive_failures": 3
+  },
+  "lever:thinkingbox": {
+    "consecutive_failures": 1
+  },
+  "lever:tsmg": {
+    "consecutive_failures": 1
   }
 }
