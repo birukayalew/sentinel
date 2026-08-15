@@ -15,7 +15,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:10xgenomics": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
@@ -101,7 +101,7 @@
   "lever:sprucesystems": {
     "consecutive_failures": 3
   },
-  "lever:thinkahead": {
+  "lever:tsmg": {
     "consecutive_failures": 1
   }
 }
