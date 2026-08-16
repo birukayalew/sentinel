@@ -17,6 +17,9 @@
   "greenhouse:10xgenomics": {
     "consecutive_failures": 3
   },
+  "greenhouse:accuweather": {
+    "consecutive_failures": 1
+  },
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
   },
@@ -28,6 +31,9 @@
   },
   "greenhouse:brooklinen": {
     "consecutive_failures": 3
+  },
+  "greenhouse:businessolverinvitationonly": {
+    "consecutive_failures": 1
   },
   "greenhouse:campusopportunities": {
     "consecutive_failures": 3
@@ -102,6 +108,6 @@
     "consecutive_failures": 3
   },
   "lever:tsmg": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   }
 }
