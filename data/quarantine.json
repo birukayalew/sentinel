@@ -17,9 +17,6 @@
   "greenhouse:10xgenomics": {
     "consecutive_failures": 3
   },
-  "greenhouse:accuweather": {
-    "consecutive_failures": 1
-  },
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
   },
@@ -31,9 +28,6 @@
   },
   "greenhouse:brooklinen": {
     "consecutive_failures": 3
-  },
-  "greenhouse:businessolverinvitationonly": {
-    "consecutive_failures": 1
   },
   "greenhouse:campusopportunities": {
     "consecutive_failures": 3
@@ -95,6 +89,9 @@
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
+  "lever:belvederetrading": {
+    "consecutive_failures": 1
+  },
   "lever:cgsfederal": {
     "consecutive_failures": 3
   },
@@ -106,8 +103,5 @@
   },
   "lever:sprucesystems": {
     "consecutive_failures": 3
-  },
-  "lever:tsmg": {
-    "consecutive_failures": 2
   }
 }
