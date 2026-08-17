@@ -89,19 +89,22 @@
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
-  "lever:belvederetrading": {
-    "consecutive_failures": 1
-  },
   "lever:cgsfederal": {
     "consecutive_failures": 3
   },
   "lever:color": {
     "consecutive_failures": 3
   },
+  "lever:sanctuary": {
+    "consecutive_failures": 1
+  },
   "lever:sensortower": {
     "consecutive_failures": 3
   },
   "lever:sprucesystems": {
     "consecutive_failures": 3
+  },
+  "lever:tsmg": {
+    "consecutive_failures": 1
   }
 }
