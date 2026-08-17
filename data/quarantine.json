@@ -68,6 +68,9 @@
   "greenhouse:loop": {
     "consecutive_failures": 3
   },
+  "greenhouse:matx": {
+    "consecutive_failures": 1
+  },
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
   },
@@ -96,15 +99,12 @@
     "consecutive_failures": 3
   },
   "lever:sanctuary": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "lever:sensortower": {
     "consecutive_failures": 3
   },
   "lever:sprucesystems": {
     "consecutive_failures": 3
-  },
-  "lever:tsmg": {
-    "consecutive_failures": 1
   }
 }
