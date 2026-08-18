@@ -17,8 +17,14 @@
   "greenhouse:10xgenomics": {
     "consecutive_failures": 3
   },
+  "greenhouse:altentechnologyusa": {
+    "consecutive_failures": 1
+  },
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
+  },
+  "greenhouse:arcboatcompany": {
+    "consecutive_failures": 1
   },
   "greenhouse:arcellx": {
     "consecutive_failures": 3
@@ -44,11 +50,11 @@
   "greenhouse:cti": {
     "consecutive_failures": 3
   },
-  "greenhouse:doublegood": {
-    "consecutive_failures": 1
-  },
   "greenhouse:embrace": {
     "consecutive_failures": 3
+  },
+  "greenhouse:financialtechnologypartners": {
+    "consecutive_failures": 1
   },
   "greenhouse:fireworksai": {
     "consecutive_failures": 3
@@ -59,23 +65,26 @@
   "greenhouse:galileofinancialtechnologies": {
     "consecutive_failures": 3
   },
+  "greenhouse:gotion": {
+    "consecutive_failures": 1
+  },
   "greenhouse:gram": {
     "consecutive_failures": 3
   },
   "greenhouse:iherb": {
     "consecutive_failures": 3
   },
+  "greenhouse:inspiremedicalsystemsinc": {
+    "consecutive_failures": 1
+  },
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
-  },
-  "greenhouse:liberis": {
-    "consecutive_failures": 1
   },
   "greenhouse:loop": {
     "consecutive_failures": 3
   },
   "greenhouse:matx": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
@@ -97,6 +106,9 @@
   },
   "lever:AntiCapital": {
     "consecutive_failures": 3
+  },
+  "lever:bumbleinc": {
+    "consecutive_failures": 1
   },
   "lever:cgsfederal": {
     "consecutive_failures": 3
