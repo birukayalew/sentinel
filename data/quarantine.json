@@ -44,6 +44,9 @@
   "greenhouse:cti": {
     "consecutive_failures": 3
   },
+  "greenhouse:doublegood": {
+    "consecutive_failures": 1
+  },
   "greenhouse:embrace": {
     "consecutive_failures": 3
   },
@@ -65,11 +68,14 @@
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
   },
+  "greenhouse:liberis": {
+    "consecutive_failures": 1
+  },
   "greenhouse:loop": {
     "consecutive_failures": 3
   },
   "greenhouse:matx": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
@@ -99,7 +105,7 @@
     "consecutive_failures": 3
   },
   "lever:sanctuary": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "lever:sensortower": {
     "consecutive_failures": 3
