@@ -17,14 +17,8 @@
   "greenhouse:10xgenomics": {
     "consecutive_failures": 3
   },
-  "greenhouse:altentechnologyusa": {
-    "consecutive_failures": 1
-  },
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
-  },
-  "greenhouse:arcboatcompany": {
-    "consecutive_failures": 1
   },
   "greenhouse:arcellx": {
     "consecutive_failures": 3
@@ -50,11 +44,17 @@
   "greenhouse:cti": {
     "consecutive_failures": 3
   },
+  "greenhouse:dropbox": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:dv01": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:eikontherapeutics": {
+    "consecutive_failures": 1
+  },
   "greenhouse:embrace": {
     "consecutive_failures": 3
-  },
-  "greenhouse:financialtechnologypartners": {
-    "consecutive_failures": 1
   },
   "greenhouse:fireworksai": {
     "consecutive_failures": 3
@@ -65,20 +65,29 @@
   "greenhouse:galileofinancialtechnologies": {
     "consecutive_failures": 3
   },
-  "greenhouse:gotion": {
-    "consecutive_failures": 1
-  },
   "greenhouse:gram": {
     "consecutive_failures": 3
+  },
+  "greenhouse:hivewatch": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:hpiq": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:hyannisportresearch": {
+    "consecutive_failures": 1
   },
   "greenhouse:iherb": {
     "consecutive_failures": 3
   },
-  "greenhouse:inspiremedicalsystemsinc": {
-    "consecutive_failures": 1
-  },
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
+  },
+  "greenhouse:klaviyocampus": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:lexingtonmedical": {
+    "consecutive_failures": 1
   },
   "greenhouse:loop": {
     "consecutive_failures": 3
@@ -98,17 +107,26 @@
   "greenhouse:shyftsolutionsllc": {
     "consecutive_failures": 3
   },
+  "greenhouse:sonobello": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:spacex": {
+    "consecutive_failures": 1
+  },
   "greenhouse:tekion": {
     "consecutive_failures": 3
+  },
+  "greenhouse:thealleninstitute": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:underdogfantasy": {
+    "consecutive_failures": 1
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
   },
   "lever:AntiCapital": {
     "consecutive_failures": 3
-  },
-  "lever:bumbleinc": {
-    "consecutive_failures": 1
   },
   "lever:cgsfederal": {
     "consecutive_failures": 3
