@@ -44,15 +44,6 @@
   "greenhouse:cti": {
     "consecutive_failures": 3
   },
-  "greenhouse:dropbox": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:dv01": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:eikontherapeutics": {
-    "consecutive_failures": 1
-  },
   "greenhouse:embrace": {
     "consecutive_failures": 3
   },
@@ -68,26 +59,11 @@
   "greenhouse:gram": {
     "consecutive_failures": 3
   },
-  "greenhouse:hivewatch": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:hpiq": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:hyannisportresearch": {
-    "consecutive_failures": 1
-  },
   "greenhouse:iherb": {
     "consecutive_failures": 3
   },
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
-  },
-  "greenhouse:klaviyocampus": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:lexingtonmedical": {
-    "consecutive_failures": 1
   },
   "greenhouse:loop": {
     "consecutive_failures": 3
@@ -107,20 +83,11 @@
   "greenhouse:shyftsolutionsllc": {
     "consecutive_failures": 3
   },
-  "greenhouse:sonobello": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:spacex": {
-    "consecutive_failures": 1
-  },
   "greenhouse:tekion": {
     "consecutive_failures": 3
   },
-  "greenhouse:thealleninstitute": {
-    "consecutive_failures": 1
-  },
   "greenhouse:underdogfantasy": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
@@ -142,5 +109,11 @@
   },
   "lever:sprucesystems": {
     "consecutive_failures": 3
+  },
+  "lever:thinkahead": {
+    "consecutive_failures": 1
+  },
+  "lever:tsmg": {
+    "consecutive_failures": 1
   }
 }
