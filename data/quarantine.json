@@ -17,17 +17,8 @@
   "greenhouse:10xgenomics": {
     "consecutive_failures": 3
   },
-  "greenhouse:9thwayinsignia": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:affirm": {
-    "consecutive_failures": 1
-  },
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
-  },
-  "greenhouse:applovin": {
-    "consecutive_failures": 1
   },
   "greenhouse:arcellx": {
     "consecutive_failures": 3
@@ -36,7 +27,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:artefactus": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:brooklinen": {
     "consecutive_failures": 3
@@ -49,9 +40,6 @@
   },
   "greenhouse:climateai": {
     "consecutive_failures": 3
-  },
-  "greenhouse:constellationsoftwareinc": {
-    "consecutive_failures": 1
   },
   "greenhouse:coursera": {
     "consecutive_failures": 3
@@ -77,32 +65,14 @@
   "greenhouse:iherb": {
     "consecutive_failures": 3
   },
-  "greenhouse:intercom": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:iovancebiotherapeutics": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:janestreet": {
-    "consecutive_failures": 1
-  },
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
-  },
-  "greenhouse:kapitus": {
-    "consecutive_failures": 1
   },
   "greenhouse:loop": {
     "consecutive_failures": 3
   },
-  "greenhouse:lumosfiber": {
-    "consecutive_failures": 1
-  },
   "greenhouse:matx": {
     "consecutive_failures": 3
-  },
-  "greenhouse:ntconcepts": {
-    "consecutive_failures": 1
   },
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
@@ -115,12 +85,6 @@
   },
   "greenhouse:shyftsolutionsllc": {
     "consecutive_failures": 3
-  },
-  "greenhouse:sigmacomputing": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:soci": {
-    "consecutive_failures": 1
   },
   "greenhouse:tekion": {
     "consecutive_failures": 3
@@ -149,7 +113,10 @@
   "lever:sprucesystems": {
     "consecutive_failures": 3
   },
-  "lever:thinkahead": {
-    "consecutive_failures": 2
+  "lever:tsmg": {
+    "consecutive_failures": 1
+  },
+  "lever:until": {
+    "consecutive_failures": 1
   }
 }
