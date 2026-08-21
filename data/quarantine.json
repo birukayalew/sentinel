@@ -98,7 +98,7 @@
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
-  "lever:agile-defense": {
+  "lever:SprinterHealth": {
     "consecutive_failures": 1
   },
   "lever:cgsfederal": {
@@ -106,9 +106,6 @@
   },
   "lever:color": {
     "consecutive_failures": 3
-  },
-  "lever:fullscript": {
-    "consecutive_failures": 1
   },
   "lever:sanctuary": {
     "consecutive_failures": 3
@@ -118,8 +115,5 @@
   },
   "lever:sprucesystems": {
     "consecutive_failures": 3
-  },
-  "lever:thinkahead": {
-    "consecutive_failures": 1
   }
 }
