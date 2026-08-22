@@ -47,9 +47,6 @@
   "greenhouse:cti": {
     "consecutive_failures": 3
   },
-  "greenhouse:doma": {
-    "consecutive_failures": 1
-  },
   "greenhouse:embrace": {
     "consecutive_failures": 3
   },
@@ -102,7 +99,7 @@
     "consecutive_failures": 3
   },
   "lever:SprinterHealth": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "lever:cgsfederal": {
     "consecutive_failures": 3
@@ -120,6 +117,9 @@
     "consecutive_failures": 3
   },
   "lever:thinkahead": {
+    "consecutive_failures": 2
+  },
+  "lever:tsmg": {
     "consecutive_failures": 1
   }
 }
