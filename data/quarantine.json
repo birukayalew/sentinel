@@ -98,17 +98,20 @@
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
+  "lever:CesiumAstro": {
+    "consecutive_failures": 1
+  },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
-  },
-  "lever:acceldata": {
-    "consecutive_failures": 1
   },
   "lever:cgsfederal": {
     "consecutive_failures": 3
   },
   "lever:color": {
     "consecutive_failures": 3
+  },
+  "lever:imo-online": {
+    "consecutive_failures": 1
   },
   "lever:sanctuary": {
     "consecutive_failures": 3
