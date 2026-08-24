@@ -8,6 +8,9 @@
   "ashby:iacollaborative": {
     "consecutive_failures": 3
   },
+  "ashby:latitude": {
+    "consecutive_failures": 1
+  },
   "ashby:newfront": {
     "consecutive_failures": 3
   },
