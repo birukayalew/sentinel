@@ -9,7 +9,7 @@
     "consecutive_failures": 3
   },
   "ashby:latitude": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "ashby:newfront": {
     "consecutive_failures": 3
@@ -20,14 +20,14 @@
   "greenhouse:10xgenomics": {
     "consecutive_failures": 3
   },
-  "greenhouse:aloyoga": {
+  "greenhouse:abelsontaylor": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:aechelontechnology": {
     "consecutive_failures": 1
   },
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
-  },
-  "greenhouse:aperiatechnologies": {
-    "consecutive_failures": 1
   },
   "greenhouse:arcellx": {
     "consecutive_failures": 3
@@ -37,6 +37,15 @@
   },
   "greenhouse:artefactus": {
     "consecutive_failures": 3
+  },
+  "greenhouse:avepoint": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:bloomreach": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:blueskyinnovators": {
+    "consecutive_failures": 1
   },
   "greenhouse:brooklinen": {
     "consecutive_failures": 3
@@ -62,7 +71,7 @@
   "greenhouse:fireworksai": {
     "consecutive_failures": 3
   },
-  "greenhouse:forteracorporation": {
+  "greenhouse:flip": {
     "consecutive_failures": 1
   },
   "greenhouse:gafg": {
@@ -74,11 +83,20 @@
   "greenhouse:gram": {
     "consecutive_failures": 3
   },
+  "greenhouse:greenhouse": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:higherlogic": {
+    "consecutive_failures": 1
+  },
   "greenhouse:iherb": {
     "consecutive_failures": 3
   },
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
+  },
+  "greenhouse:karat": {
+    "consecutive_failures": 1
   },
   "greenhouse:loop": {
     "consecutive_failures": 3
@@ -104,6 +122,9 @@
   "greenhouse:underdogfantasy": {
     "consecutive_failures": 3
   },
+  "greenhouse:weissassetmanagement": {
+    "consecutive_failures": 1
+  },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
   },
@@ -119,12 +140,6 @@
   "lever:color": {
     "consecutive_failures": 3
   },
-  "lever:field-ai": {
-    "consecutive_failures": 1
-  },
-  "lever:gopuff": {
-    "consecutive_failures": 1
-  },
   "lever:sanctuary": {
     "consecutive_failures": 3
   },
@@ -136,8 +151,5 @@
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
-  },
-  "lever:truetandem": {
-    "consecutive_failures": 1
   }
 }
