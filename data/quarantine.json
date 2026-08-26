@@ -17,14 +17,11 @@
   "ashby:tracer": {
     "consecutive_failures": 3
   },
+  "greenhouse:10beauty": {
+    "consecutive_failures": 1
+  },
   "greenhouse:10xgenomics": {
     "consecutive_failures": 3
-  },
-  "greenhouse:abelsontaylor": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:aechelontechnology": {
-    "consecutive_failures": 1
   },
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
@@ -38,23 +35,20 @@
   "greenhouse:artefactus": {
     "consecutive_failures": 3
   },
-  "greenhouse:avepoint": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:bloomreach": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:blueskyinnovators": {
-    "consecutive_failures": 1
-  },
   "greenhouse:brooklinen": {
     "consecutive_failures": 3
   },
   "greenhouse:campusopportunities": {
     "consecutive_failures": 3
   },
+  "greenhouse:capco": {
+    "consecutive_failures": 1
+  },
   "greenhouse:capitalrx": {
     "consecutive_failures": 3
+  },
+  "greenhouse:cellsignalingtechnology79": {
+    "consecutive_failures": 1
   },
   "greenhouse:climateai": {
     "consecutive_failures": 3
@@ -65,14 +59,14 @@
   "greenhouse:cti": {
     "consecutive_failures": 3
   },
+  "greenhouse:elastic": {
+    "consecutive_failures": 1
+  },
   "greenhouse:embrace": {
     "consecutive_failures": 3
   },
   "greenhouse:fireworksai": {
     "consecutive_failures": 3
-  },
-  "greenhouse:flip": {
-    "consecutive_failures": 1
   },
   "greenhouse:gafg": {
     "consecutive_failures": 3
@@ -83,26 +77,20 @@
   "greenhouse:gram": {
     "consecutive_failures": 3
   },
-  "greenhouse:greenhouse": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:higherlogic": {
-    "consecutive_failures": 1
-  },
   "greenhouse:iherb": {
     "consecutive_failures": 3
   },
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
   },
-  "greenhouse:karat": {
-    "consecutive_failures": 1
-  },
   "greenhouse:loop": {
     "consecutive_failures": 3
   },
   "greenhouse:matx": {
     "consecutive_failures": 3
+  },
+  "greenhouse:omadahealth": {
+    "consecutive_failures": 1
   },
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
@@ -121,9 +109,6 @@
   },
   "greenhouse:underdogfantasy": {
     "consecutive_failures": 3
-  },
-  "greenhouse:weissassetmanagement": {
-    "consecutive_failures": 1
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
