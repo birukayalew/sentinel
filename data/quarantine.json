@@ -17,9 +17,6 @@
   "ashby:tracer": {
     "consecutive_failures": 3
   },
-  "greenhouse:10beauty": {
-    "consecutive_failures": 1
-  },
   "greenhouse:10xgenomics": {
     "consecutive_failures": 3
   },
@@ -41,14 +38,8 @@
   "greenhouse:campusopportunities": {
     "consecutive_failures": 3
   },
-  "greenhouse:capco": {
-    "consecutive_failures": 1
-  },
   "greenhouse:capitalrx": {
     "consecutive_failures": 3
-  },
-  "greenhouse:cellsignalingtechnology79": {
-    "consecutive_failures": 1
   },
   "greenhouse:climateai": {
     "consecutive_failures": 3
@@ -58,9 +49,6 @@
   },
   "greenhouse:cti": {
     "consecutive_failures": 3
-  },
-  "greenhouse:elastic": {
-    "consecutive_failures": 1
   },
   "greenhouse:embrace": {
     "consecutive_failures": 3
@@ -89,9 +77,6 @@
   "greenhouse:matx": {
     "consecutive_failures": 3
   },
-  "greenhouse:omadahealth": {
-    "consecutive_failures": 1
-  },
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
   },
@@ -115,6 +100,9 @@
   },
   "lever:AntiCapital": {
     "consecutive_failures": 3
+  },
+  "lever:Aprio": {
+    "consecutive_failures": 1
   },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
