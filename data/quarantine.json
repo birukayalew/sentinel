@@ -80,6 +80,9 @@
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
   },
+  "greenhouse:purestorage": {
+    "consecutive_failures": 1
+  },
   "greenhouse:radiantsecurity": {
     "consecutive_failures": 3
   },
