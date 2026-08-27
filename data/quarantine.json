@@ -101,9 +101,6 @@
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
-  "lever:Aprio": {
-    "consecutive_failures": 1
-  },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
