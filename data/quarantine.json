@@ -80,9 +80,6 @@
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
   },
-  "greenhouse:purestorage": {
-    "consecutive_failures": 1
-  },
   "greenhouse:radiantsecurity": {
     "consecutive_failures": 3
   },
@@ -104,14 +101,26 @@
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
+  "lever:CesiumAstro": {
+    "consecutive_failures": 1
+  },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
+  },
+  "lever:bhvr": {
+    "consecutive_failures": 1
   },
   "lever:cgsfederal": {
     "consecutive_failures": 3
   },
   "lever:color": {
     "consecutive_failures": 3
+  },
+  "lever:matchgroup": {
+    "consecutive_failures": 1
+  },
+  "lever:perforce": {
+    "consecutive_failures": 1
   },
   "lever:sanctuary": {
     "consecutive_failures": 3
