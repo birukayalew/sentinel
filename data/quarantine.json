@@ -23,6 +23,12 @@
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
   },
+  "greenhouse:anthropic": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:apexcompanies": {
+    "consecutive_failures": 1
+  },
   "greenhouse:arcellx": {
     "consecutive_failures": 3
   },
@@ -31,6 +37,9 @@
   },
   "greenhouse:artefactus": {
     "consecutive_failures": 3
+  },
+  "greenhouse:auctane": {
+    "consecutive_failures": 1
   },
   "greenhouse:brooklinen": {
     "consecutive_failures": 3
@@ -65,6 +74,12 @@
   "greenhouse:gram": {
     "consecutive_failures": 3
   },
+  "greenhouse:huntress": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:ieqcapital": {
+    "consecutive_failures": 1
+  },
   "greenhouse:iherb": {
     "consecutive_failures": 3
   },
@@ -92,6 +107,9 @@
   "greenhouse:tekion": {
     "consecutive_failures": 3
   },
+  "greenhouse:temporaltechnologies": {
+    "consecutive_failures": 1
+  },
   "greenhouse:underdogfantasy": {
     "consecutive_failures": 3
   },
@@ -101,26 +119,14 @@
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
-  "lever:CesiumAstro": {
-    "consecutive_failures": 1
-  },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
-  },
-  "lever:bhvr": {
-    "consecutive_failures": 1
   },
   "lever:cgsfederal": {
     "consecutive_failures": 3
   },
   "lever:color": {
     "consecutive_failures": 3
-  },
-  "lever:matchgroup": {
-    "consecutive_failures": 1
-  },
-  "lever:perforce": {
-    "consecutive_failures": 1
   },
   "lever:sanctuary": {
     "consecutive_failures": 3
