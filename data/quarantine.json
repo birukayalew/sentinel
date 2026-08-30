@@ -32,15 +32,6 @@
   "greenhouse:artefactus": {
     "consecutive_failures": 3
   },
-  "greenhouse:atlassp": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:attentionarc": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:brevium": {
-    "consecutive_failures": 1
-  },
   "greenhouse:brooklinen": {
     "consecutive_failures": 3
   },
@@ -59,23 +50,11 @@
   "greenhouse:cti": {
     "consecutive_failures": 3
   },
-  "greenhouse:cultureamp": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:customerio": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:elevationscreditunion": {
-    "consecutive_failures": 1
-  },
   "greenhouse:embrace": {
     "consecutive_failures": 3
   },
   "greenhouse:fireworksai": {
     "consecutive_failures": 3
-  },
-  "greenhouse:flip": {
-    "consecutive_failures": 1
   },
   "greenhouse:gafg": {
     "consecutive_failures": 3
@@ -92,23 +71,14 @@
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
   },
-  "greenhouse:leagueinc": {
-    "consecutive_failures": 1
-  },
   "greenhouse:loop": {
     "consecutive_failures": 3
   },
   "greenhouse:matx": {
     "consecutive_failures": 3
   },
-  "greenhouse:otrcapital1": {
-    "consecutive_failures": 1
-  },
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
-  },
-  "greenhouse:pendo": {
-    "consecutive_failures": 1
   },
   "greenhouse:radiantsecurity": {
     "consecutive_failures": 3
