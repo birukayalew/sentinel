@@ -56,11 +56,17 @@
   "greenhouse:fireworksai": {
     "consecutive_failures": 3
   },
+  "greenhouse:ftandinternships": {
+    "consecutive_failures": 1
+  },
   "greenhouse:gafg": {
     "consecutive_failures": 3
   },
   "greenhouse:galileofinancialtechnologies": {
     "consecutive_failures": 3
+  },
+  "greenhouse:goatgroup": {
+    "consecutive_failures": 1
   },
   "greenhouse:gram": {
     "consecutive_failures": 3
@@ -80,14 +86,29 @@
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
   },
+  "greenhouse:pallet": {
+    "consecutive_failures": 1
+  },
   "greenhouse:radiantsecurity": {
     "consecutive_failures": 3
   },
   "greenhouse:reach": {
     "consecutive_failures": 3
   },
+  "greenhouse:remodelhealth": {
+    "consecutive_failures": 1
+  },
   "greenhouse:shyftsolutionsllc": {
     "consecutive_failures": 3
+  },
+  "greenhouse:sofi": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:specterops": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:stratacareers": {
+    "consecutive_failures": 1
   },
   "greenhouse:tekion": {
     "consecutive_failures": 3
@@ -95,8 +116,14 @@
   "greenhouse:temporaltechnologies": {
     "consecutive_failures": 3
   },
+  "greenhouse:thenuclearcompany": {
+    "consecutive_failures": 1
+  },
   "greenhouse:underdogfantasy": {
     "consecutive_failures": 3
+  },
+  "greenhouse:wecommunications": {
+    "consecutive_failures": 1
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
@@ -107,13 +134,34 @@
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
+  "lever:acceldata": {
+    "consecutive_failures": 1
+  },
+  "lever:alertus": {
+    "consecutive_failures": 1
+  },
+  "lever:alltrails": {
+    "consecutive_failures": 1
+  },
+  "lever:bellwetheram-2": {
+    "consecutive_failures": 1
+  },
+  "lever:bisnow": {
+    "consecutive_failures": 1
+  },
+  "lever:certik": {
+    "consecutive_failures": 1
+  },
   "lever:cgsfederal": {
     "consecutive_failures": 3
   },
   "lever:color": {
     "consecutive_failures": 3
   },
-  "lever:lyrahealth": {
+  "lever:larian": {
+    "consecutive_failures": 1
+  },
+  "lever:penumbrainc": {
     "consecutive_failures": 1
   },
   "lever:sanctuary": {
@@ -121,6 +169,12 @@
   },
   "lever:sensortower": {
     "consecutive_failures": 3
+  },
+  "lever:shieldai": {
+    "consecutive_failures": 1
+  },
+  "lever:sonarsource": {
+    "consecutive_failures": 1
   },
   "lever:sprucesystems": {
     "consecutive_failures": 3
