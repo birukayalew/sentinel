@@ -11,6 +11,9 @@
   "ashby:latitude": {
     "consecutive_failures": 3
   },
+  "ashby:lynk": {
+    "consecutive_failures": 1
+  },
   "ashby:newfront": {
     "consecutive_failures": 3
   },
@@ -19,6 +22,9 @@
   },
   "greenhouse:10xgenomics": {
     "consecutive_failures": 3
+  },
+  "greenhouse:akunacapital": {
+    "consecutive_failures": 1
   },
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
@@ -32,9 +38,6 @@
   "greenhouse:artefactus": {
     "consecutive_failures": 3
   },
-  "greenhouse:brevium": {
-    "consecutive_failures": 1
-  },
   "greenhouse:brooklinen": {
     "consecutive_failures": 3
   },
@@ -44,41 +47,23 @@
   "greenhouse:capitalrx": {
     "consecutive_failures": 3
   },
-  "greenhouse:captivation": {
-    "consecutive_failures": 1
-  },
   "greenhouse:clickhouse": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:climateai": {
     "consecutive_failures": 3
   },
-  "greenhouse:coinbase": {
+  "greenhouse:constantcontact": {
     "consecutive_failures": 1
   },
   "greenhouse:coursera": {
     "consecutive_failures": 3
   },
-  "greenhouse:css": {
-    "consecutive_failures": 1
-  },
   "greenhouse:cti": {
     "consecutive_failures": 3
   },
-  "greenhouse:datadog": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:dvtrading": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:elementbiosciences": {
-    "consecutive_failures": 1
-  },
   "greenhouse:embrace": {
     "consecutive_failures": 3
-  },
-  "greenhouse:federato": {
-    "consecutive_failures": 1
   },
   "greenhouse:fireworksai": {
     "consecutive_failures": 3
@@ -90,7 +75,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:glossgenius": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:gram": {
     "consecutive_failures": 3
@@ -104,38 +89,17 @@
   "greenhouse:loop": {
     "consecutive_failures": 3
   },
-  "greenhouse:lumosfiber": {
-    "consecutive_failures": 1
-  },
   "greenhouse:marqeta": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:matx": {
     "consecutive_failures": 3
   },
   "greenhouse:mqreferrals": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:msfcareers": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:neo4j": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:nimblegravity": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:oodlefinance": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:optoinvest": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
-  },
-  "greenhouse:practisinglawinstitute": {
-    "consecutive_failures": 1
   },
   "greenhouse:radiantsecurity": {
     "consecutive_failures": 3
@@ -143,20 +107,11 @@
   "greenhouse:reach": {
     "consecutive_failures": 3
   },
-  "greenhouse:resonate": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:roblox": {
-    "consecutive_failures": 1
-  },
   "greenhouse:shyftsolutionsllc": {
     "consecutive_failures": 3
   },
   "greenhouse:sixthstreet": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:supplyhouse": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:tekion": {
     "consecutive_failures": 3
@@ -166,9 +121,6 @@
   },
   "greenhouse:underdogfantasy": {
     "consecutive_failures": 3
-  },
-  "greenhouse:unitedmasterstranslation": {
-    "consecutive_failures": 1
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
@@ -182,29 +134,8 @@
   "lever:cgsfederal": {
     "consecutive_failures": 3
   },
-  "lever:cleanspark": {
-    "consecutive_failures": 1
-  },
   "lever:color": {
     "consecutive_failures": 3
-  },
-  "lever:coupa": {
-    "consecutive_failures": 1
-  },
-  "lever:deepgenomics": {
-    "consecutive_failures": 1
-  },
-  "lever:drivemode": {
-    "consecutive_failures": 1
-  },
-  "lever:esrtreit": {
-    "consecutive_failures": 1
-  },
-  "lever:filevine": {
-    "consecutive_failures": 1
-  },
-  "lever:larian": {
-    "consecutive_failures": 1
   },
   "lever:sanctuary": {
     "consecutive_failures": 3
