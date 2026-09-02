@@ -12,7 +12,7 @@
     "consecutive_failures": 3
   },
   "ashby:lynk": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "ashby:newfront": {
     "consecutive_failures": 3
@@ -22,9 +22,6 @@
   },
   "greenhouse:10xgenomics": {
     "consecutive_failures": 3
-  },
-  "greenhouse:akunacapital": {
-    "consecutive_failures": 1
   },
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
@@ -38,6 +35,9 @@
   "greenhouse:artefactus": {
     "consecutive_failures": 3
   },
+  "greenhouse:betterhelpcom": {
+    "consecutive_failures": 1
+  },
   "greenhouse:brooklinen": {
     "consecutive_failures": 3
   },
@@ -48,13 +48,10 @@
     "consecutive_failures": 3
   },
   "greenhouse:clickhouse": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "greenhouse:climateai": {
     "consecutive_failures": 3
-  },
-  "greenhouse:constantcontact": {
-    "consecutive_failures": 1
   },
   "greenhouse:coursera": {
     "consecutive_failures": 3
@@ -68,6 +65,9 @@
   "greenhouse:fireworksai": {
     "consecutive_failures": 3
   },
+  "greenhouse:flagshippioneeringinc": {
+    "consecutive_failures": 1
+  },
   "greenhouse:gafg": {
     "consecutive_failures": 3
   },
@@ -75,7 +75,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:glossgenius": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "greenhouse:gram": {
     "consecutive_failures": 3
@@ -90,13 +90,13 @@
     "consecutive_failures": 3
   },
   "greenhouse:marqeta": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "greenhouse:matx": {
     "consecutive_failures": 3
   },
   "greenhouse:mqreferrals": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
@@ -111,7 +111,10 @@
     "consecutive_failures": 3
   },
   "greenhouse:sixthstreet": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
+  },
+  "greenhouse:stratolaunch": {
+    "consecutive_failures": 1
   },
   "greenhouse:tekion": {
     "consecutive_failures": 3
@@ -137,6 +140,12 @@
   "lever:color": {
     "consecutive_failures": 3
   },
+  "lever:lyrahealth": {
+    "consecutive_failures": 1
+  },
+  "lever:pigment": {
+    "consecutive_failures": 1
+  },
   "lever:sanctuary": {
     "consecutive_failures": 3
   },
@@ -148,5 +157,8 @@
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
+  },
+  "lever:tsmg": {
+    "consecutive_failures": 1
   }
 }
