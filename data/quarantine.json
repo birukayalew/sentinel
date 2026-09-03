@@ -23,6 +23,9 @@
   "greenhouse:10xgenomics": {
     "consecutive_failures": 3
   },
+  "greenhouse:alloy": {
+    "consecutive_failures": 1
+  },
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
   },
@@ -34,6 +37,12 @@
   },
   "greenhouse:artefactus": {
     "consecutive_failures": 3
+  },
+  "greenhouse:atlassp": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:axontalentcommunity": {
+    "consecutive_failures": 1
   },
   "greenhouse:brooklinen": {
     "consecutive_failures": 3
@@ -62,14 +71,14 @@
   "greenhouse:fireworksai": {
     "consecutive_failures": 3
   },
+  "greenhouse:fsastorecom": {
+    "consecutive_failures": 1
+  },
   "greenhouse:gafg": {
     "consecutive_failures": 3
   },
   "greenhouse:galileofinancialtechnologies": {
     "consecutive_failures": 3
-  },
-  "greenhouse:genscript": {
-    "consecutive_failures": 1
   },
   "greenhouse:glossgenius": {
     "consecutive_failures": 3
@@ -80,14 +89,8 @@
   "greenhouse:iherb": {
     "consecutive_failures": 3
   },
-  "greenhouse:intrinsicrobotics": {
-    "consecutive_failures": 1
-  },
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
-  },
-  "greenhouse:juvare": {
-    "consecutive_failures": 1
   },
   "greenhouse:loop": {
     "consecutive_failures": 3
@@ -101,9 +104,6 @@
   "greenhouse:mqreferrals": {
     "consecutive_failures": 3
   },
-  "greenhouse:octaura": {
-    "consecutive_failures": 1
-  },
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
   },
@@ -113,11 +113,20 @@
   "greenhouse:reach": {
     "consecutive_failures": 3
   },
+  "greenhouse:shipbobinc": {
+    "consecutive_failures": 1
+  },
   "greenhouse:shyftsolutionsllc": {
     "consecutive_failures": 3
   },
   "greenhouse:sixthstreet": {
     "consecutive_failures": 3
+  },
+  "greenhouse:skhynixamerica": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:specterops": {
+    "consecutive_failures": 1
   },
   "greenhouse:tekion": {
     "consecutive_failures": 3
@@ -128,17 +137,11 @@
   "greenhouse:underdogfantasy": {
     "consecutive_failures": 3
   },
-  "greenhouse:vmlenterprisesolutions": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:wayve": {
+  "greenhouse:weedmaps77": {
     "consecutive_failures": 1
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
-  },
-  "greenhouse:xpengmotors": {
-    "consecutive_failures": 1
   },
   "lever:AntiCapital": {
     "consecutive_failures": 3
