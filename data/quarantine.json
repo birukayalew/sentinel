@@ -12,7 +12,7 @@
     "consecutive_failures": 3
   },
   "ashby:lynk": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "ashby:newfront": {
     "consecutive_failures": 3
@@ -34,9 +34,6 @@
   },
   "greenhouse:artefactus": {
     "consecutive_failures": 3
-  },
-  "greenhouse:betterhelpcom": {
-    "consecutive_failures": 1
   },
   "greenhouse:brooklinen": {
     "consecutive_failures": 3
@@ -65,14 +62,14 @@
   "greenhouse:fireworksai": {
     "consecutive_failures": 3
   },
-  "greenhouse:flagshippioneeringinc": {
-    "consecutive_failures": 1
-  },
   "greenhouse:gafg": {
     "consecutive_failures": 3
   },
   "greenhouse:galileofinancialtechnologies": {
     "consecutive_failures": 3
+  },
+  "greenhouse:genscript": {
+    "consecutive_failures": 1
   },
   "greenhouse:glossgenius": {
     "consecutive_failures": 3
@@ -83,8 +80,14 @@
   "greenhouse:iherb": {
     "consecutive_failures": 3
   },
+  "greenhouse:intrinsicrobotics": {
+    "consecutive_failures": 1
+  },
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
+  },
+  "greenhouse:juvare": {
+    "consecutive_failures": 1
   },
   "greenhouse:loop": {
     "consecutive_failures": 3
@@ -97,6 +100,9 @@
   },
   "greenhouse:mqreferrals": {
     "consecutive_failures": 3
+  },
+  "greenhouse:octaura": {
+    "consecutive_failures": 1
   },
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
@@ -113,9 +119,6 @@
   "greenhouse:sixthstreet": {
     "consecutive_failures": 3
   },
-  "greenhouse:stratolaunch": {
-    "consecutive_failures": 1
-  },
   "greenhouse:tekion": {
     "consecutive_failures": 3
   },
@@ -125,8 +128,17 @@
   "greenhouse:underdogfantasy": {
     "consecutive_failures": 3
   },
+  "greenhouse:vmlenterprisesolutions": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:wayve": {
+    "consecutive_failures": 1
+  },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
+  },
+  "greenhouse:xpengmotors": {
+    "consecutive_failures": 1
   },
   "lever:AntiCapital": {
     "consecutive_failures": 3
@@ -140,12 +152,6 @@
   "lever:color": {
     "consecutive_failures": 3
   },
-  "lever:lyrahealth": {
-    "consecutive_failures": 1
-  },
-  "lever:pigment": {
-    "consecutive_failures": 1
-  },
   "lever:sanctuary": {
     "consecutive_failures": 3
   },
@@ -157,8 +163,5 @@
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
-  },
-  "lever:tsmg": {
-    "consecutive_failures": 1
   }
 }
