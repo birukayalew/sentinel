@@ -23,9 +23,6 @@
   "greenhouse:10xgenomics": {
     "consecutive_failures": 3
   },
-  "greenhouse:alloy": {
-    "consecutive_failures": 1
-  },
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
   },
@@ -37,12 +34,6 @@
   },
   "greenhouse:artefactus": {
     "consecutive_failures": 3
-  },
-  "greenhouse:atlassp": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:axontalentcommunity": {
-    "consecutive_failures": 1
   },
   "greenhouse:brooklinen": {
     "consecutive_failures": 3
@@ -70,9 +61,6 @@
   },
   "greenhouse:fireworksai": {
     "consecutive_failures": 3
-  },
-  "greenhouse:fsastorecom": {
-    "consecutive_failures": 1
   },
   "greenhouse:gafg": {
     "consecutive_failures": 3
@@ -113,7 +101,7 @@
   "greenhouse:reach": {
     "consecutive_failures": 3
   },
-  "greenhouse:shipbobinc": {
+  "greenhouse:rise8": {
     "consecutive_failures": 1
   },
   "greenhouse:shyftsolutionsllc": {
@@ -122,10 +110,7 @@
   "greenhouse:sixthstreet": {
     "consecutive_failures": 3
   },
-  "greenhouse:skhynixamerica": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:specterops": {
+  "greenhouse:striiminc": {
     "consecutive_failures": 1
   },
   "greenhouse:tekion": {
@@ -137,7 +122,7 @@
   "greenhouse:underdogfantasy": {
     "consecutive_failures": 3
   },
-  "greenhouse:weedmaps77": {
+  "greenhouse:vestwell": {
     "consecutive_failures": 1
   },
   "greenhouse:withumsmithbrown": {
