@@ -62,6 +62,9 @@
   "greenhouse:fireworksai": {
     "consecutive_failures": 3
   },
+  "greenhouse:formic": {
+    "consecutive_failures": 1
+  },
   "greenhouse:gafg": {
     "consecutive_failures": 3
   },
@@ -92,6 +95,9 @@
   "greenhouse:mqreferrals": {
     "consecutive_failures": 3
   },
+  "greenhouse:oldcastlebuildingenvelope": {
+    "consecutive_failures": 1
+  },
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
   },
@@ -101,7 +107,7 @@
   "greenhouse:reach": {
     "consecutive_failures": 3
   },
-  "greenhouse:rise8": {
+  "greenhouse:seattlesoundersfc": {
     "consecutive_failures": 1
   },
   "greenhouse:shyftsolutionsllc": {
@@ -109,9 +115,6 @@
   },
   "greenhouse:sixthstreet": {
     "consecutive_failures": 3
-  },
-  "greenhouse:striiminc": {
-    "consecutive_failures": 1
   },
   "greenhouse:tekion": {
     "consecutive_failures": 3
@@ -122,7 +125,7 @@
   "greenhouse:underdogfantasy": {
     "consecutive_failures": 3
   },
-  "greenhouse:vestwell": {
+  "greenhouse:visiersolutionsinc": {
     "consecutive_failures": 1
   },
   "greenhouse:withumsmithbrown": {
@@ -139,6 +142,9 @@
   },
   "lever:color": {
     "consecutive_failures": 3
+  },
+  "lever:elfbeauty": {
+    "consecutive_failures": 1
   },
   "lever:sanctuary": {
     "consecutive_failures": 3
