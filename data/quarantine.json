@@ -35,9 +35,6 @@
   "greenhouse:artefactus": {
     "consecutive_failures": 3
   },
-  "greenhouse:bracebridgecapital": {
-    "consecutive_failures": 1
-  },
   "greenhouse:brooklinen": {
     "consecutive_failures": 3
   },
@@ -53,9 +50,6 @@
   "greenhouse:climateai": {
     "consecutive_failures": 3
   },
-  "greenhouse:colabsoftware": {
-    "consecutive_failures": 1
-  },
   "greenhouse:coursera": {
     "consecutive_failures": 3
   },
@@ -63,7 +57,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:deepmind": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:embrace": {
     "consecutive_failures": 3
@@ -88,12 +82,6 @@
   },
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
-  },
-  "greenhouse:later": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:locusrobotics": {
-    "consecutive_failures": 1
   },
   "greenhouse:loop": {
     "consecutive_failures": 3
@@ -137,6 +125,9 @@
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
+  "lever:CesiumAstro": {
+    "consecutive_failures": 1
+  },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
@@ -145,6 +136,9 @@
   },
   "lever:color": {
     "consecutive_failures": 3
+  },
+  "lever:extremenetworks": {
+    "consecutive_failures": 1
   },
   "lever:sanctuary": {
     "consecutive_failures": 3
