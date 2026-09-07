@@ -57,7 +57,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:deepmind": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "greenhouse:embrace": {
     "consecutive_failures": 3
@@ -125,9 +125,6 @@
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
-  "lever:CesiumAstro": {
-    "consecutive_failures": 1
-  },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
@@ -136,9 +133,6 @@
   },
   "lever:color": {
     "consecutive_failures": 3
-  },
-  "lever:extremenetworks": {
-    "consecutive_failures": 1
   },
   "lever:sanctuary": {
     "consecutive_failures": 3
@@ -151,5 +145,8 @@
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
+  },
+  "lever:tsmg": {
+    "consecutive_failures": 1
   }
 }
