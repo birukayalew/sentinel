@@ -62,6 +62,12 @@
   "greenhouse:embrace": {
     "consecutive_failures": 3
   },
+  "greenhouse:eqtcorporation": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:evolver": {
+    "consecutive_failures": 1
+  },
   "greenhouse:fireworksai": {
     "consecutive_failures": 3
   },
@@ -76,6 +82,15 @@
   },
   "greenhouse:gram": {
     "consecutive_failures": 3
+  },
+  "greenhouse:greenworkssunriseglobalmarketing": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:haizelabs": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:horizonindustrieslimited": {
+    "consecutive_failures": 1
   },
   "greenhouse:iherb": {
     "consecutive_failures": 3
@@ -95,8 +110,17 @@
   "greenhouse:mqreferrals": {
     "consecutive_failures": 3
   },
+  "greenhouse:nmi": {
+    "consecutive_failures": 1
+  },
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
+  },
+  "greenhouse:personalisinc": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:prolaio": {
+    "consecutive_failures": 1
   },
   "greenhouse:radiantsecurity": {
     "consecutive_failures": 3
@@ -122,10 +146,13 @@
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
   },
+  "greenhouse:workstream": {
+    "consecutive_failures": 1
+  },
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
-  "lever:Aprio": {
+  "lever:CesiumAstro": {
     "consecutive_failures": 1
   },
   "lever:SprinterHealth": {
@@ -133,6 +160,9 @@
   },
   "lever:cgsfederal": {
     "consecutive_failures": 3
+  },
+  "lever:cirquedusoleil": {
+    "consecutive_failures": 1
   },
   "lever:color": {
     "consecutive_failures": 3
