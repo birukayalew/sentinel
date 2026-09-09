@@ -23,6 +23,9 @@
   "greenhouse:10xgenomics": {
     "consecutive_failures": 3
   },
+  "greenhouse:2k": {
+    "consecutive_failures": 1
+  },
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
   },
@@ -44,6 +47,9 @@
   "greenhouse:capitalrx": {
     "consecutive_failures": 3
   },
+  "greenhouse:cellsignalingtechnology79": {
+    "consecutive_failures": 1
+  },
   "greenhouse:clickhouse": {
     "consecutive_failures": 3
   },
@@ -62,10 +68,10 @@
   "greenhouse:embrace": {
     "consecutive_failures": 3
   },
-  "greenhouse:eqtcorporation": {
-    "consecutive_failures": 1
-  },
   "greenhouse:evolver": {
+    "consecutive_failures": 2
+  },
+  "greenhouse:faralloncapitalmanagementllc": {
     "consecutive_failures": 1
   },
   "greenhouse:fireworksai": {
@@ -83,20 +89,17 @@
   "greenhouse:gram": {
     "consecutive_failures": 3
   },
-  "greenhouse:greenworkssunriseglobalmarketing": {
-    "consecutive_failures": 1
-  },
   "greenhouse:haizelabs": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:horizonindustrieslimited": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:iherb": {
     "consecutive_failures": 3
   },
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
+  },
+  "greenhouse:logicgate": {
+    "consecutive_failures": 1
   },
   "greenhouse:loop": {
     "consecutive_failures": 3
@@ -110,17 +113,8 @@
   "greenhouse:mqreferrals": {
     "consecutive_failures": 3
   },
-  "greenhouse:nmi": {
-    "consecutive_failures": 1
-  },
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
-  },
-  "greenhouse:personalisinc": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:prolaio": {
-    "consecutive_failures": 1
   },
   "greenhouse:radiantsecurity": {
     "consecutive_failures": 3
@@ -134,6 +128,9 @@
   "greenhouse:sixthstreet": {
     "consecutive_failures": 3
   },
+  "greenhouse:soundcloud71": {
+    "consecutive_failures": 1
+  },
   "greenhouse:tekion": {
     "consecutive_failures": 3
   },
@@ -146,23 +143,14 @@
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
   },
-  "greenhouse:workstream": {
-    "consecutive_failures": 1
-  },
   "lever:AntiCapital": {
     "consecutive_failures": 3
-  },
-  "lever:CesiumAstro": {
-    "consecutive_failures": 1
   },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
   "lever:cgsfederal": {
     "consecutive_failures": 3
-  },
-  "lever:cirquedusoleil": {
-    "consecutive_failures": 1
   },
   "lever:color": {
     "consecutive_failures": 3
@@ -178,5 +166,8 @@
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
+  },
+  "lever:tsmg": {
+    "consecutive_failures": 1
   }
 }
