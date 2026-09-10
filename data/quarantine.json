@@ -14,6 +14,9 @@
   "ashby:lynk": {
     "consecutive_failures": 3
   },
+  "ashby:mach": {
+    "consecutive_failures": 1
+  },
   "ashby:newfront": {
     "consecutive_failures": 3
   },
@@ -34,9 +37,6 @@
   },
   "greenhouse:artefactus": {
     "consecutive_failures": 3
-  },
-  "greenhouse:axle": {
-    "consecutive_failures": 1
   },
   "greenhouse:brooklinen": {
     "consecutive_failures": 3
@@ -110,9 +110,6 @@
   "greenhouse:reach": {
     "consecutive_failures": 3
   },
-  "greenhouse:shifttechnology": {
-    "consecutive_failures": 1
-  },
   "greenhouse:shyftsolutionsllc": {
     "consecutive_failures": 3
   },
@@ -130,9 +127,6 @@
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
-  },
-  "greenhouse:yugabyte": {
-    "consecutive_failures": 1
   },
   "lever:AntiCapital": {
     "consecutive_failures": 3
