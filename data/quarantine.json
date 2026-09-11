@@ -15,7 +15,7 @@
     "consecutive_failures": 3
   },
   "ashby:mach": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "ashby:newfront": {
     "consecutive_failures": 3
@@ -77,6 +77,9 @@
   "greenhouse:glossgenius": {
     "consecutive_failures": 3
   },
+  "greenhouse:goremutualinsurance": {
+    "consecutive_failures": 1
+  },
   "greenhouse:gram": {
     "consecutive_failures": 3
   },
@@ -115,6 +118,9 @@
   },
   "greenhouse:sixthstreet": {
     "consecutive_failures": 3
+  },
+  "greenhouse:systemstechnologyresearch": {
+    "consecutive_failures": 1
   },
   "greenhouse:tekion": {
     "consecutive_failures": 3
