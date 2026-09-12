@@ -65,9 +65,6 @@
   "greenhouse:embrace": {
     "consecutive_failures": 3
   },
-  "greenhouse:ezcaterinc": {
-    "consecutive_failures": 1
-  },
   "greenhouse:fireworksai": {
     "consecutive_failures": 3
   },
