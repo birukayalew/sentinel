@@ -65,6 +65,9 @@
   "greenhouse:embrace": {
     "consecutive_failures": 3
   },
+  "greenhouse:ezcaterinc": {
+    "consecutive_failures": 1
+  },
   "greenhouse:fireworksai": {
     "consecutive_failures": 3
   },
@@ -134,20 +137,11 @@
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
-  "lever:allegiantair": {
-    "consecutive_failures": 1
-  },
-  "lever:brooksrunning": {
-    "consecutive_failures": 1
-  },
   "lever:cgsfederal": {
     "consecutive_failures": 3
   },
   "lever:color": {
     "consecutive_failures": 3
-  },
-  "lever:field-ai": {
-    "consecutive_failures": 1
   },
   "lever:sanctuary": {
     "consecutive_failures": 3
@@ -160,8 +154,5 @@
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
-  },
-  "lever:tsmg": {
-    "consecutive_failures": 1
   }
 }
