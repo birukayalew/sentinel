@@ -5,6 +5,9 @@
   "ashby:fractional-ai": {
     "consecutive_failures": 3
   },
+  "ashby:goodship": {
+    "consecutive_failures": 1
+  },
   "ashby:iacollaborative": {
     "consecutive_failures": 3
   },
@@ -38,12 +41,6 @@
   "greenhouse:artefactus": {
     "consecutive_failures": 3
   },
-  "greenhouse:bloomreach": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:brevium": {
-    "consecutive_failures": 1
-  },
   "greenhouse:brooklinen": {
     "consecutive_failures": 3
   },
@@ -52,6 +49,9 @@
   },
   "greenhouse:capitalrx": {
     "consecutive_failures": 3
+  },
+  "greenhouse:chanzuckerberginitiative": {
+    "consecutive_failures": 1
   },
   "greenhouse:clickhouse": {
     "consecutive_failures": 3
@@ -95,6 +95,12 @@
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
   },
+  "greenhouse:kapitus": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:klaviyo": {
+    "consecutive_failures": 1
+  },
   "greenhouse:loop": {
     "consecutive_failures": 3
   },
@@ -119,13 +125,16 @@
   "greenhouse:shyftsolutionsllc": {
     "consecutive_failures": 3
   },
-  "greenhouse:simpletechnologysolutions": {
-    "consecutive_failures": 1
-  },
   "greenhouse:sixthstreet": {
     "consecutive_failures": 3
   },
   "greenhouse:sonothera": {
+    "consecutive_failures": 2
+  },
+  "greenhouse:stackav": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:stateaffairs": {
     "consecutive_failures": 1
   },
   "greenhouse:tekion": {
@@ -133,9 +142,6 @@
   },
   "greenhouse:temporaltechnologies": {
     "consecutive_failures": 3
-  },
-  "greenhouse:triparc": {
-    "consecutive_failures": 1
   },
   "greenhouse:underdogfantasy": {
     "consecutive_failures": 3
@@ -149,11 +155,17 @@
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
+  "lever:agile-defense": {
+    "consecutive_failures": 1
+  },
   "lever:cgsfederal": {
     "consecutive_failures": 3
   },
   "lever:color": {
     "consecutive_failures": 3
+  },
+  "lever:drivemode": {
+    "consecutive_failures": 1
   },
   "lever:sanctuary": {
     "consecutive_failures": 3
