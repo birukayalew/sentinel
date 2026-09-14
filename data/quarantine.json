@@ -38,6 +38,12 @@
   "greenhouse:artefactus": {
     "consecutive_failures": 3
   },
+  "greenhouse:bloomreach": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:brevium": {
+    "consecutive_failures": 1
+  },
   "greenhouse:brooklinen": {
     "consecutive_failures": 3
   },
@@ -113,14 +119,23 @@
   "greenhouse:shyftsolutionsllc": {
     "consecutive_failures": 3
   },
+  "greenhouse:simpletechnologysolutions": {
+    "consecutive_failures": 1
+  },
   "greenhouse:sixthstreet": {
     "consecutive_failures": 3
+  },
+  "greenhouse:sonothera": {
+    "consecutive_failures": 1
   },
   "greenhouse:tekion": {
     "consecutive_failures": 3
   },
   "greenhouse:temporaltechnologies": {
     "consecutive_failures": 3
+  },
+  "greenhouse:triparc": {
+    "consecutive_failures": 1
   },
   "greenhouse:underdogfantasy": {
     "consecutive_failures": 3
