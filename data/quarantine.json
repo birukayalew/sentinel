@@ -6,7 +6,7 @@
     "consecutive_failures": 3
   },
   "ashby:goodship": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "ashby:iacollaborative": {
     "consecutive_failures": 3
@@ -65,14 +65,8 @@
   "greenhouse:deepmind": {
     "consecutive_failures": 3
   },
-  "greenhouse:dv01": {
-    "consecutive_failures": 1
-  },
   "greenhouse:embrace": {
     "consecutive_failures": 3
-  },
-  "greenhouse:eudia": {
-    "consecutive_failures": 1
   },
   "greenhouse:fireworksai": {
     "consecutive_failures": 3
@@ -83,11 +77,11 @@
   "greenhouse:galileofinancialtechnologies": {
     "consecutive_failures": 3
   },
-  "greenhouse:gemini": {
-    "consecutive_failures": 1
-  },
   "greenhouse:glossgenius": {
     "consecutive_failures": 3
+  },
+  "greenhouse:goatgroup": {
+    "consecutive_failures": 1
   },
   "greenhouse:gram": {
     "consecutive_failures": 3
@@ -101,9 +95,6 @@
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
   },
-  "greenhouse:kodiak": {
-    "consecutive_failures": 1
-  },
   "greenhouse:loop": {
     "consecutive_failures": 3
   },
@@ -116,14 +107,11 @@
   "greenhouse:mqreferrals": {
     "consecutive_failures": 3
   },
-  "greenhouse:mrbeastyoutube": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:otrcapital1": {
-    "consecutive_failures": 1
-  },
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
+  },
+  "greenhouse:planetlabs": {
+    "consecutive_failures": 1
   },
   "greenhouse:radiantsecurity": {
     "consecutive_failures": 3
@@ -131,14 +119,14 @@
   "greenhouse:reach": {
     "consecutive_failures": 3
   },
-  "greenhouse:roblox": {
-    "consecutive_failures": 1
-  },
   "greenhouse:shyftsolutionsllc": {
     "consecutive_failures": 3
   },
   "greenhouse:sixthstreet": {
     "consecutive_failures": 3
+  },
+  "greenhouse:summitpartnerslp": {
+    "consecutive_failures": 1
   },
   "greenhouse:tekion": {
     "consecutive_failures": 3
@@ -149,29 +137,14 @@
   "greenhouse:underdogfantasy": {
     "consecutive_failures": 3
   },
-  "greenhouse:virtu": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:visualconcepts": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:waterloocoop": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:waymark": {
-    "consecutive_failures": 1
-  },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
   },
-  "lever:AIFund": {
+  "lever:2os": {
     "consecutive_failures": 1
   },
   "lever:AntiCapital": {
     "consecutive_failures": 3
-  },
-  "lever:Aprio": {
-    "consecutive_failures": 1
   },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
@@ -182,6 +155,9 @@
   "lever:color": {
     "consecutive_failures": 3
   },
+  "lever:redhorsecorp": {
+    "consecutive_failures": 1
+  },
   "lever:sanctuary": {
     "consecutive_failures": 3
   },
@@ -190,6 +166,9 @@
   },
   "lever:sprucesystems": {
     "consecutive_failures": 3
+  },
+  "lever:sprymethods": {
+    "consecutive_failures": 1
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
