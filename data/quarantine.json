@@ -80,9 +80,6 @@
   "greenhouse:glossgenius": {
     "consecutive_failures": 3
   },
-  "greenhouse:goatgroup": {
-    "consecutive_failures": 1
-  },
   "greenhouse:gram": {
     "consecutive_failures": 3
   },
@@ -110,9 +107,6 @@
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
   },
-  "greenhouse:planetlabs": {
-    "consecutive_failures": 1
-  },
   "greenhouse:radiantsecurity": {
     "consecutive_failures": 3
   },
@@ -124,9 +118,6 @@
   },
   "greenhouse:sixthstreet": {
     "consecutive_failures": 3
-  },
-  "greenhouse:summitpartnerslp": {
-    "consecutive_failures": 1
   },
   "greenhouse:tekion": {
     "consecutive_failures": 3
@@ -140,23 +131,20 @@
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
   },
-  "lever:2os": {
-    "consecutive_failures": 1
-  },
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
+  "lever:agile-defense": {
+    "consecutive_failures": 1
+  },
   "lever:cgsfederal": {
     "consecutive_failures": 3
   },
   "lever:color": {
     "consecutive_failures": 3
-  },
-  "lever:redhorsecorp": {
-    "consecutive_failures": 1
   },
   "lever:sanctuary": {
     "consecutive_failures": 3
@@ -166,9 +154,6 @@
   },
   "lever:sprucesystems": {
     "consecutive_failures": 3
-  },
-  "lever:sprymethods": {
-    "consecutive_failures": 1
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
