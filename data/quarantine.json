@@ -29,9 +29,6 @@
   "greenhouse:10xgenomics": {
     "consecutive_failures": 3
   },
-  "greenhouse:alphasense": {
-    "consecutive_failures": 1
-  },
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
   },
@@ -43,12 +40,6 @@
   },
   "greenhouse:artefactus": {
     "consecutive_failures": 3
-  },
-  "greenhouse:athinkingape": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:billiontoone": {
-    "consecutive_failures": 1
   },
   "greenhouse:brooklinen": {
     "consecutive_failures": 3
@@ -65,9 +56,6 @@
   "greenhouse:climateai": {
     "consecutive_failures": 3
   },
-  "greenhouse:contentful": {
-    "consecutive_failures": 1
-  },
   "greenhouse:coursera": {
     "consecutive_failures": 3
   },
@@ -77,17 +65,8 @@
   "greenhouse:deepmind": {
     "consecutive_failures": 3
   },
-  "greenhouse:devrev": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:doordashusa": {
-    "consecutive_failures": 1
-  },
   "greenhouse:embrace": {
     "consecutive_failures": 3
-  },
-  "greenhouse:expertnetwork": {
-    "consecutive_failures": 1
   },
   "greenhouse:fireworksai": {
     "consecutive_failures": 3
@@ -97,12 +76,6 @@
   },
   "greenhouse:galileofinancialtechnologies": {
     "consecutive_failures": 3
-  },
-  "greenhouse:gemini": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:gitlab": {
-    "consecutive_failures": 1
   },
   "greenhouse:glossgenius": {
     "consecutive_failures": 3
@@ -116,17 +89,8 @@
   "greenhouse:iherb": {
     "consecutive_failures": 3
   },
-  "greenhouse:impinjexternal": {
-    "consecutive_failures": 1
-  },
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
-  },
-  "greenhouse:krollbondratingagency": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:locusrobotics": {
-    "consecutive_failures": 1
   },
   "greenhouse:loop": {
     "consecutive_failures": 3
@@ -140,11 +104,14 @@
   "greenhouse:mqreferrals": {
     "consecutive_failures": 3
   },
-  "greenhouse:onboardmeetings": {
+  "greenhouse:nimblegravity": {
     "consecutive_failures": 1
   },
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
+  },
+  "greenhouse:postman": {
+    "consecutive_failures": 1
   },
   "greenhouse:radiantsecurity": {
     "consecutive_failures": 3
@@ -158,12 +125,6 @@
   "greenhouse:sixthstreet": {
     "consecutive_failures": 3
   },
-  "greenhouse:smartlyio": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:studiokraftonboard": {
-    "consecutive_failures": 1
-  },
   "greenhouse:tekion": {
     "consecutive_failures": 3
   },
@@ -173,8 +134,14 @@
   "greenhouse:underdogfantasy": {
     "consecutive_failures": 3
   },
+  "greenhouse:vacasa": {
+    "consecutive_failures": 1
+  },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
+  },
+  "greenhouse:wpp": {
+    "consecutive_failures": 1
   },
   "lever:AntiCapital": {
     "consecutive_failures": 3
