@@ -92,6 +92,12 @@
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
   },
+  "greenhouse:layerhealth": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:lightmatter": {
+    "consecutive_failures": 1
+  },
   "greenhouse:loop": {
     "consecutive_failures": 3
   },
@@ -104,14 +110,11 @@
   "greenhouse:mqreferrals": {
     "consecutive_failures": 3
   },
-  "greenhouse:nimblegravity": {
-    "consecutive_failures": 1
-  },
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
   },
   "greenhouse:postman": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:radiantsecurity": {
     "consecutive_failures": 3
@@ -134,14 +137,8 @@
   "greenhouse:underdogfantasy": {
     "consecutive_failures": 3
   },
-  "greenhouse:vacasa": {
-    "consecutive_failures": 1
-  },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
-  },
-  "greenhouse:wpp": {
-    "consecutive_failures": 1
   },
   "lever:AntiCapital": {
     "consecutive_failures": 3
