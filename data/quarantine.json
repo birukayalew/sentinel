@@ -92,12 +92,6 @@
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
   },
-  "greenhouse:layerhealth": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:lightmatter": {
-    "consecutive_failures": 1
-  },
   "greenhouse:loop": {
     "consecutive_failures": 3
   },
@@ -114,13 +108,16 @@
     "consecutive_failures": 3
   },
   "greenhouse:postman": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "greenhouse:radiantsecurity": {
     "consecutive_failures": 3
   },
   "greenhouse:reach": {
     "consecutive_failures": 3
+  },
+  "greenhouse:rebuildmanufacturing": {
+    "consecutive_failures": 1
   },
   "greenhouse:shyftsolutionsllc": {
     "consecutive_failures": 3
