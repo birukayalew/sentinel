@@ -50,11 +50,17 @@
   "greenhouse:capitalrx": {
     "consecutive_failures": 3
   },
+  "greenhouse:carta": {
+    "consecutive_failures": 1
+  },
   "greenhouse:clickhouse": {
     "consecutive_failures": 3
   },
   "greenhouse:climateai": {
     "consecutive_failures": 3
+  },
+  "greenhouse:contentful": {
+    "consecutive_failures": 1
   },
   "greenhouse:coursera": {
     "consecutive_failures": 3
@@ -65,8 +71,17 @@
   "greenhouse:deepmind": {
     "consecutive_failures": 3
   },
+  "greenhouse:dropbox": {
+    "consecutive_failures": 1
+  },
   "greenhouse:embrace": {
     "consecutive_failures": 3
+  },
+  "greenhouse:engineersgate": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:ennoblecare": {
+    "consecutive_failures": 1
   },
   "greenhouse:fireworksai": {
     "consecutive_failures": 3
@@ -86,11 +101,20 @@
   "greenhouse:haizelabs": {
     "consecutive_failures": 3
   },
+  "greenhouse:huntress": {
+    "consecutive_failures": 1
+  },
   "greenhouse:iherb": {
     "consecutive_failures": 3
   },
+  "greenhouse:instabase": {
+    "consecutive_failures": 1
+  },
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
+  },
+  "greenhouse:leagueinc": {
+    "consecutive_failures": 1
   },
   "greenhouse:loop": {
     "consecutive_failures": 3
@@ -104,19 +128,43 @@
   "greenhouse:mqreferrals": {
     "consecutive_failures": 3
   },
+  "greenhouse:mw-tech-grad": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:newtonresearch": {
+    "consecutive_failures": 1
+  },
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
+  },
+  "greenhouse:pallet": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:parachutehealth": {
+    "consecutive_failures": 1
   },
   "greenhouse:postman": {
     "consecutive_failures": 3
   },
+  "greenhouse:rackner": {
+    "consecutive_failures": 1
+  },
   "greenhouse:radiantsecurity": {
     "consecutive_failures": 3
+  },
+  "greenhouse:radixuniversity": {
+    "consecutive_failures": 1
   },
   "greenhouse:reach": {
     "consecutive_failures": 3
   },
-  "greenhouse:rebuildmanufacturing": {
+  "greenhouse:riotgamesup": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:robinhood": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:rocketlab": {
     "consecutive_failures": 1
   },
   "greenhouse:shyftsolutionsllc": {
@@ -125,14 +173,35 @@
   "greenhouse:sixthstreet": {
     "consecutive_failures": 3
   },
+  "greenhouse:spacekinetic": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:speechify": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:stackadapt": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:technergetics": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:tecovas": {
+    "consecutive_failures": 1
+  },
   "greenhouse:tekion": {
     "consecutive_failures": 3
   },
   "greenhouse:temporaltechnologies": {
     "consecutive_failures": 3
   },
+  "greenhouse:twilio": {
+    "consecutive_failures": 1
+  },
   "greenhouse:underdogfantasy": {
     "consecutive_failures": 3
+  },
+  "greenhouse:warp": {
+    "consecutive_failures": 1
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
