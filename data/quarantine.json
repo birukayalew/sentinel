@@ -32,9 +32,6 @@
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
   },
-  "greenhouse:aperiatechnologies": {
-    "consecutive_failures": 1
-  },
   "greenhouse:arcellx": {
     "consecutive_failures": 3
   },
@@ -44,14 +41,20 @@
   "greenhouse:artefactus": {
     "consecutive_failures": 3
   },
-  "greenhouse:auctane": {
+  "greenhouse:astranis": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:axuall": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:braze": {
     "consecutive_failures": 1
   },
   "greenhouse:brooklinen": {
     "consecutive_failures": 3
   },
   "greenhouse:buyersedgeplatformrecruiting": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "greenhouse:campusopportunities": {
     "consecutive_failures": 3
