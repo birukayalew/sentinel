@@ -41,15 +41,6 @@
   "greenhouse:artefactus": {
     "consecutive_failures": 3
   },
-  "greenhouse:astranis": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:axuall": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:braze": {
-    "consecutive_failures": 1
-  },
   "greenhouse:brooklinen": {
     "consecutive_failures": 3
   },
@@ -130,6 +121,9 @@
   },
   "greenhouse:reach": {
     "consecutive_failures": 3
+  },
+  "greenhouse:rocketlab": {
+    "consecutive_failures": 1
   },
   "greenhouse:shyftsolutionsllc": {
     "consecutive_failures": 3
