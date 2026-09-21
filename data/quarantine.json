@@ -122,9 +122,6 @@
   "greenhouse:reach": {
     "consecutive_failures": 3
   },
-  "greenhouse:rocketlab": {
-    "consecutive_failures": 1
-  },
   "greenhouse:shyftsolutionsllc": {
     "consecutive_failures": 3
   },
@@ -146,6 +143,9 @@
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
+  "lever:CesiumAstro": {
+    "consecutive_failures": 1
+  },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
@@ -154,6 +154,9 @@
   },
   "lever:color": {
     "consecutive_failures": 3
+  },
+  "lever:inductiveautomation": {
+    "consecutive_failures": 1
   },
   "lever:sanctuary": {
     "consecutive_failures": 3
