@@ -27,16 +27,13 @@
     "consecutive_failures": 3
   },
   "ashby:two-dots": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "greenhouse:10xgenomics": {
     "consecutive_failures": 3
   },
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
-  },
-  "greenhouse:anthropic": {
-    "consecutive_failures": 1
   },
   "greenhouse:arcellx": {
     "consecutive_failures": 3
@@ -46,6 +43,9 @@
   },
   "greenhouse:artefactus": {
     "consecutive_failures": 3
+  },
+  "greenhouse:axontalentcommunity": {
+    "consecutive_failures": 1
   },
   "greenhouse:brooklinen": {
     "consecutive_failures": 3
@@ -59,11 +59,17 @@
   "greenhouse:capitalrx": {
     "consecutive_failures": 3
   },
+  "greenhouse:caseguard": {
+    "consecutive_failures": 1
+  },
   "greenhouse:clickhouse": {
     "consecutive_failures": 3
   },
   "greenhouse:climateai": {
     "consecutive_failures": 3
+  },
+  "greenhouse:clinicalarchitecture": {
+    "consecutive_failures": 1
   },
   "greenhouse:coursera": {
     "consecutive_failures": 3
@@ -74,14 +80,20 @@
   "greenhouse:deepmind": {
     "consecutive_failures": 3
   },
+  "greenhouse:devrev": {
+    "consecutive_failures": 1
+  },
   "greenhouse:embrace": {
     "consecutive_failures": 3
   },
-  "greenhouse:ezcaterinc": {
-    "consecutive_failures": 1
-  },
   "greenhouse:fireworksai": {
     "consecutive_failures": 3
+  },
+  "greenhouse:freedomconsulting": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:fspco-op012325": {
+    "consecutive_failures": 1
   },
   "greenhouse:gafg": {
     "consecutive_failures": 3
@@ -92,11 +104,17 @@
   "greenhouse:glossgenius": {
     "consecutive_failures": 3
   },
+  "greenhouse:gofundme": {
+    "consecutive_failures": 1
+  },
   "greenhouse:gram": {
     "consecutive_failures": 3
   },
   "greenhouse:haizelabs": {
     "consecutive_failures": 3
+  },
+  "greenhouse:harborglobal": {
+    "consecutive_failures": 1
   },
   "greenhouse:iherb": {
     "consecutive_failures": 3
@@ -104,13 +122,13 @@
   "greenhouse:instabase": {
     "consecutive_failures": 3
   },
-  "greenhouse:iovancebiotherapeutics": {
+  "greenhouse:interworks": {
     "consecutive_failures": 1
   },
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
   },
-  "greenhouse:lightmatter": {
+  "greenhouse:logicgate": {
     "consecutive_failures": 1
   },
   "greenhouse:loop": {
@@ -125,13 +143,13 @@
   "greenhouse:mqreferrals": {
     "consecutive_failures": 3
   },
-  "greenhouse:ophelia": {
+  "greenhouse:nex": {
     "consecutive_failures": 1
   },
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
   },
-  "greenhouse:pinterest": {
+  "greenhouse:point72": {
     "consecutive_failures": 1
   },
   "greenhouse:postman": {
@@ -149,6 +167,9 @@
   "greenhouse:sixthstreet": {
     "consecutive_failures": 3
   },
+  "greenhouse:spacex": {
+    "consecutive_failures": 1
+  },
   "greenhouse:tekion": {
     "consecutive_failures": 3
   },
@@ -161,7 +182,7 @@
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
   },
-  "greenhouse:workstream": {
+  "greenhouse:youcom": {
     "consecutive_failures": 1
   },
   "lever:AntiCapital": {
@@ -171,7 +192,7 @@
     "consecutive_failures": 3
   },
   "lever:autoroboto": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "lever:cgsfederal": {
     "consecutive_failures": 3
