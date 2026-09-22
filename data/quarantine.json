@@ -27,22 +27,16 @@
     "consecutive_failures": 3
   },
   "ashby:two-dots": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:10xgenomics": {
     "consecutive_failures": 3
   },
-  "greenhouse:alarmcom": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:aloyoga": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:altentechnologyusa": {
-    "consecutive_failures": 1
-  },
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
+  },
+  "greenhouse:anthropic": {
+    "consecutive_failures": 1
   },
   "greenhouse:arcellx": {
     "consecutive_failures": 3
@@ -52,9 +46,6 @@
   },
   "greenhouse:artefactus": {
     "consecutive_failures": 3
-  },
-  "greenhouse:boxinc": {
-    "consecutive_failures": 1
   },
   "greenhouse:brooklinen": {
     "consecutive_failures": 3
@@ -68,17 +59,11 @@
   "greenhouse:capitalrx": {
     "consecutive_failures": 3
   },
-  "greenhouse:checkr": {
-    "consecutive_failures": 1
-  },
   "greenhouse:clickhouse": {
     "consecutive_failures": 3
   },
   "greenhouse:climateai": {
     "consecutive_failures": 3
-  },
-  "greenhouse:constellationsoftwareinc": {
-    "consecutive_failures": 1
   },
   "greenhouse:coursera": {
     "consecutive_failures": 3
@@ -89,16 +74,10 @@
   "greenhouse:deepmind": {
     "consecutive_failures": 3
   },
-  "greenhouse:doordashusa": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:echodynecorp": {
-    "consecutive_failures": 1
-  },
   "greenhouse:embrace": {
     "consecutive_failures": 3
   },
-  "greenhouse:figureai": {
+  "greenhouse:ezcaterinc": {
     "consecutive_failures": 1
   },
   "greenhouse:fireworksai": {
@@ -106,9 +85,6 @@
   },
   "greenhouse:gafg": {
     "consecutive_failures": 3
-  },
-  "greenhouse:gaintheory": {
-    "consecutive_failures": 1
   },
   "greenhouse:galileofinancialtechnologies": {
     "consecutive_failures": 3
@@ -122,32 +98,23 @@
   "greenhouse:haizelabs": {
     "consecutive_failures": 3
   },
-  "greenhouse:horizonsurgicalsystems": {
-    "consecutive_failures": 1
-  },
   "greenhouse:iherb": {
     "consecutive_failures": 3
   },
   "greenhouse:instabase": {
     "consecutive_failures": 3
   },
-  "greenhouse:instacart": {
+  "greenhouse:iovancebiotherapeutics": {
     "consecutive_failures": 1
   },
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
   },
-  "greenhouse:kivaorg": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:krollbondratingagency": {
+  "greenhouse:lightmatter": {
     "consecutive_failures": 1
   },
   "greenhouse:loop": {
     "consecutive_failures": 3
-  },
-  "greenhouse:lunarenergy": {
-    "consecutive_failures": 1
   },
   "greenhouse:marqeta": {
     "consecutive_failures": 3
@@ -155,32 +122,20 @@
   "greenhouse:matx": {
     "consecutive_failures": 3
   },
-  "greenhouse:mavensecuritiesholdingltd": {
-    "consecutive_failures": 1
-  },
   "greenhouse:mqreferrals": {
     "consecutive_failures": 3
   },
-  "greenhouse:onxmaps": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:oodlefinance": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:openeye": {
+  "greenhouse:ophelia": {
     "consecutive_failures": 1
   },
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
   },
-  "greenhouse:pingidentity": {
+  "greenhouse:pinterest": {
     "consecutive_failures": 1
   },
   "greenhouse:postman": {
     "consecutive_failures": 3
-  },
-  "greenhouse:prolaio": {
-    "consecutive_failures": 1
   },
   "greenhouse:radiantsecurity": {
     "consecutive_failures": 3
@@ -194,17 +149,11 @@
   "greenhouse:sixthstreet": {
     "consecutive_failures": 3
   },
-  "greenhouse:tegnainc": {
-    "consecutive_failures": 1
-  },
   "greenhouse:tekion": {
     "consecutive_failures": 3
   },
   "greenhouse:temporaltechnologies": {
     "consecutive_failures": 3
-  },
-  "greenhouse:thehealthmanagementacademy": {
-    "consecutive_failures": 1
   },
   "greenhouse:underdogfantasy": {
     "consecutive_failures": 3
@@ -212,10 +161,7 @@
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
   },
-  "greenhouse:workato": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:xairatherapeutics": {
+  "greenhouse:workstream": {
     "consecutive_failures": 1
   },
   "lever:AntiCapital": {
@@ -224,6 +170,9 @@
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
+  "lever:autoroboto": {
+    "consecutive_failures": 1
+  },
   "lever:cgsfederal": {
     "consecutive_failures": 3
   },
@@ -231,7 +180,7 @@
     "consecutive_failures": 3
   },
   "lever:inductiveautomation": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "lever:sanctuary": {
     "consecutive_failures": 3
