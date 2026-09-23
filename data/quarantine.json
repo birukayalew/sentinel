@@ -113,12 +113,6 @@
   "greenhouse:mqreferrals": {
     "consecutive_failures": 3
   },
-  "greenhouse:ngrokinc": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:notexternal": {
-    "consecutive_failures": 1
-  },
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
   },
@@ -137,9 +131,6 @@
   "greenhouse:sixthstreet": {
     "consecutive_failures": 3
   },
-  "greenhouse:spacex": {
-    "consecutive_failures": 2
-  },
   "greenhouse:tekion": {
     "consecutive_failures": 3
   },
@@ -149,17 +140,11 @@
   "greenhouse:underdogfantasy": {
     "consecutive_failures": 3
   },
-  "greenhouse:verkada": {
-    "consecutive_failures": 1
-  },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
   },
   "lever:AntiCapital": {
     "consecutive_failures": 3
-  },
-  "lever:Aprio": {
-    "consecutive_failures": 1
   },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
@@ -170,20 +155,11 @@
   "lever:cgsfederal": {
     "consecutive_failures": 3
   },
-  "lever:clovirtualfashion": {
-    "consecutive_failures": 1
-  },
   "lever:color": {
     "consecutive_failures": 3
   },
-  "lever:entrata": {
-    "consecutive_failures": 1
-  },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
-  },
-  "lever:palantir": {
-    "consecutive_failures": 1
   },
   "lever:sanctuary": {
     "consecutive_failures": 3
@@ -196,5 +172,11 @@
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
+  },
+  "lever:tsmg": {
+    "consecutive_failures": 1
+  },
+  "lever:waabi": {
+    "consecutive_failures": 1
   }
 }
