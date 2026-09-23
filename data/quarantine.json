@@ -44,9 +44,6 @@
   "greenhouse:artefactus": {
     "consecutive_failures": 3
   },
-  "greenhouse:axontalentcommunity": {
-    "consecutive_failures": 1
-  },
   "greenhouse:brooklinen": {
     "consecutive_failures": 3
   },
@@ -59,17 +56,11 @@
   "greenhouse:capitalrx": {
     "consecutive_failures": 3
   },
-  "greenhouse:caseguard": {
-    "consecutive_failures": 1
-  },
   "greenhouse:clickhouse": {
     "consecutive_failures": 3
   },
   "greenhouse:climateai": {
     "consecutive_failures": 3
-  },
-  "greenhouse:clinicalarchitecture": {
-    "consecutive_failures": 1
   },
   "greenhouse:coursera": {
     "consecutive_failures": 3
@@ -80,20 +71,11 @@
   "greenhouse:deepmind": {
     "consecutive_failures": 3
   },
-  "greenhouse:devrev": {
-    "consecutive_failures": 1
-  },
   "greenhouse:embrace": {
     "consecutive_failures": 3
   },
   "greenhouse:fireworksai": {
     "consecutive_failures": 3
-  },
-  "greenhouse:freedomconsulting": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:fspco-op012325": {
-    "consecutive_failures": 1
   },
   "greenhouse:gafg": {
     "consecutive_failures": 3
@@ -104,17 +86,11 @@
   "greenhouse:glossgenius": {
     "consecutive_failures": 3
   },
-  "greenhouse:gofundme": {
-    "consecutive_failures": 1
-  },
   "greenhouse:gram": {
     "consecutive_failures": 3
   },
   "greenhouse:haizelabs": {
     "consecutive_failures": 3
-  },
-  "greenhouse:harborglobal": {
-    "consecutive_failures": 1
   },
   "greenhouse:iherb": {
     "consecutive_failures": 3
@@ -122,14 +98,8 @@
   "greenhouse:instabase": {
     "consecutive_failures": 3
   },
-  "greenhouse:interworks": {
-    "consecutive_failures": 1
-  },
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
-  },
-  "greenhouse:logicgate": {
-    "consecutive_failures": 1
   },
   "greenhouse:loop": {
     "consecutive_failures": 3
@@ -143,14 +113,14 @@
   "greenhouse:mqreferrals": {
     "consecutive_failures": 3
   },
-  "greenhouse:nex": {
+  "greenhouse:ngrokinc": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:notexternal": {
     "consecutive_failures": 1
   },
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
-  },
-  "greenhouse:point72": {
-    "consecutive_failures": 1
   },
   "greenhouse:postman": {
     "consecutive_failures": 3
@@ -168,7 +138,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:spacex": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:tekion": {
     "consecutive_failures": 3
@@ -179,29 +149,41 @@
   "greenhouse:underdogfantasy": {
     "consecutive_failures": 3
   },
+  "greenhouse:verkada": {
+    "consecutive_failures": 1
+  },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
   },
-  "greenhouse:youcom": {
-    "consecutive_failures": 1
-  },
   "lever:AntiCapital": {
     "consecutive_failures": 3
+  },
+  "lever:Aprio": {
+    "consecutive_failures": 1
   },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
   "lever:autoroboto": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "lever:cgsfederal": {
     "consecutive_failures": 3
   },
+  "lever:clovirtualfashion": {
+    "consecutive_failures": 1
+  },
   "lever:color": {
     "consecutive_failures": 3
   },
+  "lever:entrata": {
+    "consecutive_failures": 1
+  },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
+  },
+  "lever:palantir": {
+    "consecutive_failures": 1
   },
   "lever:sanctuary": {
     "consecutive_failures": 3
