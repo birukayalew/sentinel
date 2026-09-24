@@ -71,6 +71,9 @@
   "greenhouse:deepmind": {
     "consecutive_failures": 3
   },
+  "greenhouse:divergent": {
+    "consecutive_failures": 1
+  },
   "greenhouse:embrace": {
     "consecutive_failures": 3
   },
@@ -86,11 +89,17 @@
   "greenhouse:glossgenius": {
     "consecutive_failures": 3
   },
+  "greenhouse:goremutualinsurance": {
+    "consecutive_failures": 1
+  },
   "greenhouse:gram": {
     "consecutive_failures": 3
   },
   "greenhouse:haizelabs": {
     "consecutive_failures": 3
+  },
+  "greenhouse:hankooktireamericacorp": {
+    "consecutive_failures": 1
   },
   "greenhouse:iherb": {
     "consecutive_failures": 3
@@ -116,6 +125,9 @@
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
   },
+  "greenhouse:pathrobotics": {
+    "consecutive_failures": 1
+  },
   "greenhouse:postman": {
     "consecutive_failures": 3
   },
@@ -139,6 +151,12 @@
   },
   "greenhouse:underdogfantasy": {
     "consecutive_failures": 3
+  },
+  "greenhouse:waterloocoop": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:wheely": {
+    "consecutive_failures": 1
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
@@ -172,11 +190,5 @@
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
-  },
-  "lever:tsmg": {
-    "consecutive_failures": 1
-  },
-  "lever:waabi": {
-    "consecutive_failures": 1
   }
 }
