@@ -35,6 +35,9 @@
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
   },
+  "greenhouse:arcboatcompany": {
+    "consecutive_failures": 1
+  },
   "greenhouse:arcellx": {
     "consecutive_failures": 3
   },
@@ -71,14 +74,14 @@
   "greenhouse:deepmind": {
     "consecutive_failures": 3
   },
-  "greenhouse:divergent": {
-    "consecutive_failures": 1
-  },
   "greenhouse:embrace": {
     "consecutive_failures": 3
   },
   "greenhouse:fireworksai": {
     "consecutive_failures": 3
+  },
+  "greenhouse:fiveringsllc": {
+    "consecutive_failures": 1
   },
   "greenhouse:gafg": {
     "consecutive_failures": 3
@@ -89,16 +92,13 @@
   "greenhouse:glossgenius": {
     "consecutive_failures": 3
   },
-  "greenhouse:goremutualinsurance": {
-    "consecutive_failures": 1
-  },
   "greenhouse:gram": {
     "consecutive_failures": 3
   },
   "greenhouse:haizelabs": {
     "consecutive_failures": 3
   },
-  "greenhouse:hankooktireamericacorp": {
+  "greenhouse:hivewatch": {
     "consecutive_failures": 1
   },
   "greenhouse:iherb": {
@@ -125,9 +125,6 @@
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
   },
-  "greenhouse:pathrobotics": {
-    "consecutive_failures": 1
-  },
   "greenhouse:postman": {
     "consecutive_failures": 3
   },
@@ -149,17 +146,20 @@
   "greenhouse:temporaltechnologies": {
     "consecutive_failures": 3
   },
+  "greenhouse:uberfreight": {
+    "consecutive_failures": 1
+  },
   "greenhouse:underdogfantasy": {
     "consecutive_failures": 3
   },
-  "greenhouse:waterloocoop": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:wheely": {
+  "greenhouse:webflow": {
     "consecutive_failures": 1
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
+  },
+  "lever:AIFund": {
+    "consecutive_failures": 1
   },
   "lever:AntiCapital": {
     "consecutive_failures": 3
@@ -175,6 +175,9 @@
   },
   "lever:color": {
     "consecutive_failures": 3
+  },
+  "lever:girlswhocode": {
+    "consecutive_failures": 1
   },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
