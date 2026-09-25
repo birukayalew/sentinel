@@ -35,23 +35,14 @@
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
   },
-  "greenhouse:appdirect": {
-    "consecutive_failures": 1
-  },
   "greenhouse:arcellx": {
     "consecutive_failures": 3
-  },
-  "greenhouse:archer56": {
-    "consecutive_failures": 1
   },
   "greenhouse:arine": {
     "consecutive_failures": 3
   },
   "greenhouse:artefactus": {
     "consecutive_failures": 3
-  },
-  "greenhouse:axios": {
-    "consecutive_failures": 1
   },
   "greenhouse:brooklinen": {
     "consecutive_failures": 3
@@ -71,6 +62,9 @@
   "greenhouse:climateai": {
     "consecutive_failures": 3
   },
+  "greenhouse:consumerreports": {
+    "consecutive_failures": 1
+  },
   "greenhouse:coursera": {
     "consecutive_failures": 3
   },
@@ -79,6 +73,9 @@
   },
   "greenhouse:deepmind": {
     "consecutive_failures": 3
+  },
+  "greenhouse:dhpace": {
+    "consecutive_failures": 1
   },
   "greenhouse:embrace": {
     "consecutive_failures": 3
@@ -98,11 +95,17 @@
   "greenhouse:gram": {
     "consecutive_failures": 3
   },
+  "greenhouse:gumgum": {
+    "consecutive_failures": 1
+  },
   "greenhouse:haizelabs": {
     "consecutive_failures": 3
   },
   "greenhouse:hivewatch": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
+  },
+  "greenhouse:hometapjobs": {
+    "consecutive_failures": 1
   },
   "greenhouse:iherb": {
     "consecutive_failures": 3
@@ -122,11 +125,35 @@
   "greenhouse:matx": {
     "consecutive_failures": 3
   },
+  "greenhouse:mercury": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:mergeworld": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:moloco": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:morsecorpcoop": {
+    "consecutive_failures": 1
+  },
   "greenhouse:mqreferrals": {
     "consecutive_failures": 3
   },
+  "greenhouse:newsbreak": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:nflcareers": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:octaura": {
+    "consecutive_failures": 1
+  },
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
+  },
+  "greenhouse:pointc": {
+    "consecutive_failures": 1
   },
   "greenhouse:postman": {
     "consecutive_failures": 3
@@ -137,17 +164,41 @@
   "greenhouse:reach": {
     "consecutive_failures": 3
   },
+  "greenhouse:rxsense": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:salesloft": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:samayaai": {
+    "consecutive_failures": 1
+  },
   "greenhouse:shyftsolutionsllc": {
     "consecutive_failures": 3
   },
+  "greenhouse:sixgeninc": {
+    "consecutive_failures": 1
+  },
   "greenhouse:sixthstreet": {
     "consecutive_failures": 3
+  },
+  "greenhouse:stackav": {
+    "consecutive_failures": 1
   },
   "greenhouse:tekion": {
     "consecutive_failures": 3
   },
   "greenhouse:temporaltechnologies": {
     "consecutive_failures": 3
+  },
+  "greenhouse:tenon": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:tmc": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:typeface": {
+    "consecutive_failures": 1
   },
   "greenhouse:underdogfantasy": {
     "consecutive_failures": 3
