@@ -47,9 +47,6 @@
   "greenhouse:brooklinen": {
     "consecutive_failures": 3
   },
-  "greenhouse:butternutbox": {
-    "consecutive_failures": 1
-  },
   "greenhouse:buyersedgeplatformrecruiting": {
     "consecutive_failures": 3
   },
@@ -103,9 +100,6 @@
   },
   "greenhouse:instabase": {
     "consecutive_failures": 3
-  },
-  "greenhouse:inversionspace": {
-    "consecutive_failures": 1
   },
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
@@ -167,6 +161,9 @@
   "lever:color": {
     "consecutive_failures": 3
   },
+  "lever:gopuff": {
+    "consecutive_failures": 1
+  },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
   },
@@ -181,8 +178,5 @@
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
-  },
-  "lever:tsmg": {
-    "consecutive_failures": 1
   }
 }
