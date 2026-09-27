@@ -53,6 +53,9 @@
   "greenhouse:campusopportunities": {
     "consecutive_failures": 3
   },
+  "greenhouse:capitalontap": {
+    "consecutive_failures": 1
+  },
   "greenhouse:capitalrx": {
     "consecutive_failures": 3
   },
@@ -70,6 +73,9 @@
   },
   "greenhouse:deepmind": {
     "consecutive_failures": 3
+  },
+  "greenhouse:efficientcomputer": {
+    "consecutive_failures": 1
   },
   "greenhouse:embrace": {
     "consecutive_failures": 3
@@ -116,6 +122,12 @@
   "greenhouse:mqreferrals": {
     "consecutive_failures": 3
   },
+  "greenhouse:ooma": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:openfarminc": {
+    "consecutive_failures": 1
+  },
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
   },
@@ -160,9 +172,6 @@
   },
   "lever:color": {
     "consecutive_failures": 3
-  },
-  "lever:gopuff": {
-    "consecutive_failures": 1
   },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
