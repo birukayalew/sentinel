@@ -32,6 +32,9 @@
   "greenhouse:10xgenomics": {
     "consecutive_failures": 3
   },
+  "greenhouse:amplitude": {
+    "consecutive_failures": 1
+  },
   "greenhouse:andurilindustries": {
     "consecutive_failures": 3
   },
@@ -43,6 +46,9 @@
   },
   "greenhouse:artefactus": {
     "consecutive_failures": 3
+  },
+  "greenhouse:assetliving": {
+    "consecutive_failures": 1
   },
   "greenhouse:brooklinen": {
     "consecutive_failures": 3
@@ -74,8 +80,17 @@
   "greenhouse:embrace": {
     "consecutive_failures": 3
   },
+  "greenhouse:everdriven": {
+    "consecutive_failures": 1
+  },
   "greenhouse:fireworksai": {
     "consecutive_failures": 3
+  },
+  "greenhouse:freeformfuturecorp": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:ftandinternships": {
+    "consecutive_failures": 1
   },
   "greenhouse:gafg": {
     "consecutive_failures": 3
@@ -113,11 +128,23 @@
   "greenhouse:matx": {
     "consecutive_failures": 3
   },
+  "greenhouse:memx": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:merge": {
+    "consecutive_failures": 1
+  },
   "greenhouse:mqreferrals": {
     "consecutive_failures": 3
   },
+  "greenhouse:opentable": {
+    "consecutive_failures": 1
+  },
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
+  },
+  "greenhouse:pantheonpublic": {
+    "consecutive_failures": 1
   },
   "greenhouse:postman": {
     "consecutive_failures": 3
@@ -128,11 +155,17 @@
   "greenhouse:reach": {
     "consecutive_failures": 3
   },
+  "greenhouse:sharkninjaoperatingllc": {
+    "consecutive_failures": 1
+  },
   "greenhouse:shyftsolutionsllc": {
     "consecutive_failures": 3
   },
   "greenhouse:sixthstreet": {
     "consecutive_failures": 3
+  },
+  "greenhouse:spacex": {
+    "consecutive_failures": 1
   },
   "greenhouse:tekion": {
     "consecutive_failures": 3
@@ -140,8 +173,17 @@
   "greenhouse:temporaltechnologies": {
     "consecutive_failures": 3
   },
+  "greenhouse:towerresearchcapital": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:twistbioscience": {
+    "consecutive_failures": 1
+  },
   "greenhouse:underdogfantasy": {
     "consecutive_failures": 3
+  },
+  "greenhouse:unitedmasterstranslation": {
+    "consecutive_failures": 1
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
