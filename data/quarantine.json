@@ -29,8 +29,17 @@
   "ashby:two-dots": {
     "consecutive_failures": 3
   },
+  "greenhouse:10alabs": {
+    "consecutive_failures": 1
+  },
   "greenhouse:10xgenomics": {
     "consecutive_failures": 3
+  },
+  "greenhouse:accenturefederalservices": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:amaehealth": {
+    "consecutive_failures": 1
   },
   "greenhouse:amplitude": {
     "consecutive_failures": 3
@@ -74,26 +83,14 @@
   "greenhouse:deepmind": {
     "consecutive_failures": 3
   },
-  "greenhouse:descript": {
-    "consecutive_failures": 1
-  },
   "greenhouse:designmehair": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:embrace": {
     "consecutive_failures": 3
   },
-  "greenhouse:expertnetwork": {
-    "consecutive_failures": 1
-  },
   "greenhouse:fireworksai": {
     "consecutive_failures": 3
-  },
-  "greenhouse:flagshippioneeringinc": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:forteracorporation": {
-    "consecutive_failures": 1
   },
   "greenhouse:gafg": {
     "consecutive_failures": 3
@@ -104,17 +101,20 @@
   "greenhouse:glossgenius": {
     "consecutive_failures": 3
   },
+  "greenhouse:gradial": {
+    "consecutive_failures": 1
+  },
   "greenhouse:gram": {
     "consecutive_failures": 3
-  },
-  "greenhouse:gumgum": {
-    "consecutive_failures": 1
   },
   "greenhouse:haizelabs": {
     "consecutive_failures": 3
   },
   "greenhouse:hivewatch": {
     "consecutive_failures": 3
+  },
+  "greenhouse:hudl": {
+    "consecutive_failures": 1
   },
   "greenhouse:iherb": {
     "consecutive_failures": 3
@@ -125,11 +125,11 @@
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
   },
+  "greenhouse:liveviewtechnologiesinc": {
+    "consecutive_failures": 1
+  },
   "greenhouse:loop": {
     "consecutive_failures": 3
-  },
-  "greenhouse:lottebiologicsusallc": {
-    "consecutive_failures": 1
   },
   "greenhouse:marqeta": {
     "consecutive_failures": 3
@@ -140,11 +140,14 @@
   "greenhouse:mqreferrals": {
     "consecutive_failures": 3
   },
-  "greenhouse:otter": {
+  "greenhouse:northspyre": {
     "consecutive_failures": 1
   },
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
+  },
+  "greenhouse:outsetmedical": {
+    "consecutive_failures": 1
   },
   "greenhouse:postman": {
     "consecutive_failures": 3
@@ -155,34 +158,16 @@
   "greenhouse:reach": {
     "consecutive_failures": 3
   },
-  "greenhouse:rockstargames": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:runwise": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:scotch": {
-    "consecutive_failures": 1
-  },
   "greenhouse:shyftsolutionsllc": {
     "consecutive_failures": 3
   },
   "greenhouse:sixthstreet": {
     "consecutive_failures": 3
   },
-  "greenhouse:skhynixmemorysolutionsamericainc": {
-    "consecutive_failures": 1
-  },
   "greenhouse:spacex": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
-  "greenhouse:stratacareers": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:sustainabletalent": {
-    "consecutive_failures": 1
-  },
-  "greenhouse:taketwo": {
+  "greenhouse:tastylive": {
     "consecutive_failures": 1
   },
   "greenhouse:tekion": {
@@ -191,23 +176,17 @@
   "greenhouse:temporaltechnologies": {
     "consecutive_failures": 3
   },
-  "greenhouse:trumid": {
-    "consecutive_failures": 1
-  },
   "greenhouse:underdogfantasy": {
     "consecutive_failures": 3
-  },
-  "greenhouse:virturecruitinghidden": {
-    "consecutive_failures": 1
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
   },
+  "lever:AIFund": {
+    "consecutive_failures": 1
+  },
   "lever:AntiCapital": {
     "consecutive_failures": 3
-  },
-  "lever:Aprio": {
-    "consecutive_failures": 1
   },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
@@ -220,12 +199,6 @@
   },
   "lever:color": {
     "consecutive_failures": 3
-  },
-  "lever:dnb": {
-    "consecutive_failures": 1
-  },
-  "lever:erg": {
-    "consecutive_failures": 1
   },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
