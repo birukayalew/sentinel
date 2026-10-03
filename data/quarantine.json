@@ -99,7 +99,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:hightouch": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:hivewatch": {
     "consecutive_failures": 3
@@ -164,17 +164,8 @@
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
-  "lever:Aprio": {
-    "consecutive_failures": 1
-  },
-  "lever:CesiumAstro": {
-    "consecutive_failures": 1
-  },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
-  },
-  "lever:agile-defense": {
-    "consecutive_failures": 1
   },
   "lever:autoroboto": {
     "consecutive_failures": 3
@@ -188,6 +179,9 @@
   "lever:inductiveautomation": {
     "consecutive_failures": 3
   },
+  "lever:sambatv": {
+    "consecutive_failures": 1
+  },
   "lever:sanctuary": {
     "consecutive_failures": 3
   },
@@ -197,10 +191,16 @@
   "lever:sensortower": {
     "consecutive_failures": 3
   },
+  "lever:shieldai": {
+    "consecutive_failures": 1
+  },
   "lever:sprucesystems": {
     "consecutive_failures": 3
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
+  },
+  "lever:tsmg": {
+    "consecutive_failures": 1
   }
 }
