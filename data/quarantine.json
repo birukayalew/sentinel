@@ -83,9 +83,6 @@
   "greenhouse:fireworksai": {
     "consecutive_failures": 3
   },
-  "greenhouse:flagshippioneeringinc": {
-    "consecutive_failures": 1
-  },
   "greenhouse:gafg": {
     "consecutive_failures": 3
   },
@@ -100,6 +97,9 @@
   },
   "greenhouse:haizelabs": {
     "consecutive_failures": 3
+  },
+  "greenhouse:hightouch": {
+    "consecutive_failures": 1
   },
   "greenhouse:hivewatch": {
     "consecutive_failures": 3
@@ -156,7 +156,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:wayve": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
@@ -164,8 +164,17 @@
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
+  "lever:Aprio": {
+    "consecutive_failures": 1
+  },
+  "lever:CesiumAstro": {
+    "consecutive_failures": 1
+  },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
+  },
+  "lever:agile-defense": {
+    "consecutive_failures": 1
   },
   "lever:autoroboto": {
     "consecutive_failures": 3
@@ -193,8 +202,5 @@
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
-  },
-  "lever:tsmg": {
-    "consecutive_failures": 2
   }
 }
