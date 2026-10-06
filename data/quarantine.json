@@ -167,9 +167,6 @@
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
-  "lever:arrivelogistics": {
-    "consecutive_failures": 1
-  },
   "lever:autoroboto": {
     "consecutive_failures": 3
   },
@@ -179,20 +176,8 @@
   "lever:color": {
     "consecutive_failures": 3
   },
-  "lever:eastern-communications": {
-    "consecutive_failures": 1
-  },
-  "lever:endpointclinical": {
-    "consecutive_failures": 1
-  },
-  "lever:glsllc": {
-    "consecutive_failures": 1
-  },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
-  },
-  "lever:kpler": {
-    "consecutive_failures": 1
   },
   "lever:sanctuary": {
     "consecutive_failures": 3
