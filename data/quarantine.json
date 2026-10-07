@@ -165,10 +165,16 @@
     "consecutive_failures": 3
   },
   "lever:Aprio": {
+    "consecutive_failures": 2
+  },
+  "lever:CesiumAstro": {
     "consecutive_failures": 1
   },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
+  },
+  "lever:agile-defense": {
+    "consecutive_failures": 1
   },
   "lever:autoroboto": {
     "consecutive_failures": 3
@@ -194,19 +200,7 @@
   "lever:sprucesystems": {
     "consecutive_failures": 3
   },
-  "lever:tangraminteriors": {
-    "consecutive_failures": 1
-  },
   "lever:thinkahead": {
     "consecutive_failures": 3
-  },
-  "lever:tsmg": {
-    "consecutive_failures": 1
-  },
-  "lever:valkyrietrading": {
-    "consecutive_failures": 1
-  },
-  "lever:wmg": {
-    "consecutive_failures": 1
   }
 }
