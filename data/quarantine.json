@@ -11,6 +11,9 @@
   "ashby:iacollaborative": {
     "consecutive_failures": 3
   },
+  "ashby:klarity-ai": {
+    "consecutive_failures": 1
+  },
   "ashby:latitude": {
     "consecutive_failures": 3
   },
@@ -140,6 +143,9 @@
   "greenhouse:reach": {
     "consecutive_failures": 3
   },
+  "greenhouse:sayari": {
+    "consecutive_failures": 1
+  },
   "greenhouse:shyftsolutionsllc": {
     "consecutive_failures": 3
   },
@@ -164,17 +170,8 @@
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
-  "lever:Aprio": {
-    "consecutive_failures": 2
-  },
-  "lever:CesiumAstro": {
-    "consecutive_failures": 1
-  },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
-  },
-  "lever:agile-defense": {
-    "consecutive_failures": 1
   },
   "lever:autoroboto": {
     "consecutive_failures": 3
@@ -188,6 +185,12 @@
   "lever:inductiveautomation": {
     "consecutive_failures": 3
   },
+  "lever:matchgroup": {
+    "consecutive_failures": 1
+  },
+  "lever:pingwind": {
+    "consecutive_failures": 1
+  },
   "lever:sanctuary": {
     "consecutive_failures": 3
   },
@@ -197,10 +200,19 @@
   "lever:sensortower": {
     "consecutive_failures": 3
   },
+  "lever:sonarsource": {
+    "consecutive_failures": 1
+  },
+  "lever:spotify": {
+    "consecutive_failures": 1
+  },
   "lever:sprucesystems": {
     "consecutive_failures": 3
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
+  },
+  "lever:wintermute-trading": {
+    "consecutive_failures": 1
   }
 }
