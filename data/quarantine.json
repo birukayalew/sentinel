@@ -12,7 +12,7 @@
     "consecutive_failures": 3
   },
   "ashby:klarity-ai": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "ashby:latitude": {
     "consecutive_failures": 3
@@ -169,9 +169,6 @@
   },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
-  },
-  "lever:agile-defense": {
-    "consecutive_failures": 1
   },
   "lever:autoroboto": {
     "consecutive_failures": 3
