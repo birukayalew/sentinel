@@ -141,7 +141,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:rdccareers": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "greenhouse:reach": {
     "consecutive_failures": 3
@@ -173,6 +173,9 @@
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
+  "lever:agile-defense": {
+    "consecutive_failures": 1
+  },
   "lever:autoroboto": {
     "consecutive_failures": 3
   },
@@ -181,6 +184,9 @@
   },
   "lever:color": {
     "consecutive_failures": 3
+  },
+  "lever:gopuff": {
+    "consecutive_failures": 1
   },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
@@ -197,7 +203,13 @@
   "lever:sprucesystems": {
     "consecutive_failures": 3
   },
+  "lever:sprymethods": {
+    "consecutive_failures": 1
+  },
   "lever:thinkahead": {
     "consecutive_failures": 3
+  },
+  "lever:verygoodsecurity": {
+    "consecutive_failures": 1
   }
 }
