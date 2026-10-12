@@ -50,6 +50,9 @@
   "greenhouse:artefactus": {
     "consecutive_failures": 3
   },
+  "greenhouse:breezeairways": {
+    "consecutive_failures": 1
+  },
   "greenhouse:brooklinen": {
     "consecutive_failures": 3
   },
@@ -73,6 +76,9 @@
   },
   "greenhouse:cti": {
     "consecutive_failures": 3
+  },
+  "greenhouse:debtbook": {
+    "consecutive_failures": 1
   },
   "greenhouse:deepmind": {
     "consecutive_failures": 3
@@ -170,8 +176,14 @@
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
+  "lever:Aprio": {
+    "consecutive_failures": 1
+  },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
+  },
+  "lever:agile-defense": {
+    "consecutive_failures": 1
   },
   "lever:autoroboto": {
     "consecutive_failures": 3
