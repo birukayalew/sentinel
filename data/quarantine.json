@@ -176,20 +176,8 @@
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
-  "lever:CesiumAstro": {
-    "consecutive_failures": 1
-  },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
-  },
-  "lever:achievers": {
-    "consecutive_failures": 1
-  },
-  "lever:appen": {
-    "consecutive_failures": 1
-  },
-  "lever:appen-2": {
-    "consecutive_failures": 1
   },
   "lever:autoroboto": {
     "consecutive_failures": 3
@@ -199,12 +187,6 @@
   },
   "lever:color": {
     "consecutive_failures": 3
-  },
-  "lever:glsllc": {
-    "consecutive_failures": 1
-  },
-  "lever:gopuff": {
-    "consecutive_failures": 1
   },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
