@@ -188,44 +188,8 @@
   "lever:color": {
     "consecutive_failures": 3
   },
-  "lever:glsllc": {
-    "consecutive_failures": 1
-  },
-  "lever:hhaexchange": {
-    "consecutive_failures": 1
-  },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
-  },
-  "lever:lightship": {
-    "consecutive_failures": 1
-  },
-  "lever:longwall": {
-    "consecutive_failures": 1
-  },
-  "lever:margo-group": {
-    "consecutive_failures": 1
-  },
-  "lever:multiplylabs": {
-    "consecutive_failures": 1
-  },
-  "lever:nevados": {
-    "consecutive_failures": 1
-  },
-  "lever:nextech": {
-    "consecutive_failures": 1
-  },
-  "lever:octoenergy": {
-    "consecutive_failures": 1
-  },
-  "lever:optionmetrics": {
-    "consecutive_failures": 1
-  },
-  "lever:outreach": {
-    "consecutive_failures": 1
-  },
-  "lever:revefi": {
-    "consecutive_failures": 1
   },
   "lever:sanctuary": {
     "consecutive_failures": 3
@@ -241,11 +205,5 @@
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
-  },
-  "lever:wealthfront": {
-    "consecutive_failures": 1
-  },
-  "lever:whoop": {
-    "consecutive_failures": 1
   }
 }
