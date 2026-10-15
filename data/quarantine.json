@@ -167,6 +167,9 @@
   "greenhouse:underdogfantasy": {
     "consecutive_failures": 3
   },
+  "greenhouse:visiersolutionsinc": {
+    "consecutive_failures": 1
+  },
   "greenhouse:wayve": {
     "consecutive_failures": 3
   },
@@ -188,8 +191,20 @@
   "lever:color": {
     "consecutive_failures": 3
   },
+  "lever:convergentresearch": {
+    "consecutive_failures": 1
+  },
+  "lever:finix": {
+    "consecutive_failures": 1
+  },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
+  },
+  "lever:ion": {
+    "consecutive_failures": 1
+  },
+  "lever:matillion": {
+    "consecutive_failures": 1
   },
   "lever:sanctuary": {
     "consecutive_failures": 3
