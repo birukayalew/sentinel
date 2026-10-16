@@ -168,7 +168,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:visiersolutionsinc": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:wayve": {
     "consecutive_failures": 3
@@ -179,11 +179,17 @@
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
+  "lever:CesiumAstro": {
+    "consecutive_failures": 1
+  },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
   "lever:autoroboto": {
     "consecutive_failures": 3
+  },
+  "lever:brightmachines": {
+    "consecutive_failures": 1
   },
   "lever:cgsfederal": {
     "consecutive_failures": 3
@@ -191,20 +197,8 @@
   "lever:color": {
     "consecutive_failures": 3
   },
-  "lever:convergentresearch": {
-    "consecutive_failures": 1
-  },
-  "lever:finix": {
-    "consecutive_failures": 1
-  },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
-  },
-  "lever:ion": {
-    "consecutive_failures": 1
-  },
-  "lever:matillion": {
-    "consecutive_failures": 1
   },
   "lever:sanctuary": {
     "consecutive_failures": 3
