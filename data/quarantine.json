@@ -168,7 +168,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:visiersolutionsinc": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "greenhouse:wayve": {
     "consecutive_failures": 3
@@ -179,17 +179,14 @@
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
-  "lever:CesiumAstro": {
-    "consecutive_failures": 1
-  },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
+  "lever:anchorage": {
+    "consecutive_failures": 1
+  },
   "lever:autoroboto": {
     "consecutive_failures": 3
-  },
-  "lever:brightmachines": {
-    "consecutive_failures": 1
   },
   "lever:cgsfederal": {
     "consecutive_failures": 3
@@ -200,6 +197,24 @@
   "lever:inductiveautomation": {
     "consecutive_failures": 3
   },
+  "lever:longwall": {
+    "consecutive_failures": 1
+  },
+  "lever:magnetforensics": {
+    "consecutive_failures": 1
+  },
+  "lever:makpar": {
+    "consecutive_failures": 1
+  },
+  "lever:olo": {
+    "consecutive_failures": 1
+  },
+  "lever:pigment": {
+    "consecutive_failures": 1
+  },
+  "lever:redhorsecorp": {
+    "consecutive_failures": 1
+  },
   "lever:sanctuary": {
     "consecutive_failures": 3
   },
@@ -208,6 +223,12 @@
   },
   "lever:sensortower": {
     "consecutive_failures": 3
+  },
+  "lever:shieldai": {
+    "consecutive_failures": 1
+  },
+  "lever:skyways": {
+    "consecutive_failures": 1
   },
   "lever:sprucesystems": {
     "consecutive_failures": 3
