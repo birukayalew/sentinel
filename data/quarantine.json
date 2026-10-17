@@ -27,7 +27,7 @@
     "consecutive_failures": 3
   },
   "ashby:solva": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "ashby:tracer": {
     "consecutive_failures": 3
@@ -176,22 +176,16 @@
   "greenhouse:wayve": {
     "consecutive_failures": 3
   },
-  "greenhouse:webflow": {
-    "consecutive_failures": 1
-  },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
   },
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
-  "lever:Aprio": {
-    "consecutive_failures": 1
-  },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
-  "lever:aircall": {
+  "lever:acceldata": {
     "consecutive_failures": 1
   },
   "lever:autoroboto": {
@@ -203,7 +197,7 @@
   "lever:color": {
     "consecutive_failures": 3
   },
-  "lever:gopuff": {
+  "lever:crestoperations": {
     "consecutive_failures": 1
   },
   "lever:inductiveautomation": {
@@ -221,10 +215,13 @@
   "lever:sprucesystems": {
     "consecutive_failures": 3
   },
+  "lever:syntax": {
+    "consecutive_failures": 1
+  },
   "lever:thinkahead": {
     "consecutive_failures": 3
   },
-  "lever:tsmg": {
+  "lever:until": {
     "consecutive_failures": 1
   }
 }
