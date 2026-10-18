@@ -179,14 +179,14 @@
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
   },
+  "lever:AIFund": {
+    "consecutive_failures": 1
+  },
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
-  },
-  "lever:allegiantair": {
-    "consecutive_failures": 1
   },
   "lever:autoroboto": {
     "consecutive_failures": 3
