@@ -171,7 +171,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:threatlocker": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "greenhouse:underdogfantasy": {
     "consecutive_failures": 3
@@ -206,6 +206,9 @@
   "lever:infstones": {
     "consecutive_failures": 3
   },
+  "lever:octoenergy": {
+    "consecutive_failures": 1
+  },
   "lever:sanctuary": {
     "consecutive_failures": 3
   },
@@ -220,5 +223,14 @@
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
+  },
+  "lever:tsmg": {
+    "consecutive_failures": 1
+  },
+  "lever:unisoninfra": {
+    "consecutive_failures": 1
+  },
+  "lever:waabi": {
+    "consecutive_failures": 1
   }
 }
