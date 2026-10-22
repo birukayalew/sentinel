@@ -200,23 +200,14 @@
   "lever:color": {
     "consecutive_failures": 3
   },
-  "lever:crestoperations": {
-    "consecutive_failures": 1
-  },
-  "lever:hannaandersson": {
-    "consecutive_failures": 1
-  },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
   },
   "lever:infstones": {
     "consecutive_failures": 3
   },
-  "lever:ispace-inc": {
-    "consecutive_failures": 1
-  },
   "lever:procept-biorobotics": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "lever:sanctuary": {
     "consecutive_failures": 3
@@ -233,7 +224,10 @@
   "lever:thinkahead": {
     "consecutive_failures": 3
   },
-  "lever:tsmg": {
-    "consecutive_failures": 2
+  "lever:woven-by-toyota": {
+    "consecutive_failures": 1
+  },
+  "lever:zoox": {
+    "consecutive_failures": 1
   }
 }
