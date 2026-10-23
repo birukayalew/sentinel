@@ -182,35 +182,95 @@
   "greenhouse:wayve": {
     "consecutive_failures": 3
   },
+  "greenhouse:weedmaps77": {
+    "consecutive_failures": 1
+  },
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
   },
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
+  "lever:Aprio": {
+    "consecutive_failures": 1
+  },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
+  },
+  "lever:agtonomy": {
+    "consecutive_failures": 1
+  },
+  "lever:aledade": {
+    "consecutive_failures": 1
+  },
+  "lever:allegiantair": {
+    "consecutive_failures": 1
+  },
+  "lever:alltrails": {
+    "consecutive_failures": 1
+  },
+  "lever:anomali": {
+    "consecutive_failures": 1
+  },
+  "lever:aofl": {
+    "consecutive_failures": 1
   },
   "lever:autoroboto": {
     "consecutive_failures": 3
   },
+  "lever:bhvr": {
+    "consecutive_failures": 1
+  },
+  "lever:bioagilytix": {
+    "consecutive_failures": 1
+  },
+  "lever:bisnow": {
+    "consecutive_failures": 1
+  },
+  "lever:bluerocktx": {
+    "consecutive_failures": 1
+  },
+  "lever:bosonai": {
+    "consecutive_failures": 1
+  },
+  "lever:brilliant": {
+    "consecutive_failures": 1
+  },
+  "lever:brooksrunning": {
+    "consecutive_failures": 1
+  },
   "lever:cgsfederal": {
     "consecutive_failures": 3
   },
+  "lever:colibrigroup": {
+    "consecutive_failures": 1
+  },
   "lever:color": {
     "consecutive_failures": 3
+  },
+  "lever:dga": {
+    "consecutive_failures": 1
+  },
+  "lever:eqbank": {
+    "consecutive_failures": 1
+  },
+  "lever:field-ai": {
+    "consecutive_failures": 1
+  },
+  "lever:finquery": {
+    "consecutive_failures": 1
+  },
+  "lever:fiscalnote": {
+    "consecutive_failures": 1
+  },
+  "lever:fluxergy-2": {
+    "consecutive_failures": 1
   },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
   },
   "lever:infstones": {
     "consecutive_failures": 3
-  },
-  "lever:modeln": {
-    "consecutive_failures": 1
-  },
-  "lever:pditechnologies": {
-    "consecutive_failures": 1
   },
   "lever:procept-biorobotics": {
     "consecutive_failures": 3
@@ -224,28 +284,10 @@
   "lever:sensortower": {
     "consecutive_failures": 3
   },
-  "lever:skyways": {
-    "consecutive_failures": 1
-  },
   "lever:sprucesystems": {
     "consecutive_failures": 3
   },
-  "lever:synthego": {
-    "consecutive_failures": 1
-  },
   "lever:thinkahead": {
     "consecutive_failures": 3
-  },
-  "lever:thinkingbox": {
-    "consecutive_failures": 1
-  },
-  "lever:tramgroup": {
-    "consecutive_failures": 1
-  },
-  "lever:tsmg": {
-    "consecutive_failures": 1
-  },
-  "lever:wpromote": {
-    "consecutive_failures": 1
   }
 }
