@@ -206,8 +206,14 @@
   "lever:infstones": {
     "consecutive_failures": 3
   },
+  "lever:modeln": {
+    "consecutive_failures": 1
+  },
+  "lever:pditechnologies": {
+    "consecutive_failures": 1
+  },
   "lever:procept-biorobotics": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "lever:sanctuary": {
     "consecutive_failures": 3
@@ -218,16 +224,28 @@
   "lever:sensortower": {
     "consecutive_failures": 3
   },
+  "lever:skyways": {
+    "consecutive_failures": 1
+  },
   "lever:sprucesystems": {
     "consecutive_failures": 3
+  },
+  "lever:synthego": {
+    "consecutive_failures": 1
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
   },
-  "lever:woven-by-toyota": {
+  "lever:thinkingbox": {
     "consecutive_failures": 1
   },
-  "lever:zoox": {
+  "lever:tramgroup": {
+    "consecutive_failures": 1
+  },
+  "lever:tsmg": {
+    "consecutive_failures": 1
+  },
+  "lever:wpromote": {
     "consecutive_failures": 1
   }
 }
