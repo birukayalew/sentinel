@@ -191,8 +191,14 @@
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
+  "lever:aircall": {
+    "consecutive_failures": 1
+  },
   "lever:autoroboto": {
     "consecutive_failures": 3
+  },
+  "lever:benchsci": {
+    "consecutive_failures": 1
   },
   "lever:cgsfederal": {
     "consecutive_failures": 3
@@ -223,8 +229,5 @@
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
-  },
-  "lever:tsmg": {
-    "consecutive_failures": 1
   }
 }
