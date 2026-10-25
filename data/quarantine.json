@@ -185,20 +185,23 @@
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
   },
+  "lever:AIFund": {
+    "consecutive_failures": 1
+  },
   "lever:AntiCapital": {
     "consecutive_failures": 3
+  },
+  "lever:Aprio": {
+    "consecutive_failures": 1
+  },
+  "lever:CesiumAstro": {
+    "consecutive_failures": 1
   },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
-  "lever:aircall": {
-    "consecutive_failures": 1
-  },
   "lever:autoroboto": {
     "consecutive_failures": 3
-  },
-  "lever:benchsci": {
-    "consecutive_failures": 1
   },
   "lever:cgsfederal": {
     "consecutive_failures": 3
