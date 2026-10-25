@@ -185,17 +185,8 @@
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
   },
-  "lever:AIFund": {
-    "consecutive_failures": 1
-  },
   "lever:AntiCapital": {
     "consecutive_failures": 3
-  },
-  "lever:Aprio": {
-    "consecutive_failures": 1
-  },
-  "lever:CesiumAstro": {
-    "consecutive_failures": 1
   },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
@@ -209,11 +200,26 @@
   "lever:color": {
     "consecutive_failures": 3
   },
+  "lever:dnb": {
+    "consecutive_failures": 1
+  },
+  "lever:endpointclinical": {
+    "consecutive_failures": 1
+  },
+  "lever:field-ai": {
+    "consecutive_failures": 1
+  },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
   },
   "lever:infstones": {
     "consecutive_failures": 3
+  },
+  "lever:larian": {
+    "consecutive_failures": 1
+  },
+  "lever:lyrahealth": {
+    "consecutive_failures": 1
   },
   "lever:procept-biorobotics": {
     "consecutive_failures": 3
