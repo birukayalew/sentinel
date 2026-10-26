@@ -191,8 +191,14 @@
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
+  "lever:aofl": {
+    "consecutive_failures": 1
+  },
   "lever:autoroboto": {
     "consecutive_failures": 3
+  },
+  "lever:butcherbox": {
+    "consecutive_failures": 1
   },
   "lever:cgsfederal": {
     "consecutive_failures": 3
@@ -200,26 +206,11 @@
   "lever:color": {
     "consecutive_failures": 3
   },
-  "lever:dnb": {
-    "consecutive_failures": 1
-  },
-  "lever:endpointclinical": {
-    "consecutive_failures": 1
-  },
-  "lever:field-ai": {
-    "consecutive_failures": 1
-  },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
   },
   "lever:infstones": {
     "consecutive_failures": 3
-  },
-  "lever:larian": {
-    "consecutive_failures": 1
-  },
-  "lever:lyrahealth": {
-    "consecutive_failures": 1
   },
   "lever:procept-biorobotics": {
     "consecutive_failures": 3
@@ -238,5 +229,8 @@
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
+  },
+  "lever:tsmg": {
+    "consecutive_failures": 1
   }
 }
