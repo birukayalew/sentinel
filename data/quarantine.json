@@ -188,17 +188,20 @@
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
+  "lever:Aprio": {
+    "consecutive_failures": 1
+  },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
   "lever:aofl": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "lever:autoroboto": {
     "consecutive_failures": 3
   },
   "lever:butcherbox": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "lever:cgsfederal": {
     "consecutive_failures": 3
@@ -231,6 +234,6 @@
     "consecutive_failures": 3
   },
   "lever:tsmg": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   }
 }
