@@ -2,6 +2,9 @@
   "ashby:atomicsemi": {
     "consecutive_failures": 3
   },
+  "ashby:beaconsoftware": {
+    "consecutive_failures": 1
+  },
   "ashby:fractional-ai": {
     "consecutive_failures": 3
   },
@@ -191,9 +194,6 @@
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
-  "lever:agile-defense": {
-    "consecutive_failures": 1
-  },
   "lever:aofl": {
     "consecutive_failures": 3
   },
@@ -227,13 +227,13 @@
   "lever:sensortower": {
     "consecutive_failures": 3
   },
+  "lever:shopreli": {
+    "consecutive_failures": 1
+  },
   "lever:sprucesystems": {
     "consecutive_failures": 3
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
-  },
-  "lever:tsmg": {
-    "consecutive_failures": 1
   }
 }
