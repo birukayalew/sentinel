@@ -191,6 +191,9 @@
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
+  "lever:agile-defense": {
+    "consecutive_failures": 1
+  },
   "lever:aofl": {
     "consecutive_failures": 3
   },
@@ -215,9 +218,6 @@
   "lever:procept-biorobotics": {
     "consecutive_failures": 3
   },
-  "lever:sambatv": {
-    "consecutive_failures": 1
-  },
   "lever:sanctuary": {
     "consecutive_failures": 3
   },
@@ -227,19 +227,13 @@
   "lever:sensortower": {
     "consecutive_failures": 3
   },
-  "lever:sophos": {
-    "consecutive_failures": 1
-  },
   "lever:sprucesystems": {
     "consecutive_failures": 3
-  },
-  "lever:starcompliance": {
-    "consecutive_failures": 1
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
   },
-  "lever:veeva": {
+  "lever:tsmg": {
     "consecutive_failures": 1
   }
 }
