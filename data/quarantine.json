@@ -3,7 +3,7 @@
     "consecutive_failures": 3
   },
   "ashby:beaconsoftware": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "ashby:fractional-ai": {
     "consecutive_failures": 3
@@ -226,9 +226,6 @@
   },
   "lever:sensortower": {
     "consecutive_failures": 3
-  },
-  "lever:shopreli": {
-    "consecutive_failures": 1
   },
   "lever:sprucesystems": {
     "consecutive_failures": 3
