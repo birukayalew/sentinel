@@ -3,7 +3,7 @@
     "consecutive_failures": 3
   },
   "ashby:beaconsoftware": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "ashby:fractional-ai": {
     "consecutive_failures": 3
@@ -200,6 +200,9 @@
   "lever:autoroboto": {
     "consecutive_failures": 3
   },
+  "lever:beghouconsulting": {
+    "consecutive_failures": 1
+  },
   "lever:butcherbox": {
     "consecutive_failures": 3
   },
@@ -209,14 +212,59 @@
   "lever:color": {
     "consecutive_failures": 3
   },
+  "lever:dnagenotek": {
+    "consecutive_failures": 1
+  },
+  "lever:economicmodeling": {
+    "consecutive_failures": 1
+  },
+  "lever:fluxergy-2": {
+    "consecutive_failures": 1
+  },
+  "lever:hannaandersson": {
+    "consecutive_failures": 1
+  },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
   },
   "lever:infstones": {
     "consecutive_failures": 3
   },
+  "lever:ion": {
+    "consecutive_failures": 1
+  },
+  "lever:kpler": {
+    "consecutive_failures": 1
+  },
+  "lever:lendbuzz": {
+    "consecutive_failures": 1
+  },
+  "lever:makpar": {
+    "consecutive_failures": 1
+  },
+  "lever:massschoolbuildings": {
+    "consecutive_failures": 1
+  },
+  "lever:matillion": {
+    "consecutive_failures": 1
+  },
+  "lever:modeln": {
+    "consecutive_failures": 1
+  },
+  "lever:nextech": {
+    "consecutive_failures": 1
+  },
   "lever:procept-biorobotics": {
     "consecutive_failures": 3
+  },
+  "lever:q-ctrl": {
+    "consecutive_failures": 1
+  },
+  "lever:reply": {
+    "consecutive_failures": 1
+  },
+  "lever:rover": {
+    "consecutive_failures": 1
   },
   "lever:sanctuary": {
     "consecutive_failures": 3
@@ -227,10 +275,25 @@
   "lever:sensortower": {
     "consecutive_failures": 3
   },
+  "lever:shieldai": {
+    "consecutive_failures": 1
+  },
+  "lever:sonarsource": {
+    "consecutive_failures": 1
+  },
   "lever:sprucesystems": {
     "consecutive_failures": 3
   },
+  "lever:steerbridge": {
+    "consecutive_failures": 1
+  },
   "lever:thinkahead": {
     "consecutive_failures": 3
+  },
+  "lever:wealthfront": {
+    "consecutive_failures": 1
+  },
+  "lever:wyetechllc": {
+    "consecutive_failures": 1
   }
 }
