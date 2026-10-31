@@ -33,7 +33,7 @@
     "consecutive_failures": 3
   },
   "ashby:tilderesearch": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "ashby:tracer": {
     "consecutive_failures": 3
@@ -232,6 +232,9 @@
   },
   "lever:sprucesystems": {
     "consecutive_failures": 3
+  },
+  "lever:theodo": {
+    "consecutive_failures": 1
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
