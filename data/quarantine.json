@@ -32,6 +32,9 @@
   "ashby:solva": {
     "consecutive_failures": 3
   },
+  "ashby:tilderesearch": {
+    "consecutive_failures": 1
+  },
   "ashby:tracer": {
     "consecutive_failures": 3
   },
@@ -194,14 +197,8 @@
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
-  "lever:aircall": {
-    "consecutive_failures": 1
-  },
   "lever:aofl": {
     "consecutive_failures": 3
-  },
-  "lever:artera": {
-    "consecutive_failures": 1
   },
   "lever:autoroboto": {
     "consecutive_failures": 3
@@ -212,47 +209,14 @@
   "lever:cgsfederal": {
     "consecutive_failures": 3
   },
-  "lever:cirquedusoleil": {
-    "consecutive_failures": 1
-  },
   "lever:color": {
     "consecutive_failures": 3
-  },
-  "lever:dodmg": {
-    "consecutive_failures": 1
-  },
-  "lever:drivemode": {
-    "consecutive_failures": 1
-  },
-  "lever:extremenetworks": {
-    "consecutive_failures": 1
-  },
-  "lever:firemon": {
-    "consecutive_failures": 1
-  },
-  "lever:fiscalnote": {
-    "consecutive_failures": 1
   },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
   },
   "lever:infstones": {
     "consecutive_failures": 3
-  },
-  "lever:ispace-inc": {
-    "consecutive_failures": 1
-  },
-  "lever:kpler": {
-    "consecutive_failures": 1
-  },
-  "lever:larian": {
-    "consecutive_failures": 1
-  },
-  "lever:longwall": {
-    "consecutive_failures": 1
-  },
-  "lever:luxurypresence": {
-    "consecutive_failures": 1
   },
   "lever:procept-biorobotics": {
     "consecutive_failures": 3
@@ -271,11 +235,5 @@
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
-  },
-  "lever:tsmg": {
-    "consecutive_failures": 1
-  },
-  "lever:wachter": {
-    "consecutive_failures": 1
   }
 }
