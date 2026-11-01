@@ -194,9 +194,6 @@
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
-  "lever:CesiumAstro": {
-    "consecutive_failures": 1
-  },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
@@ -235,9 +232,6 @@
   },
   "lever:sprucesystems": {
     "consecutive_failures": 3
-  },
-  "lever:theodo": {
-    "consecutive_failures": 2
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
