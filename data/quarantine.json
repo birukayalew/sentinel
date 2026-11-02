@@ -198,10 +198,10 @@
     "consecutive_failures": 3
   },
   "lever:aircall": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "lever:anyscale": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "lever:aofl": {
     "consecutive_failures": 3
@@ -209,14 +209,23 @@
   "lever:autoroboto": {
     "consecutive_failures": 3
   },
+  "lever:bosonai": {
+    "consecutive_failures": 1
+  },
   "lever:butcherbox": {
     "consecutive_failures": 3
   },
   "lever:cgsfederal": {
     "consecutive_failures": 3
   },
+  "lever:cirquedusoleil": {
+    "consecutive_failures": 1
+  },
   "lever:color": {
     "consecutive_failures": 3
+  },
+  "lever:gopuff": {
+    "consecutive_failures": 1
   },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
