@@ -197,6 +197,12 @@
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
+  "lever:aircall": {
+    "consecutive_failures": 1
+  },
+  "lever:anyscale": {
+    "consecutive_failures": 1
+  },
   "lever:aofl": {
     "consecutive_failures": 3
   },
