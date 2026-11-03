@@ -1,4 +1,7 @@
 {
+  "ashby:anything": {
+    "consecutive_failures": 1
+  },
   "ashby:atomicsemi": {
     "consecutive_failures": 3
   },
@@ -194,9 +197,6 @@
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
-  "lever:CesiumAstro": {
-    "consecutive_failures": 1
-  },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
@@ -221,9 +221,6 @@
   "lever:color": {
     "consecutive_failures": 3
   },
-  "lever:getwingapp": {
-    "consecutive_failures": 1
-  },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
   },
@@ -245,25 +242,7 @@
   "lever:sprucesystems": {
     "consecutive_failures": 3
   },
-  "lever:sunwatercapital": {
-    "consecutive_failures": 1
-  },
   "lever:thinkahead": {
     "consecutive_failures": 3
-  },
-  "lever:tsmg": {
-    "consecutive_failures": 1
-  },
-  "lever:versapay": {
-    "consecutive_failures": 1
-  },
-  "lever:waabi": {
-    "consecutive_failures": 1
-  },
-  "lever:wadetrim": {
-    "consecutive_failures": 1
-  },
-  "lever:woven-by-toyota": {
-    "consecutive_failures": 1
   }
 }
