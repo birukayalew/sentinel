@@ -194,14 +194,17 @@
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
+  "lever:CesiumAstro": {
+    "consecutive_failures": 1
+  },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
   "lever:aircall": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "lever:anyscale": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "lever:aofl": {
     "consecutive_failures": 3
@@ -209,22 +212,16 @@
   "lever:autoroboto": {
     "consecutive_failures": 3
   },
-  "lever:bosonai": {
-    "consecutive_failures": 1
-  },
   "lever:butcherbox": {
     "consecutive_failures": 3
   },
   "lever:cgsfederal": {
     "consecutive_failures": 3
   },
-  "lever:cirquedusoleil": {
-    "consecutive_failures": 1
-  },
   "lever:color": {
     "consecutive_failures": 3
   },
-  "lever:gopuff": {
+  "lever:getwingapp": {
     "consecutive_failures": 1
   },
   "lever:inductiveautomation": {
@@ -248,7 +245,25 @@
   "lever:sprucesystems": {
     "consecutive_failures": 3
   },
+  "lever:sunwatercapital": {
+    "consecutive_failures": 1
+  },
   "lever:thinkahead": {
     "consecutive_failures": 3
+  },
+  "lever:tsmg": {
+    "consecutive_failures": 1
+  },
+  "lever:versapay": {
+    "consecutive_failures": 1
+  },
+  "lever:waabi": {
+    "consecutive_failures": 1
+  },
+  "lever:wadetrim": {
+    "consecutive_failures": 1
+  },
+  "lever:woven-by-toyota": {
+    "consecutive_failures": 1
   }
 }
