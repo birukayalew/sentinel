@@ -1,6 +1,6 @@
 {
   "ashby:anything": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "ashby:atomicsemi": {
     "consecutive_failures": 3
@@ -173,6 +173,9 @@
   "greenhouse:sixthstreet": {
     "consecutive_failures": 3
   },
+  "greenhouse:soundcloud71": {
+    "consecutive_failures": 1
+  },
   "greenhouse:tekion": {
     "consecutive_failures": 3
   },
@@ -197,14 +200,14 @@
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
+  "lever:Aprio": {
+    "consecutive_failures": 1
+  },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
   "lever:aircall": {
     "consecutive_failures": 3
-  },
-  "lever:alltrails": {
-    "consecutive_failures": 1
   },
   "lever:anyscale": {
     "consecutive_failures": 3
@@ -212,44 +215,17 @@
   "lever:aofl": {
     "consecutive_failures": 3
   },
-  "lever:arable": {
-    "consecutive_failures": 1
-  },
   "lever:autoroboto": {
     "consecutive_failures": 3
-  },
-  "lever:bhvr": {
-    "consecutive_failures": 1
-  },
-  "lever:bosonai": {
-    "consecutive_failures": 1
   },
   "lever:butcherbox": {
     "consecutive_failures": 3
   },
-  "lever:canvasww": {
-    "consecutive_failures": 1
-  },
   "lever:cgsfederal": {
     "consecutive_failures": 3
   },
-  "lever:cleanspark": {
-    "consecutive_failures": 1
-  },
   "lever:color": {
     "consecutive_failures": 3
-  },
-  "lever:dutch": {
-    "consecutive_failures": 1
-  },
-  "lever:equativ": {
-    "consecutive_failures": 1
-  },
-  "lever:ideasunited": {
-    "consecutive_failures": 1
-  },
-  "lever:ifm-us": {
-    "consecutive_failures": 1
   },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
@@ -257,41 +233,11 @@
   "lever:infstones": {
     "consecutive_failures": 3
   },
-  "lever:kitware": {
-    "consecutive_failures": 1
-  },
-  "lever:lyrahealth": {
-    "consecutive_failures": 1
-  },
-  "lever:magnetforensics": {
-    "consecutive_failures": 1
-  },
-  "lever:mcaconnect": {
-    "consecutive_failures": 1
-  },
-  "lever:metergysolutions": {
-    "consecutive_failures": 1
-  },
-  "lever:npowermedicine": {
-    "consecutive_failures": 1
-  },
-  "lever:optionmetrics": {
-    "consecutive_failures": 1
-  },
-  "lever:otilumionics": {
-    "consecutive_failures": 1
-  },
-  "lever:penumbrainc": {
-    "consecutive_failures": 1
-  },
-  "lever:plus-2": {
+  "lever:levelai": {
     "consecutive_failures": 1
   },
   "lever:procept-biorobotics": {
     "consecutive_failures": 3
-  },
-  "lever:redsox": {
-    "consecutive_failures": 1
   },
   "lever:sanctuary": {
     "consecutive_failures": 3
@@ -299,28 +245,13 @@
   "lever:saronic": {
     "consecutive_failures": 3
   },
-  "lever:saviynt": {
-    "consecutive_failures": 1
-  },
-  "lever:secureframe": {
-    "consecutive_failures": 1
-  },
   "lever:sensortower": {
     "consecutive_failures": 3
-  },
-  "lever:shyftlabs": {
-    "consecutive_failures": 1
-  },
-  "lever:sophos": {
-    "consecutive_failures": 1
   },
   "lever:sprucesystems": {
     "consecutive_failures": 3
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
-  },
-  "lever:tramgroup": {
-    "consecutive_failures": 1
   }
 }
