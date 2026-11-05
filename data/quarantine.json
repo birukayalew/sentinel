@@ -194,16 +194,31 @@
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
   },
+  "lever:15five": {
+    "consecutive_failures": 1
+  },
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
+  "lever:acceldata": {
+    "consecutive_failures": 1
+  },
+  "lever:actian": {
+    "consecutive_failures": 1
+  },
+  "lever:agtonomy": {
+    "consecutive_failures": 1
+  },
   "lever:aircall": {
     "consecutive_failures": 3
   },
   "lever:allegiantair": {
+    "consecutive_failures": 2
+  },
+  "lever:analyticpartners": {
     "consecutive_failures": 1
   },
   "lever:anyscale": {
@@ -212,23 +227,23 @@
   "lever:aofl": {
     "consecutive_failures": 3
   },
+  "lever:aquabyte": {
+    "consecutive_failures": 1
+  },
+  "lever:arable": {
+    "consecutive_failures": 1
+  },
   "lever:autoroboto": {
     "consecutive_failures": 3
   },
-  "lever:bellese": {
+  "lever:bellwetheram-2": {
     "consecutive_failures": 1
   },
   "lever:beta": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "lever:butcherbox": {
     "consecutive_failures": 3
-  },
-  "lever:capricor": {
-    "consecutive_failures": 1
-  },
-  "lever:cef": {
-    "consecutive_failures": 1
   },
   "lever:cgsfederal": {
     "consecutive_failures": 3
@@ -236,46 +251,19 @@
   "lever:color": {
     "consecutive_failures": 3
   },
-  "lever:commonlit": {
-    "consecutive_failures": 1
-  },
-  "lever:convergentresearch": {
-    "consecutive_failures": 1
-  },
-  "lever:deepgenomics": {
-    "consecutive_failures": 1
-  },
-  "lever:drivemode": {
-    "consecutive_failures": 1
-  },
-  "lever:eliyan": {
-    "consecutive_failures": 1
-  },
-  "lever:eqbank": {
-    "consecutive_failures": 1
-  },
-  "lever:esrtreit": {
-    "consecutive_failures": 1
-  },
-  "lever:extremenetworks": {
-    "consecutive_failures": 1
-  },
-  "lever:gopuff": {
-    "consecutive_failures": 1
-  },
-  "lever:h1": {
-    "consecutive_failures": 1
-  },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
   },
   "lever:infstones": {
     "consecutive_failures": 3
   },
-  "lever:latitudeinc": {
+  "lever:kitware": {
     "consecutive_failures": 1
   },
   "lever:mistral": {
+    "consecutive_failures": 2
+  },
+  "lever:multiplylabs": {
     "consecutive_failures": 1
   },
   "lever:procept-biorobotics": {
@@ -287,22 +275,25 @@
   "lever:saronic": {
     "consecutive_failures": 3
   },
+  "lever:seerinteractive": {
+    "consecutive_failures": 1
+  },
   "lever:sensortower": {
     "consecutive_failures": 3
   },
   "lever:sprucesystems": {
     "consecutive_failures": 3
   },
-  "lever:tahoebio-ai": {
-    "consecutive_failures": 1
-  },
-  "lever:theinformationlab": {
+  "lever:synergyecp": {
     "consecutive_failures": 1
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
   },
-  "lever:tsmg": {
+  "lever:thinkingbox": {
+    "consecutive_failures": 1
+  },
+  "lever:veeva": {
     "consecutive_failures": 1
   }
 }
