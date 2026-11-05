@@ -173,9 +173,6 @@
   "greenhouse:sixthstreet": {
     "consecutive_failures": 3
   },
-  "greenhouse:soundcloud71": {
-    "consecutive_failures": 1
-  },
   "greenhouse:tekion": {
     "consecutive_failures": 3
   },
@@ -200,14 +197,14 @@
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
-  "lever:Aprio": {
-    "consecutive_failures": 1
-  },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
   "lever:aircall": {
     "consecutive_failures": 3
+  },
+  "lever:allegiantair": {
+    "consecutive_failures": 1
   },
   "lever:anyscale": {
     "consecutive_failures": 3
@@ -218,8 +215,20 @@
   "lever:autoroboto": {
     "consecutive_failures": 3
   },
+  "lever:bellese": {
+    "consecutive_failures": 1
+  },
+  "lever:beta": {
+    "consecutive_failures": 1
+  },
   "lever:butcherbox": {
     "consecutive_failures": 3
+  },
+  "lever:capricor": {
+    "consecutive_failures": 1
+  },
+  "lever:cef": {
+    "consecutive_failures": 1
   },
   "lever:cgsfederal": {
     "consecutive_failures": 3
@@ -227,13 +236,46 @@
   "lever:color": {
     "consecutive_failures": 3
   },
+  "lever:commonlit": {
+    "consecutive_failures": 1
+  },
+  "lever:convergentresearch": {
+    "consecutive_failures": 1
+  },
+  "lever:deepgenomics": {
+    "consecutive_failures": 1
+  },
+  "lever:drivemode": {
+    "consecutive_failures": 1
+  },
+  "lever:eliyan": {
+    "consecutive_failures": 1
+  },
+  "lever:eqbank": {
+    "consecutive_failures": 1
+  },
+  "lever:esrtreit": {
+    "consecutive_failures": 1
+  },
+  "lever:extremenetworks": {
+    "consecutive_failures": 1
+  },
+  "lever:gopuff": {
+    "consecutive_failures": 1
+  },
+  "lever:h1": {
+    "consecutive_failures": 1
+  },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
   },
   "lever:infstones": {
     "consecutive_failures": 3
   },
-  "lever:levelai": {
+  "lever:latitudeinc": {
+    "consecutive_failures": 1
+  },
+  "lever:mistral": {
     "consecutive_failures": 1
   },
   "lever:procept-biorobotics": {
@@ -251,7 +293,16 @@
   "lever:sprucesystems": {
     "consecutive_failures": 3
   },
+  "lever:tahoebio-ai": {
+    "consecutive_failures": 1
+  },
+  "lever:theinformationlab": {
+    "consecutive_failures": 1
+  },
   "lever:thinkahead": {
     "consecutive_failures": 3
+  },
+  "lever:tsmg": {
+    "consecutive_failures": 1
   }
 }
