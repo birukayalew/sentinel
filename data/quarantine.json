@@ -194,32 +194,14 @@
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
   },
-  "lever:15five": {
-    "consecutive_failures": 1
-  },
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
-  "lever:acceldata": {
-    "consecutive_failures": 1
-  },
-  "lever:actian": {
-    "consecutive_failures": 1
-  },
-  "lever:agtonomy": {
-    "consecutive_failures": 1
-  },
   "lever:aircall": {
     "consecutive_failures": 3
-  },
-  "lever:allegiantair": {
-    "consecutive_failures": 2
-  },
-  "lever:analyticpartners": {
-    "consecutive_failures": 1
   },
   "lever:anyscale": {
     "consecutive_failures": 3
@@ -227,20 +209,11 @@
   "lever:aofl": {
     "consecutive_failures": 3
   },
-  "lever:aquabyte": {
-    "consecutive_failures": 1
-  },
-  "lever:arable": {
-    "consecutive_failures": 1
-  },
   "lever:autoroboto": {
     "consecutive_failures": 3
   },
-  "lever:bellwetheram-2": {
-    "consecutive_failures": 1
-  },
   "lever:beta": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "lever:butcherbox": {
     "consecutive_failures": 3
@@ -257,14 +230,8 @@
   "lever:infstones": {
     "consecutive_failures": 3
   },
-  "lever:kitware": {
-    "consecutive_failures": 1
-  },
   "lever:mistral": {
-    "consecutive_failures": 2
-  },
-  "lever:multiplylabs": {
-    "consecutive_failures": 1
+    "consecutive_failures": 3
   },
   "lever:procept-biorobotics": {
     "consecutive_failures": 3
@@ -275,25 +242,13 @@
   "lever:saronic": {
     "consecutive_failures": 3
   },
-  "lever:seerinteractive": {
-    "consecutive_failures": 1
-  },
   "lever:sensortower": {
     "consecutive_failures": 3
   },
   "lever:sprucesystems": {
     "consecutive_failures": 3
   },
-  "lever:synergyecp": {
-    "consecutive_failures": 1
-  },
   "lever:thinkahead": {
     "consecutive_failures": 3
-  },
-  "lever:thinkingbox": {
-    "consecutive_failures": 1
-  },
-  "lever:veeva": {
-    "consecutive_failures": 1
   }
 }
