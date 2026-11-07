@@ -62,6 +62,9 @@
   "greenhouse:artefactus": {
     "consecutive_failures": 3
   },
+  "greenhouse:atlassand": {
+    "consecutive_failures": 1
+  },
   "greenhouse:breezeairways": {
     "consecutive_failures": 3
   },
@@ -200,14 +203,32 @@
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
+  "lever:agile-defense": {
+    "consecutive_failures": 1
+  },
   "lever:aircall": {
     "consecutive_failures": 3
+  },
+  "lever:allegiantair": {
+    "consecutive_failures": 1
+  },
+  "lever:anchorage": {
+    "consecutive_failures": 1
   },
   "lever:anyscale": {
     "consecutive_failures": 3
   },
   "lever:aofl": {
     "consecutive_failures": 3
+  },
+  "lever:aquabyte": {
+    "consecutive_failures": 1
+  },
+  "lever:arable": {
+    "consecutive_failures": 1
+  },
+  "lever:artera": {
+    "consecutive_failures": 1
   },
   "lever:autoroboto": {
     "consecutive_failures": 3
