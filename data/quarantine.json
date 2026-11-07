@@ -224,77 +224,17 @@
   "lever:color": {
     "consecutive_failures": 3
   },
-  "lever:economicmodeling": {
-    "consecutive_failures": 1
-  },
-  "lever:erg": {
-    "consecutive_failures": 1
-  },
-  "lever:fiscalnote": {
-    "consecutive_failures": 1
-  },
-  "lever:gravie": {
-    "consecutive_failures": 1
-  },
-  "lever:hannaandersson": {
-    "consecutive_failures": 1
-  },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
   },
   "lever:infstones": {
     "consecutive_failures": 3
   },
-  "lever:intropic": {
-    "consecutive_failures": 1
-  },
-  "lever:kgroupcompanies": {
-    "consecutive_failures": 1
-  },
-  "lever:matillion": {
-    "consecutive_failures": 1
-  },
   "lever:mistral": {
     "consecutive_failures": 3
   },
-  "lever:modeln": {
-    "consecutive_failures": 1
-  },
-  "lever:moonpig": {
-    "consecutive_failures": 1
-  },
-  "lever:nimblerx": {
-    "consecutive_failures": 1
-  },
-  "lever:npowermedicine": {
-    "consecutive_failures": 1
-  },
-  "lever:pibenchmark": {
-    "consecutive_failures": 1
-  },
-  "lever:pivotal": {
-    "consecutive_failures": 1
-  },
-  "lever:plusgrade": {
-    "consecutive_failures": 1
-  },
   "lever:procept-biorobotics": {
     "consecutive_failures": 3
-  },
-  "lever:prosper": {
-    "consecutive_failures": 1
-  },
-  "lever:quandri": {
-    "consecutive_failures": 1
-  },
-  "lever:redhorsecorp": {
-    "consecutive_failures": 1
-  },
-  "lever:robust-ai": {
-    "consecutive_failures": 1
-  },
-  "lever:salvohealth": {
-    "consecutive_failures": 1
   },
   "lever:sanctuary": {
     "consecutive_failures": 3
@@ -305,28 +245,10 @@
   "lever:sensortower": {
     "consecutive_failures": 3
   },
-  "lever:simulmedia": {
-    "consecutive_failures": 1
-  },
   "lever:sprucesystems": {
     "consecutive_failures": 3
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
-  },
-  "lever:traackr": {
-    "consecutive_failures": 1
-  },
-  "lever:tsmg": {
-    "consecutive_failures": 1
-  },
-  "lever:wyetechllc": {
-    "consecutive_failures": 1
-  },
-  "lever:xsolla": {
-    "consecutive_failures": 1
-  },
-  "lever:zaimler": {
-    "consecutive_failures": 1
   }
 }
