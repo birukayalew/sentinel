@@ -63,7 +63,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:atlassand": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:breezeairways": {
     "consecutive_failures": 3
@@ -188,6 +188,9 @@
   "greenhouse:underdogfantasy": {
     "consecutive_failures": 3
   },
+  "greenhouse:viseai": {
+    "consecutive_failures": 1
+  },
   "greenhouse:visiersolutionsinc": {
     "consecutive_failures": 3
   },
@@ -200,35 +203,20 @@
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
+  "lever:Aprio": {
+    "consecutive_failures": 1
+  },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
-  "lever:agile-defense": {
-    "consecutive_failures": 1
-  },
   "lever:aircall": {
     "consecutive_failures": 3
-  },
-  "lever:allegiantair": {
-    "consecutive_failures": 1
-  },
-  "lever:anchorage": {
-    "consecutive_failures": 1
   },
   "lever:anyscale": {
     "consecutive_failures": 3
   },
   "lever:aofl": {
     "consecutive_failures": 3
-  },
-  "lever:aquabyte": {
-    "consecutive_failures": 1
-  },
-  "lever:arable": {
-    "consecutive_failures": 1
-  },
-  "lever:artera": {
-    "consecutive_failures": 1
   },
   "lever:autoroboto": {
     "consecutive_failures": 3
@@ -254,6 +242,9 @@
   "lever:mistral": {
     "consecutive_failures": 3
   },
+  "lever:palantir": {
+    "consecutive_failures": 1
+  },
   "lever:procept-biorobotics": {
     "consecutive_failures": 3
   },
@@ -266,10 +257,37 @@
   "lever:sensortower": {
     "consecutive_failures": 3
   },
+  "lever:shieldai": {
+    "consecutive_failures": 1
+  },
+  "lever:spotify": {
+    "consecutive_failures": 1
+  },
   "lever:sprucesystems": {
     "consecutive_failures": 3
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
+  },
+  "lever:tri": {
+    "consecutive_failures": 1
+  },
+  "lever:wachter": {
+    "consecutive_failures": 1
+  },
+  "lever:webfx": {
+    "consecutive_failures": 1
+  },
+  "lever:windfalldata": {
+    "consecutive_failures": 1
+  },
+  "lever:woven-by-toyota": {
+    "consecutive_failures": 1
+  },
+  "lever:zaimler": {
+    "consecutive_failures": 1
+  },
+  "lever:zopa": {
+    "consecutive_failures": 1
   }
 }
