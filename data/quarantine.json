@@ -63,7 +63,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:atlassand": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "greenhouse:breezeairways": {
     "consecutive_failures": 3
@@ -106,6 +106,12 @@
   },
   "greenhouse:fireworksai": {
     "consecutive_failures": 3
+  },
+  "greenhouse:focusfinancialpartners": {
+    "consecutive_failures": 1
+  },
+  "greenhouse:focuspartnerswealth": {
+    "consecutive_failures": 1
   },
   "greenhouse:gafg": {
     "consecutive_failures": 3
@@ -189,7 +195,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:viseai": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:visiersolutionsinc": {
     "consecutive_failures": 3
@@ -203,7 +209,7 @@
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
-  "lever:Aprio": {
+  "lever:QuantumWorkplace": {
     "consecutive_failures": 1
   },
   "lever:SprinterHealth": {
@@ -239,10 +245,13 @@
   "lever:infstones": {
     "consecutive_failures": 3
   },
+  "lever:leverdemo-8": {
+    "consecutive_failures": 1
+  },
   "lever:mistral": {
     "consecutive_failures": 3
   },
-  "lever:palantir": {
+  "lever:parallelwireless": {
     "consecutive_failures": 1
   },
   "lever:procept-biorobotics": {
@@ -257,37 +266,13 @@
   "lever:sensortower": {
     "consecutive_failures": 3
   },
-  "lever:shieldai": {
-    "consecutive_failures": 1
-  },
-  "lever:spotify": {
-    "consecutive_failures": 1
-  },
   "lever:sprucesystems": {
     "consecutive_failures": 3
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
   },
-  "lever:tri": {
-    "consecutive_failures": 1
-  },
-  "lever:wachter": {
-    "consecutive_failures": 1
-  },
-  "lever:webfx": {
-    "consecutive_failures": 1
-  },
-  "lever:windfalldata": {
-    "consecutive_failures": 1
-  },
-  "lever:woven-by-toyota": {
-    "consecutive_failures": 1
-  },
-  "lever:zaimler": {
-    "consecutive_failures": 1
-  },
   "lever:zopa": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   }
 }
