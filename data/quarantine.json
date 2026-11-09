@@ -108,10 +108,10 @@
     "consecutive_failures": 3
   },
   "greenhouse:focusfinancialpartners": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:focuspartnerswealth": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:gafg": {
     "consecutive_failures": 3
@@ -195,7 +195,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:viseai": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "greenhouse:visiersolutionsinc": {
     "consecutive_failures": 3
@@ -208,9 +208,6 @@
   },
   "lever:AntiCapital": {
     "consecutive_failures": 3
-  },
-  "lever:QuantumWorkplace": {
-    "consecutive_failures": 1
   },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
@@ -245,14 +242,8 @@
   "lever:infstones": {
     "consecutive_failures": 3
   },
-  "lever:leverdemo-8": {
-    "consecutive_failures": 1
-  },
   "lever:mistral": {
     "consecutive_failures": 3
-  },
-  "lever:parallelwireless": {
-    "consecutive_failures": 1
   },
   "lever:procept-biorobotics": {
     "consecutive_failures": 3
@@ -271,8 +262,5 @@
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
-  },
-  "lever:zopa": {
-    "consecutive_failures": 2
   }
 }
