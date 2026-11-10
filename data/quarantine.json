@@ -47,6 +47,9 @@
   "greenhouse:10xgenomics": {
     "consecutive_failures": 3
   },
+  "greenhouse:alphaawmnaearlycareers": {
+    "consecutive_failures": 1
+  },
   "greenhouse:amplitude": {
     "consecutive_failures": 3
   },
@@ -64,6 +67,9 @@
   },
   "greenhouse:atlassand": {
     "consecutive_failures": 3
+  },
+  "greenhouse:blacksky": {
+    "consecutive_failures": 1
   },
   "greenhouse:breezeairways": {
     "consecutive_failures": 3
@@ -152,6 +158,9 @@
   "greenhouse:mqreferrals": {
     "consecutive_failures": 3
   },
+  "greenhouse:obsidiansecurity": {
+    "consecutive_failures": 1
+  },
   "greenhouse:ottoaviation": {
     "consecutive_failures": 3
   },
@@ -166,6 +175,9 @@
   },
   "greenhouse:reach": {
     "consecutive_failures": 3
+  },
+  "greenhouse:renaissancelearning-nam": {
+    "consecutive_failures": 1
   },
   "greenhouse:scoutai": {
     "consecutive_failures": 3
@@ -200,13 +212,16 @@
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
   },
+  "greenhouse:zone5technologies": {
+    "consecutive_failures": 1
+  },
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
-  "lever:acds": {
+  "lever:actian": {
     "consecutive_failures": 1
   },
   "lever:aircall": {
@@ -217,6 +232,9 @@
   },
   "lever:aofl": {
     "consecutive_failures": 3
+  },
+  "lever:arrivelogistics": {
+    "consecutive_failures": 1
   },
   "lever:autoroboto": {
     "consecutive_failures": 3
@@ -232,6 +250,9 @@
   },
   "lever:color": {
     "consecutive_failures": 3
+  },
+  "lever:eqbank": {
+    "consecutive_failures": 1
   },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
