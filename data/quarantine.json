@@ -200,17 +200,14 @@
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
   },
-  "lever:AIFund": {
-    "consecutive_failures": 1
-  },
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
-  "lever:EnergyVault": {
-    "consecutive_failures": 1
-  },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
+  },
+  "lever:acds": {
+    "consecutive_failures": 1
   },
   "lever:aircall": {
     "consecutive_failures": 3
@@ -221,17 +218,11 @@
   "lever:aofl": {
     "consecutive_failures": 3
   },
-  "lever:appen-2": {
-    "consecutive_failures": 1
-  },
   "lever:autoroboto": {
     "consecutive_failures": 3
   },
   "lever:beta": {
     "consecutive_failures": 3
-  },
-  "lever:bisnow": {
-    "consecutive_failures": 1
   },
   "lever:butcherbox": {
     "consecutive_failures": 3
@@ -239,47 +230,14 @@
   "lever:cgsfederal": {
     "consecutive_failures": 3
   },
-  "lever:cirquedusoleil": {
-    "consecutive_failures": 1
-  },
   "lever:color": {
     "consecutive_failures": 3
-  },
-  "lever:convergentresearch": {
-    "consecutive_failures": 1
-  },
-  "lever:conversica": {
-    "consecutive_failures": 1
-  },
-  "lever:daniels-sharpsmart": {
-    "consecutive_failures": 1
-  },
-  "lever:eastern-communications": {
-    "consecutive_failures": 1
-  },
-  "lever:eqbank": {
-    "consecutive_failures": 1
-  },
-  "lever:esrtreit": {
-    "consecutive_failures": 1
-  },
-  "lever:fehrandpeers": {
-    "consecutive_failures": 1
-  },
-  "lever:hermeus": {
-    "consecutive_failures": 1
   },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
   },
   "lever:infstones": {
     "consecutive_failures": 3
-  },
-  "lever:lightship": {
-    "consecutive_failures": 1
-  },
-  "lever:mendix": {
-    "consecutive_failures": 1
   },
   "lever:mistral": {
     "consecutive_failures": 3
