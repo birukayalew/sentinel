@@ -48,7 +48,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:alphaawmnaearlycareers": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "greenhouse:amplitude": {
     "consecutive_failures": 3
@@ -136,6 +136,9 @@
   },
   "greenhouse:instabase": {
     "consecutive_failures": 3
+  },
+  "greenhouse:iterable": {
+    "consecutive_failures": 1
   },
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
@@ -233,11 +236,29 @@
   "lever:color": {
     "consecutive_failures": 3
   },
+  "lever:compassx": {
+    "consecutive_failures": 1
+  },
+  "lever:dodmg": {
+    "consecutive_failures": 1
+  },
+  "lever:farfetch": {
+    "consecutive_failures": 1
+  },
+  "lever:filevine": {
+    "consecutive_failures": 1
+  },
+  "lever:glsllc": {
+    "consecutive_failures": 1
+  },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
   },
   "lever:infstones": {
     "consecutive_failures": 3
+  },
+  "lever:latitudeinc": {
+    "consecutive_failures": 1
   },
   "lever:mistral": {
     "consecutive_failures": 3
