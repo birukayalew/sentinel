@@ -29,6 +29,9 @@
   "ashby:mach": {
     "consecutive_failures": 3
   },
+  "ashby:maple": {
+    "consecutive_failures": 1
+  },
   "ashby:newfront": {
     "consecutive_failures": 3
   },
@@ -138,7 +141,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:iterable": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "greenhouse:johnsonlawgroup": {
     "consecutive_failures": 3
@@ -212,14 +215,8 @@
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
-  "lever:agile-defense": {
-    "consecutive_failures": 1
-  },
   "lever:aircall": {
     "consecutive_failures": 3
-  },
-  "lever:aledade": {
-    "consecutive_failures": 1
   },
   "lever:anyscale": {
     "consecutive_failures": 3
@@ -242,17 +239,62 @@
   "lever:color": {
     "consecutive_failures": 3
   },
+  "lever:ibility": {
+    "consecutive_failures": 1
+  },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
   },
   "lever:infstones": {
     "consecutive_failures": 3
   },
+  "lever:kitware": {
+    "consecutive_failures": 1
+  },
+  "lever:latitudeinc": {
+    "consecutive_failures": 1
+  },
+  "lever:life": {
+    "consecutive_failures": 1
+  },
+  "lever:lightship": {
+    "consecutive_failures": 1
+  },
+  "lever:makpar": {
+    "consecutive_failures": 1
+  },
+  "lever:massschoolbuildings": {
+    "consecutive_failures": 1
+  },
+  "lever:mcaconnect": {
+    "consecutive_failures": 1
+  },
+  "lever:mendix": {
+    "consecutive_failures": 1
+  },
+  "lever:metergysolutions": {
+    "consecutive_failures": 1
+  },
   "lever:mistral": {
     "consecutive_failures": 3
   },
+  "lever:modeln": {
+    "consecutive_failures": 1
+  },
+  "lever:moonpig": {
+    "consecutive_failures": 1
+  },
   "lever:procept-biorobotics": {
     "consecutive_failures": 3
+  },
+  "lever:questanalytics": {
+    "consecutive_failures": 1
+  },
+  "lever:ro": {
+    "consecutive_failures": 1
+  },
+  "lever:salvohealth": {
+    "consecutive_failures": 1
   },
   "lever:sanctuary": {
     "consecutive_failures": 3
@@ -260,13 +302,43 @@
   "lever:saronic": {
     "consecutive_failures": 3
   },
+  "lever:saviynt": {
+    "consecutive_failures": 1
+  },
+  "lever:schmidt-entities": {
+    "consecutive_failures": 1
+  },
+  "lever:secureframe": {
+    "consecutive_failures": 1
+  },
   "lever:sensortower": {
     "consecutive_failures": 3
+  },
+  "lever:sfmoma": {
+    "consecutive_failures": 1
+  },
+  "lever:shyftlabs": {
+    "consecutive_failures": 1
+  },
+  "lever:sonarsource": {
+    "consecutive_failures": 1
   },
   "lever:sprucesystems": {
     "consecutive_failures": 3
   },
+  "lever:steerbridge": {
+    "consecutive_failures": 1
+  },
+  "lever:telesat": {
+    "consecutive_failures": 1
+  },
+  "lever:theinformationlab": {
+    "consecutive_failures": 1
+  },
   "lever:thinkahead": {
     "consecutive_failures": 3
+  },
+  "lever:wyetechllc": {
+    "consecutive_failures": 1
   }
 }
