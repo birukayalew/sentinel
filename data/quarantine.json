@@ -30,13 +30,16 @@
     "consecutive_failures": 3
   },
   "ashby:maple": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "ashby:newfront": {
     "consecutive_failures": 3
   },
   "ashby:solva": {
     "consecutive_failures": 3
+  },
+  "ashby:tavily": {
+    "consecutive_failures": 1
   },
   "ashby:tilderesearch": {
     "consecutive_failures": 3
@@ -87,7 +90,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:classpass": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:clickhouse": {
     "consecutive_failures": 3
@@ -242,47 +245,14 @@
   "lever:color": {
     "consecutive_failures": 3
   },
-  "lever:diversified-automation": {
-    "consecutive_failures": 1
-  },
-  "lever:geocomply-2": {
-    "consecutive_failures": 1
-  },
-  "lever:h1": {
-    "consecutive_failures": 1
-  },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
   },
   "lever:infstones": {
     "consecutive_failures": 3
   },
-  "lever:lcbcchurch": {
-    "consecutive_failures": 1
-  },
-  "lever:lendbuzz": {
-    "consecutive_failures": 1
-  },
-  "lever:linkllc": {
-    "consecutive_failures": 1
-  },
   "lever:mistral": {
     "consecutive_failures": 3
-  },
-  "lever:moonpig": {
-    "consecutive_failures": 2
-  },
-  "lever:multiplylabs": {
-    "consecutive_failures": 1
-  },
-  "lever:penumbrainc": {
-    "consecutive_failures": 1
-  },
-  "lever:perforce": {
-    "consecutive_failures": 1
-  },
-  "lever:pingwind": {
-    "consecutive_failures": 1
   },
   "lever:procept-biorobotics": {
     "consecutive_failures": 3
@@ -296,17 +266,8 @@
   "lever:sensortower": {
     "consecutive_failures": 3
   },
-  "lever:shieldai": {
-    "consecutive_failures": 1
-  },
   "lever:sprucesystems": {
     "consecutive_failures": 3
-  },
-  "lever:sunsrce": {
-    "consecutive_failures": 1
-  },
-  "lever:synergyecp": {
-    "consecutive_failures": 1
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
