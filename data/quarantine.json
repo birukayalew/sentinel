@@ -39,7 +39,7 @@
     "consecutive_failures": 3
   },
   "ashby:tavily": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "ashby:tilderesearch": {
     "consecutive_failures": 3
@@ -90,7 +90,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:classpass": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "greenhouse:clickhouse": {
     "consecutive_failures": 3
