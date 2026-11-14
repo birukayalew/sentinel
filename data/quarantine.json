@@ -39,7 +39,7 @@
     "consecutive_failures": 3
   },
   "ashby:tavily": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "ashby:tilderesearch": {
     "consecutive_failures": 3
@@ -250,6 +250,9 @@
   },
   "lever:infstones": {
     "consecutive_failures": 3
+  },
+  "lever:latitudeinc": {
+    "consecutive_failures": 1
   },
   "lever:mistral": {
     "consecutive_failures": 3
