@@ -215,9 +215,6 @@
   "greenhouse:withumsmithbrown": {
     "consecutive_failures": 3
   },
-  "lever:15five": {
-    "consecutive_failures": 1
-  },
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
@@ -247,18 +244,6 @@
   },
   "lever:color": {
     "consecutive_failures": 3
-  },
-  "lever:elfbeauty": {
-    "consecutive_failures": 1
-  },
-  "lever:erg": {
-    "consecutive_failures": 1
-  },
-  "lever:go-cloudforce": {
-    "consecutive_failures": 1
-  },
-  "lever:ifm-us": {
-    "consecutive_failures": 1
   },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
