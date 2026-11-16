@@ -257,6 +257,9 @@
   "lever:procept-biorobotics": {
     "consecutive_failures": 3
   },
+  "lever:protolabs": {
+    "consecutive_failures": 1
+  },
   "lever:sanctuary": {
     "consecutive_failures": 3
   },
@@ -271,5 +274,8 @@
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
+  },
+  "lever:tsmg": {
+    "consecutive_failures": 1
   }
 }
