@@ -251,14 +251,20 @@
   "lever:infstones": {
     "consecutive_failures": 3
   },
+  "lever:jamcity": {
+    "consecutive_failures": 1
+  },
+  "lever:kgroupcompanies": {
+    "consecutive_failures": 1
+  },
+  "lever:magnetforensics": {
+    "consecutive_failures": 1
+  },
   "lever:mistral": {
     "consecutive_failures": 3
   },
   "lever:procept-biorobotics": {
     "consecutive_failures": 3
-  },
-  "lever:protolabs": {
-    "consecutive_failures": 1
   },
   "lever:sanctuary": {
     "consecutive_failures": 3
@@ -275,7 +281,22 @@
   "lever:thinkahead": {
     "consecutive_failures": 3
   },
+  "lever:thinkingbox": {
+    "consecutive_failures": 1
+  },
   "lever:tsmg": {
+    "consecutive_failures": 2
+  },
+  "lever:veeva": {
+    "consecutive_failures": 1
+  },
+  "lever:vevo": {
+    "consecutive_failures": 1
+  },
+  "lever:viget": {
+    "consecutive_failures": 1
+  },
+  "lever:voltus": {
     "consecutive_failures": 1
   }
 }
