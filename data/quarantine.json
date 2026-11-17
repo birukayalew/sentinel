@@ -8,6 +8,9 @@
   "ashby:beaconsoftware": {
     "consecutive_failures": 3
   },
+  "ashby:browserbase": {
+    "consecutive_failures": 1
+  },
   "ashby:fractional-ai": {
     "consecutive_failures": 3
   },
@@ -245,23 +248,20 @@
   "lever:color": {
     "consecutive_failures": 3
   },
+  "lever:coupa": {
+    "consecutive_failures": 1
+  },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
   },
   "lever:infstones": {
     "consecutive_failures": 3
   },
-  "lever:jamcity": {
-    "consecutive_failures": 1
-  },
-  "lever:kgroupcompanies": {
-    "consecutive_failures": 1
-  },
-  "lever:magnetforensics": {
-    "consecutive_failures": 1
-  },
   "lever:mistral": {
     "consecutive_failures": 3
+  },
+  "lever:penumbrainc": {
+    "consecutive_failures": 1
   },
   "lever:procept-biorobotics": {
     "consecutive_failures": 3
@@ -281,22 +281,7 @@
   "lever:thinkahead": {
     "consecutive_failures": 3
   },
-  "lever:thinkingbox": {
-    "consecutive_failures": 1
-  },
   "lever:tsmg": {
-    "consecutive_failures": 2
-  },
-  "lever:veeva": {
-    "consecutive_failures": 1
-  },
-  "lever:vevo": {
-    "consecutive_failures": 1
-  },
-  "lever:viget": {
-    "consecutive_failures": 1
-  },
-  "lever:voltus": {
-    "consecutive_failures": 1
+    "consecutive_failures": 3
   }
 }
