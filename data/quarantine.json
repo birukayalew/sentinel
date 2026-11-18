@@ -9,7 +9,7 @@
     "consecutive_failures": 3
   },
   "ashby:browserbase": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "ashby:fractional-ai": {
     "consecutive_failures": 3
@@ -36,7 +36,7 @@
     "consecutive_failures": 3
   },
   "ashby:nectar-social": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "ashby:newfront": {
     "consecutive_failures": 3
@@ -224,11 +224,20 @@
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
+  "lever:Aprio": {
+    "consecutive_failures": 1
+  },
+  "lever:CesiumAstro": {
+    "consecutive_failures": 1
+  },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
   "lever:aircall": {
     "consecutive_failures": 3
+  },
+  "lever:alertus": {
+    "consecutive_failures": 1
   },
   "lever:anyscale": {
     "consecutive_failures": 3
@@ -242,6 +251,9 @@
   "lever:beta": {
     "consecutive_failures": 3
   },
+  "lever:brilliant": {
+    "consecutive_failures": 1
+  },
   "lever:butcherbox": {
     "consecutive_failures": 3
   },
@@ -251,11 +263,20 @@
   "lever:color": {
     "consecutive_failures": 3
   },
+  "lever:ekimetrics": {
+    "consecutive_failures": 1
+  },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
   },
   "lever:infstones": {
     "consecutive_failures": 3
+  },
+  "lever:ivo": {
+    "consecutive_failures": 1
+  },
+  "lever:latitudeinc": {
+    "consecutive_failures": 1
   },
   "lever:mistral": {
     "consecutive_failures": 3
