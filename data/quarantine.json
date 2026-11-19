@@ -36,7 +36,7 @@
     "consecutive_failures": 3
   },
   "ashby:nectar-social": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "ashby:newfront": {
     "consecutive_failures": 3
@@ -224,20 +224,11 @@
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
-  "lever:Aprio": {
-    "consecutive_failures": 1
-  },
-  "lever:CesiumAstro": {
-    "consecutive_failures": 1
-  },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
   "lever:aircall": {
     "consecutive_failures": 3
-  },
-  "lever:alertus": {
-    "consecutive_failures": 1
   },
   "lever:anyscale": {
     "consecutive_failures": 3
@@ -251,9 +242,6 @@
   "lever:beta": {
     "consecutive_failures": 3
   },
-  "lever:brilliant": {
-    "consecutive_failures": 1
-  },
   "lever:butcherbox": {
     "consecutive_failures": 3
   },
@@ -263,7 +251,13 @@
   "lever:color": {
     "consecutive_failures": 3
   },
-  "lever:ekimetrics": {
+  "lever:economicmodeling": {
+    "consecutive_failures": 1
+  },
+  "lever:finix": {
+    "consecutive_failures": 1
+  },
+  "lever:getwingapp": {
     "consecutive_failures": 1
   },
   "lever:inductiveautomation": {
@@ -272,17 +266,23 @@
   "lever:infstones": {
     "consecutive_failures": 3
   },
-  "lever:ivo": {
-    "consecutive_failures": 1
-  },
   "lever:latitudeinc": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "lever:mistral": {
     "consecutive_failures": 3
   },
+  "lever:outreach": {
+    "consecutive_failures": 1
+  },
+  "lever:plus-2": {
+    "consecutive_failures": 1
+  },
   "lever:procept-biorobotics": {
     "consecutive_failures": 3
+  },
+  "lever:q-ctrl": {
+    "consecutive_failures": 1
   },
   "lever:sanctuary": {
     "consecutive_failures": 3
@@ -293,13 +293,31 @@
   "lever:sensortower": {
     "consecutive_failures": 3
   },
+  "lever:shyftlabs": {
+    "consecutive_failures": 1
+  },
+  "lever:solopulseco": {
+    "consecutive_failures": 1
+  },
   "lever:sprucesystems": {
     "consecutive_failures": 3
+  },
+  "lever:starcompliance": {
+    "consecutive_failures": 1
+  },
+  "lever:stradaeducation": {
+    "consecutive_failures": 1
+  },
+  "lever:tangraminteriors": {
+    "consecutive_failures": 1
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
   },
   "lever:tsmg": {
     "consecutive_failures": 3
+  },
+  "lever:zoox": {
+    "consecutive_failures": 1
   }
 }
