@@ -11,6 +11,9 @@
   "ashby:browserbase": {
     "consecutive_failures": 3
   },
+  "ashby:cedar": {
+    "consecutive_failures": 1
+  },
   "ashby:fractional-ai": {
     "consecutive_failures": 3
   },
@@ -251,38 +254,17 @@
   "lever:color": {
     "consecutive_failures": 3
   },
-  "lever:economicmodeling": {
-    "consecutive_failures": 1
-  },
-  "lever:finix": {
-    "consecutive_failures": 1
-  },
-  "lever:getwingapp": {
-    "consecutive_failures": 1
-  },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
   },
   "lever:infstones": {
     "consecutive_failures": 3
   },
-  "lever:latitudeinc": {
-    "consecutive_failures": 2
-  },
   "lever:mistral": {
     "consecutive_failures": 3
   },
-  "lever:outreach": {
-    "consecutive_failures": 1
-  },
-  "lever:plus-2": {
-    "consecutive_failures": 1
-  },
   "lever:procept-biorobotics": {
     "consecutive_failures": 3
-  },
-  "lever:q-ctrl": {
-    "consecutive_failures": 1
   },
   "lever:sanctuary": {
     "consecutive_failures": 3
@@ -293,31 +275,13 @@
   "lever:sensortower": {
     "consecutive_failures": 3
   },
-  "lever:shyftlabs": {
-    "consecutive_failures": 1
-  },
-  "lever:solopulseco": {
-    "consecutive_failures": 1
-  },
   "lever:sprucesystems": {
     "consecutive_failures": 3
-  },
-  "lever:starcompliance": {
-    "consecutive_failures": 1
-  },
-  "lever:stradaeducation": {
-    "consecutive_failures": 1
-  },
-  "lever:tangraminteriors": {
-    "consecutive_failures": 1
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
   },
   "lever:tsmg": {
     "consecutive_failures": 3
-  },
-  "lever:zoox": {
-    "consecutive_failures": 1
   }
 }
