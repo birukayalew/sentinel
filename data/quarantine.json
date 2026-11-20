@@ -12,7 +12,7 @@
     "consecutive_failures": 3
   },
   "ashby:cedar": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "ashby:fractional-ai": {
     "consecutive_failures": 3
@@ -230,8 +230,14 @@
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
+  "lever:agile-defense": {
+    "consecutive_failures": 1
+  },
   "lever:aircall": {
     "consecutive_failures": 3
+  },
+  "lever:alltrails": {
+    "consecutive_failures": 1
   },
   "lever:anyscale": {
     "consecutive_failures": 3
