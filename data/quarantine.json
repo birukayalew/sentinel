@@ -12,7 +12,7 @@
     "consecutive_failures": 3
   },
   "ashby:cedar": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "ashby:fractional-ai": {
     "consecutive_failures": 3
@@ -230,14 +230,8 @@
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
-  "lever:agile-defense": {
-    "consecutive_failures": 1
-  },
   "lever:aircall": {
     "consecutive_failures": 3
-  },
-  "lever:alltrails": {
-    "consecutive_failures": 1
   },
   "lever:anyscale": {
     "consecutive_failures": 3
@@ -251,14 +245,29 @@
   "lever:beta": {
     "consecutive_failures": 3
   },
+  "lever:brilliant": {
+    "consecutive_failures": 1
+  },
   "lever:butcherbox": {
     "consecutive_failures": 3
   },
   "lever:cgsfederal": {
     "consecutive_failures": 3
   },
+  "lever:colibrigroup": {
+    "consecutive_failures": 1
+  },
   "lever:color": {
     "consecutive_failures": 3
+  },
+  "lever:commercearchitects": {
+    "consecutive_failures": 1
+  },
+  "lever:coupa": {
+    "consecutive_failures": 1
+  },
+  "lever:crestoperations": {
+    "consecutive_failures": 1
   },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
@@ -289,5 +298,11 @@
   },
   "lever:tsmg": {
     "consecutive_failures": 3
+  },
+  "lever:voltus": {
+    "consecutive_failures": 1
+  },
+  "lever:wealthsimple": {
+    "consecutive_failures": 1
   }
 }
