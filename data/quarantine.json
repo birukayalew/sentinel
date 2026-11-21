@@ -245,28 +245,16 @@
   "lever:beta": {
     "consecutive_failures": 3
   },
-  "lever:brilliant": {
-    "consecutive_failures": 1
-  },
   "lever:butcherbox": {
     "consecutive_failures": 3
   },
   "lever:cgsfederal": {
     "consecutive_failures": 3
   },
-  "lever:colibrigroup": {
-    "consecutive_failures": 1
-  },
   "lever:color": {
     "consecutive_failures": 3
   },
-  "lever:commercearchitects": {
-    "consecutive_failures": 1
-  },
-  "lever:coupa": {
-    "consecutive_failures": 1
-  },
-  "lever:crestoperations": {
+  "lever:greenlight": {
     "consecutive_failures": 1
   },
   "lever:inductiveautomation": {
@@ -287,22 +275,22 @@
   "lever:saronic": {
     "consecutive_failures": 3
   },
+  "lever:scottlogic": {
+    "consecutive_failures": 1
+  },
   "lever:sensortower": {
     "consecutive_failures": 3
   },
   "lever:sprucesystems": {
     "consecutive_failures": 3
   },
+  "lever:sysdig": {
+    "consecutive_failures": 1
+  },
   "lever:thinkahead": {
     "consecutive_failures": 3
   },
   "lever:tsmg": {
     "consecutive_failures": 3
-  },
-  "lever:voltus": {
-    "consecutive_failures": 1
-  },
-  "lever:wealthsimple": {
-    "consecutive_failures": 1
   }
 }
