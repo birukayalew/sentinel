@@ -245,6 +245,9 @@
   "lever:beta": {
     "consecutive_failures": 3
   },
+  "lever:bhvr": {
+    "consecutive_failures": 1
+  },
   "lever:butcherbox": {
     "consecutive_failures": 3
   },
@@ -254,7 +257,7 @@
   "lever:color": {
     "consecutive_failures": 3
   },
-  "lever:greenlight": {
+  "lever:hermeus": {
     "consecutive_failures": 1
   },
   "lever:inductiveautomation": {
@@ -262,6 +265,15 @@
   },
   "lever:infstones": {
     "consecutive_failures": 3
+  },
+  "lever:ion": {
+    "consecutive_failures": 1
+  },
+  "lever:kpler": {
+    "consecutive_failures": 1
+  },
+  "lever:leverdemo-8": {
+    "consecutive_failures": 1
   },
   "lever:mistral": {
     "consecutive_failures": 3
@@ -275,17 +287,11 @@
   "lever:saronic": {
     "consecutive_failures": 3
   },
-  "lever:scottlogic": {
-    "consecutive_failures": 1
-  },
   "lever:sensortower": {
     "consecutive_failures": 3
   },
   "lever:sprucesystems": {
     "consecutive_failures": 3
-  },
-  "lever:sysdig": {
-    "consecutive_failures": 1
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
