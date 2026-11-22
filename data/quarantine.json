@@ -1,4 +1,7 @@
 {
+  "ashby:aditude": {
+    "consecutive_failures": 1
+  },
   "ashby:anything": {
     "consecutive_failures": 3
   },
@@ -194,6 +197,9 @@
   "greenhouse:scoutai": {
     "consecutive_failures": 3
   },
+  "greenhouse:shein": {
+    "consecutive_failures": 1
+  },
   "greenhouse:shyftsolutionsllc": {
     "consecutive_failures": 3
   },
@@ -254,17 +260,38 @@
   "lever:color": {
     "consecutive_failures": 3
   },
+  "lever:economicmodeling": {
+    "consecutive_failures": 1
+  },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
   },
   "lever:infstones": {
     "consecutive_failures": 3
   },
+  "lever:latitudeinc": {
+    "consecutive_failures": 1
+  },
+  "lever:levelai": {
+    "consecutive_failures": 1
+  },
+  "lever:ltaresearch": {
+    "consecutive_failures": 1
+  },
   "lever:mistral": {
     "consecutive_failures": 3
   },
+  "lever:neighbor": {
+    "consecutive_failures": 1
+  },
+  "lever:octoenergy": {
+    "consecutive_failures": 1
+  },
   "lever:procept-biorobotics": {
     "consecutive_failures": 3
+  },
+  "lever:rws": {
+    "consecutive_failures": 1
   },
   "lever:sanctuary": {
     "consecutive_failures": 3
@@ -283,5 +310,8 @@
   },
   "lever:tsmg": {
     "consecutive_failures": 3
+  },
+  "lever:woven-by-toyota": {
+    "consecutive_failures": 1
   }
 }
