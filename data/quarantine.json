@@ -245,9 +245,6 @@
   "lever:beta": {
     "consecutive_failures": 3
   },
-  "lever:bhvr": {
-    "consecutive_failures": 1
-  },
   "lever:butcherbox": {
     "consecutive_failures": 3
   },
@@ -257,23 +254,11 @@
   "lever:color": {
     "consecutive_failures": 3
   },
-  "lever:hermeus": {
-    "consecutive_failures": 1
-  },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
   },
   "lever:infstones": {
     "consecutive_failures": 3
-  },
-  "lever:ion": {
-    "consecutive_failures": 1
-  },
-  "lever:kpler": {
-    "consecutive_failures": 1
-  },
-  "lever:leverdemo-8": {
-    "consecutive_failures": 1
   },
   "lever:mistral": {
     "consecutive_failures": 3
