@@ -1,6 +1,6 @@
 {
   "ashby:aditude": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "ashby:anything": {
     "consecutive_failures": 3
@@ -198,7 +198,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:shein": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:shyftsolutionsllc": {
     "consecutive_failures": 3
@@ -233,11 +233,20 @@
   "lever:AntiCapital": {
     "consecutive_failures": 3
   },
+  "lever:CesiumAstro": {
+    "consecutive_failures": 1
+  },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
+  "lever:aeratechnology": {
+    "consecutive_failures": 1
+  },
   "lever:aircall": {
     "consecutive_failures": 3
+  },
+  "lever:alertus": {
+    "consecutive_failures": 1
   },
   "lever:anyscale": {
     "consecutive_failures": 3
@@ -260,7 +269,10 @@
   "lever:color": {
     "consecutive_failures": 3
   },
-  "lever:economicmodeling": {
+  "lever:field-ai": {
+    "consecutive_failures": 1
+  },
+  "lever:hatchit": {
     "consecutive_failures": 1
   },
   "lever:inductiveautomation": {
@@ -269,29 +281,17 @@
   "lever:infstones": {
     "consecutive_failures": 3
   },
-  "lever:latitudeinc": {
-    "consecutive_failures": 1
-  },
-  "lever:levelai": {
-    "consecutive_failures": 1
-  },
-  "lever:ltaresearch": {
+  "lever:kepler": {
     "consecutive_failures": 1
   },
   "lever:mistral": {
     "consecutive_failures": 3
   },
-  "lever:neighbor": {
-    "consecutive_failures": 1
-  },
-  "lever:octoenergy": {
+  "lever:palantir": {
     "consecutive_failures": 1
   },
   "lever:procept-biorobotics": {
     "consecutive_failures": 3
-  },
-  "lever:rws": {
-    "consecutive_failures": 1
   },
   "lever:sanctuary": {
     "consecutive_failures": 3
@@ -310,8 +310,5 @@
   },
   "lever:tsmg": {
     "consecutive_failures": 3
-  },
-  "lever:woven-by-toyota": {
-    "consecutive_failures": 1
   }
 }
