@@ -39,7 +39,7 @@
     "consecutive_failures": 3
   },
   "ashby:magical": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "ashby:maple": {
     "consecutive_failures": 3
@@ -215,6 +215,9 @@
   "greenhouse:temporaltechnologies": {
     "consecutive_failures": 3
   },
+  "greenhouse:thoughtworksreferral": {
+    "consecutive_failures": 1
+  },
   "greenhouse:threatlocker": {
     "consecutive_failures": 3
   },
@@ -238,9 +241,6 @@
   },
   "lever:SprinterHealth": {
     "consecutive_failures": 3
-  },
-  "lever:agile-defense": {
-    "consecutive_failures": 1
   },
   "lever:aircall": {
     "consecutive_failures": 3
@@ -283,6 +283,9 @@
   },
   "lever:saronic": {
     "consecutive_failures": 3
+  },
+  "lever:scottlogic": {
+    "consecutive_failures": 1
   },
   "lever:sensortower": {
     "consecutive_failures": 3
