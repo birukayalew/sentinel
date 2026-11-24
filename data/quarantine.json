@@ -38,6 +38,9 @@
   "ashby:mach": {
     "consecutive_failures": 3
   },
+  "ashby:magical": {
+    "consecutive_failures": 1
+  },
   "ashby:maple": {
     "consecutive_failures": 3
   },
@@ -236,6 +239,9 @@
   "lever:SprinterHealth": {
     "consecutive_failures": 3
   },
+  "lever:agile-defense": {
+    "consecutive_failures": 1
+  },
   "lever:aircall": {
     "consecutive_failures": 3
   },
@@ -244,9 +250,6 @@
   },
   "lever:aofl": {
     "consecutive_failures": 3
-  },
-  "lever:appen": {
-    "consecutive_failures": 1
   },
   "lever:autoroboto": {
     "consecutive_failures": 3
@@ -272,9 +275,6 @@
   "lever:mistral": {
     "consecutive_failures": 3
   },
-  "lever:pingwind": {
-    "consecutive_failures": 1
-  },
   "lever:procept-biorobotics": {
     "consecutive_failures": 3
   },
@@ -290,16 +290,10 @@
   "lever:sprucesystems": {
     "consecutive_failures": 3
   },
-  "lever:standtogether": {
-    "consecutive_failures": 1
-  },
   "lever:thinkahead": {
     "consecutive_failures": 3
   },
   "lever:tsmg": {
     "consecutive_failures": 3
-  },
-  "lever:wyetechllc": {
-    "consecutive_failures": 1
   }
 }
