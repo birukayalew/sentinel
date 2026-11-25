@@ -39,7 +39,7 @@
     "consecutive_failures": 3
   },
   "ashby:magical": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "ashby:maple": {
     "consecutive_failures": 3
@@ -197,6 +197,9 @@
   "greenhouse:reach": {
     "consecutive_failures": 3
   },
+  "greenhouse:robinhood": {
+    "consecutive_failures": 1
+  },
   "greenhouse:scoutai": {
     "consecutive_failures": 3
   },
@@ -216,7 +219,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:thoughtworksreferral": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:threatlocker": {
     "consecutive_failures": 3
@@ -272,6 +275,9 @@
   "lever:infstones": {
     "consecutive_failures": 3
   },
+  "lever:margo-group": {
+    "consecutive_failures": 1
+  },
   "lever:mistral": {
     "consecutive_failures": 3
   },
@@ -284,7 +290,7 @@
   "lever:saronic": {
     "consecutive_failures": 3
   },
-  "lever:scottlogic": {
+  "lever:secureframe": {
     "consecutive_failures": 1
   },
   "lever:sensortower": {
