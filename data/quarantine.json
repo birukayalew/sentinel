@@ -173,9 +173,6 @@
   "greenhouse:loop": {
     "consecutive_failures": 3
   },
-  "greenhouse:lucidmotors": {
-    "consecutive_failures": 1
-  },
   "greenhouse:marqeta": {
     "consecutive_failures": 3
   },
@@ -278,9 +275,6 @@
   "lever:mistral": {
     "consecutive_failures": 3
   },
-  "lever:perforce": {
-    "consecutive_failures": 1
-  },
   "lever:procept-biorobotics": {
     "consecutive_failures": 3
   },
@@ -291,13 +285,10 @@
     "consecutive_failures": 3
   },
   "lever:secureframe": {
-    "consecutive_failures": 2
+    "consecutive_failures": 3
   },
   "lever:sensortower": {
     "consecutive_failures": 3
-  },
-  "lever:sonarsource": {
-    "consecutive_failures": 1
   },
   "lever:sprucesystems": {
     "consecutive_failures": 3
