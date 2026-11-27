@@ -78,7 +78,7 @@
     "consecutive_failures": 3
   },
   "greenhouse:aperaaiinc": {
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "greenhouse:arcellx": {
     "consecutive_failures": 3
@@ -269,9 +269,6 @@
   "lever:color": {
     "consecutive_failures": 3
   },
-  "lever:getwingapp": {
-    "consecutive_failures": 1
-  },
   "lever:inductiveautomation": {
     "consecutive_failures": 3
   },
@@ -280,9 +277,6 @@
   },
   "lever:mistral": {
     "consecutive_failures": 3
-  },
-  "lever:plus-2": {
-    "consecutive_failures": 1
   },
   "lever:procept-biorobotics": {
     "consecutive_failures": 3
@@ -301,9 +295,6 @@
   },
   "lever:sprucesystems": {
     "consecutive_failures": 3
-  },
-  "lever:theodo": {
-    "consecutive_failures": 1
   },
   "lever:thinkahead": {
     "consecutive_failures": 3
